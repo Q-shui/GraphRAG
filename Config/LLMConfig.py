@@ -8,7 +8,7 @@ from urllib.parse import urlparse
 
 from pydantic import field_validator, model_validator
 
-from Core.Common.Constants import CONFIG_ROOT, LLM_API_TIMEOUT, GRAPHRAG_ROOT
+from Core.Common.Constants import LLM_API_TIMEOUT, GRAPHRAG_ROOT
 from Core.Utils.YamlModel import YamlModel
 
 
@@ -114,13 +114,7 @@ class LLMConfig(YamlModel):
 
         if self.api_key in ["", None, "YOUR_API_KEY"]:
             repo_config_path = GRAPHRAG_ROOT / "Option/Config2.yaml"
-            root_config_path = CONFIG_ROOT / "Config2.yaml"
-            if root_config_path.exists():
-                raise ValueError(
-                    f"Please set your API key in {root_config_path}. If you also set your config in {repo_config_path}, \n"
-                    f"the former will overwrite the latter. This may cause unexpected result.\n"
-                )
-            elif repo_config_path.exists():
+            if repo_config_path.exists():
                 raise ValueError(f"Please set your API key in {repo_config_path}")
             else:
                 raise ValueError("Please set your API key in config2.yaml")
