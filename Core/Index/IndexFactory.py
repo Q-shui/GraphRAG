@@ -1,5 +1,3 @@
-import faiss
-import os
 from Core.Common.BaseFactory import ConfigBasedFactory
 from Core.Index.ColBertIndex import ColBertIndex
 from Core.Index.Schema import (
@@ -9,8 +7,6 @@ from Core.Index.Schema import (
     FAISSIndexConfig
 )
 from Core.Index.VectorIndex import VectorIndex
-from Core.Index.FaissIndex import FaissIndex
-from llama_index.core import StorageContext, VectorStoreIndex, load_index_from_storage
 
 
 class RAGIndexFactory(ConfigBasedFactory):
@@ -37,6 +33,9 @@ class RAGIndexFactory(ConfigBasedFactory):
 
     
     def _create_faiss(self, config):
+       # FAISS is optional for vector-based methods.  Import it only for
+       # methods that explicitly request ``vdb_type: faiss``.
+       from Core.Index.FaissIndex import FaissIndex
        return FaissIndex(config)
 
 

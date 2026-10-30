@@ -45,6 +45,11 @@ class GraphFactory():
 
     @staticmethod
     def _crease_passage_graph(config, **kwargs):
+        from Config.LLMConfig import LLMType
+        if config.llm.api_type == LLMType.OLLAMA:
+            raise ValueError(
+                "passage_graph/KGP requires the external WAT entity-linking service and is disabled in local-only Ollama mode."
+            )
         return PassageGraph(config.graph, **kwargs)
 
 

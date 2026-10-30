@@ -11,7 +11,7 @@ from Core.Utils.Evaluation import Evaluator
 
 
 
-def check_dirs(opt):
+def check_dirs(opt, option_path):
     # For each query, save the results in a separate directory
     result_dir = os.path.join(opt.working_dir, opt.exp_name, "Results")
     # Save the current used config in a separate directory
@@ -21,9 +21,9 @@ def check_dirs(opt):
     os.makedirs(result_dir, exist_ok=True)
     os.makedirs(config_dir, exist_ok=True)
     os.makedirs(metric_dir, exist_ok=True)
-    opt_name = args.opt[args.opt.rindex("/") + 1 :]
-    basic_name = os.path.join(args.opt.split("/")[0], "Config2.yaml")
-    copyfile(args.opt, os.path.join(config_dir, opt_name))
+    opt_name = option_path.name
+    basic_name = Path(__file__).resolve().parent / "Option" / "Config2.yaml"
+    copyfile(option_path, os.path.join(config_dir, opt_name))
     copyfile(basic_name, os.path.join(config_dir, "Config2.yaml"))
     return result_dir
 
@@ -32,7 +32,6 @@ def wrapper_query(query_dataset, digimon, result_dir):
     all_res = []
 
     dataset_len = len(query_dataset)
-    dataset_len = 10
     
     for _, i in enumerate(range(dataset_len)):
         query = query_dataset[i]
@@ -64,9 +63,10 @@ if __name__ == "__main__":
     parser.add_argument("-dataset_name", type=str, help="Name of the dataset.")
     args = parser.parse_args()
 
-    opt = Config.parse(Path(args.opt), dataset_name=args.dataset_name)
+    option_path = Path(args.opt).resolve()
+    opt = Config.parse(option_path, dataset_name=args.dataset_name)
     digimon = GraphRAG(config=opt)
-    result_dir = check_dirs(opt)
+    result_dir = check_dirs(opt, option_path)
 
     query_dataset = RAGQueryDataset(
         data_dir=os.path.join(opt.data_root, opt.dataset_name)

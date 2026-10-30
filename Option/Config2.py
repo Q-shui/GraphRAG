@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 import os
-from dataclasses import field
 from pathlib import Path
 from typing import Dict, Iterable, List, Optional
-from pydantic import BaseModel
+from pydantic import BaseModel, model_validator
 from Config import *
-from Core.Common.Constants import CONFIG_ROOT, GRAPHRAG_ROOT
+from Config.LLMConfig import LLMType
+from Core.Common.Constants import GRAPHRAG_ROOT
 from Core.Utils.YamlModel import YamlModel
 
 
@@ -63,6 +63,31 @@ class Config(WorkingParams, YamlModel):
 
     # Query Config 
     query: QueryConfig = QueryConfig()
+
+    @model_validator(mode="after")
+    def clamp_ollama_context_budgets(self):
+        """Keep upstream method YAML usable with a finite Ollama context window.
+
+        The method files retain their paper/original budgets (often 16K or
+        32K).  Native Ollama requests must not exceed the configured context,
+        so only the effective runtime budget is clamped here.
+        """
+        if self.llm.api_type != LLMType.OLLAMA or not self.llm.ollama_num_ctx:
+            return self
+
+        safety_margin = 512
+        generation_budget = self.llm.max_token or 0
+        query_input_budget = max(1, self.llm.ollama_num_ctx - generation_budget - safety_margin)
+        summary_input_budget = max(1, self.llm.ollama_num_ctx - self.graph.summary_max_tokens - safety_margin)
+        self.graph.llm_model_max_token_size = min(self.graph.llm_model_max_token_size, summary_input_budget)
+        self.query.global_max_token_for_community_report = min(
+            self.query.global_max_token_for_community_report, query_input_budget
+        )
+        self.query.max_token_for_global_context = min(self.query.max_token_for_global_context, query_input_budget)
+        self.retriever.max_token_for_global_context = min(
+            self.retriever.max_token_for_global_context, query_input_budget
+        )
+        return self
   
     @classmethod
     def from_yaml_config(cls, path: str):
@@ -77,37 +102,25 @@ class Config(WorkingParams, YamlModel):
 
     @classmethod
     def parse(cls, _path, dataset_name):
-        """Parse config from yaml file"""
-        opt = [parse(_path)]
+        """Load the repository baseline, then apply the selected method YAML.
 
-        default_config_paths: List[Path] = [
-            GRAPHRAG_ROOT / "Option/Config2.yaml",
-            CONFIG_ROOT / "Config2.yaml",
-        ]
-        opt += [Config.read_yaml(path) for path in default_config_paths]
-    
-        final = merge_dict(opt)
+        This intentionally does not read ``$HOME/Option/Config2.yaml``.  A
+        single checkout is therefore self-contained and runs with the same
+        configuration on every machine.
+        """
+        final = merge_dict([
+            Config.read_yaml(GRAPHRAG_ROOT / "Option/Config2.yaml"),
+            parse(_path),
+        ])
         final["dataset_name"] = dataset_name
-        final["working_dir"] = os.path.join(final["working_dir"], dataset_name)
+        final["data_root"] = _resolve_project_path(final["data_root"])
+        final["working_dir"] = os.path.join(_resolve_project_path(final["working_dir"]), dataset_name)
         return Config(**final)
     
     @classmethod
     def default(cls):
-        """Load default config
-        - Priority: env < default_config_paths
-        - Inside default_config_paths, the latter one overwrites the former one
-        """
-        default_config_paths: List[Path] = [
-            GRAPHRAG_ROOT / "Option/Config2.yaml",
-            CONFIG_ROOT / "Config2.yaml",
-        ]
-
-        dicts = [dict(os.environ)]
-        dicts += [Config.read_yaml(path) for path in default_config_paths]
-
-        final = merge_dict(dicts)
-   
-        return Config(**final)
+        """Load the repository's self-contained local baseline."""
+        return Config(**Config.read_yaml(GRAPHRAG_ROOT / "Option/Config2.yaml"))
 
     @property
     def extra(self):
@@ -123,19 +136,25 @@ class Config(WorkingParams, YamlModel):
             return self.llm
         return None
 def parse(opt_path):
-    
-        with open(opt_path, mode='r') as f:
-            opt = YamlModel.read_yaml(opt_path)
-        # export CUDA_VISIBLE_DEVICES
-        # gpu_list = ','.join(str(x) for x in opt['gpu_ids'])
-        # os.environ['CUDA_VISIBLE_DEVICES'] = gpu_list
-        return opt
+    with open(opt_path, mode='r') as f:
+        return YamlModel.read_yaml(opt_path)
+
+
+def _resolve_project_path(path: str) -> str:
+    candidate = Path(path)
+    return str(candidate if candidate.is_absolute() else (GRAPHRAG_ROOT / candidate).resolve())
+
+
 def merge_dict(dicts: Iterable[Dict]) -> Dict:
-    """Merge multiple dicts into one, with the latter dict overwriting the former"""
+    """Recursively merge dictionaries, with later values taking precedence."""
     result = {}
     for dictionary in dicts:
-        result.update(dictionary)
+        for key, value in dictionary.items():
+            if isinstance(value, dict) and isinstance(result.get(key), dict):
+                result[key] = merge_dict([result[key], value])
+            else:
+                result[key] = value
     return result
 
 
-default_config = Config.default() # which is used in other files, only for LLM, embedding and save file. 
+default_config = Config.default() # which is used in other files, only for LLM, embedding and save file.

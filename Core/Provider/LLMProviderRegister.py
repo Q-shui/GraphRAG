@@ -38,6 +38,12 @@ def register_provider(keys):
 
 def create_llm_instance(config: LLMConfig) -> BaseLLM:
     """get the default llm provider"""
+    # Providers register themselves with decorators.  Delay cloud imports so
+    # native Ollama mode does not require an OpenAI client at process startup.
+    if config.api_type == LLMType.OLLAMA:
+        from Core.Provider.OllamaApi import OllamaLLM  # noqa: F401
+    else:
+        from Core.Provider.OpenaiApi import OpenAILLM  # noqa: F401
     llm = LLM_REGISTRY.get_provider(config.api_type)(config)
     if llm.use_system_prompt and not config.use_system_prompt:
         # for models like o1-series, default openai provider.use_system_prompt is True, but it should be False for o1-*

@@ -31,10 +31,8 @@ Default_text_separator = [
 ]
 
 def get_package_root():
-
-    package_root = Path.cwd()
-
-    return package_root
+    """Return the repository root regardless of the caller's CWD."""
+    return Path(__file__).resolve().parents[2]
 
 
 def get_root():
@@ -51,9 +49,6 @@ def get_root():
     return project_root
 
 GRAPHRAG_ROOT = get_root()
-
-CONFIG_ROOT = Path.home() / "Option"
-
 
 # Timeout
 USE_CONFIG_TIMEOUT = 0  # Using llm.timeout configuration.

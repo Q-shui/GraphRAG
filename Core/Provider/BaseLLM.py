@@ -9,9 +9,10 @@ from __future__ import annotations
 
 import json
 from abc import ABC, abstractmethod
-from typing import Optional, Union
+from typing import TYPE_CHECKING, Any, Optional, Union
 
-from openai import AsyncOpenAI
+if TYPE_CHECKING:
+    from openai import AsyncOpenAI
 from pydantic import BaseModel
 from tenacity import (
     after_log,
@@ -38,7 +39,7 @@ class BaseLLM(ABC):
     system_prompt = "You are a helpful assistant."
 
     # OpenAI / Azure / Others
-    aclient: Optional[Union[AsyncOpenAI]] = None
+    aclient: Optional[Any] = None
     cost_manager: Optional[CostManager] = None
     model: Optional[str] = None  # deprecated
     pricing_plan: Optional[str] = None

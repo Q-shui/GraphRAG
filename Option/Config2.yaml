@@ -21,10 +21,7 @@ embedding:
   max_retries: 2
   embed_batch_size: 16
  
-data_root:  "YOUR_ROOT_DATA" # Root directory for data
-
-
-
-working_dir: ./ # Result directory for the experiment
-exp_name:  # Experiment name
+data_root: ./Data/Data # Root directory for data
+working_dir: ./ # Results, graph and indexes remain under this checkout
+exp_name: local_ollama # Experiment name
 #
