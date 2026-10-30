@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 ## 👾 DIGIMON: Deep Analysis of Graph-Based Retrieval-Augmented Generation (RAG) Systems
 
@@ -267,3 +268,6 @@ If you find this work useful, please consider citing our papers:
  ```
 
 
+=======
+# GraphRAG
+>>>>>>> cba7396bc4a588a3b28321ef66590813842e0403
