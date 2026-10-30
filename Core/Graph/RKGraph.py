@@ -1,5 +1,6 @@
 import re
 import asyncio
+import time
 from collections import defaultdict
 from typing import Union, List, Any
 from Core.Graph.BaseGraph import BaseGraph
@@ -54,16 +55,78 @@ class RKGraph(BaseGraph):
         records = await self._extract_records_from_chunk(chunk_info)
         return await self._build_graph_from_records(records, chunk_key)
 
-    async def _build_graph(self, chunk_list: List[Any]):
+    async def _extract_entity_relationship_with_progress(
+            self, index: int, chunk_key_pair: tuple[str, TextChunk]):
+        """Extract one chunk and return compact telemetry for build progress.
+
+        The extraction and record parsing paths are intentionally the same as
+        ``_extract_entity_relationship``.  Only timing/counting is added.
+        """
+        chunk_key, _ = chunk_key_pair
+        started_at = time.perf_counter()
         try:
-            elements = await asyncio.gather(
-                *[self._extract_entity_relationship(chunk) for chunk in chunk_list])
+            element = await self._extract_entity_relationship(chunk_key_pair)
+        except Exception:
+            logger.exception("[KG extraction] failed chunk={}/? id={}", index + 1, chunk_key)
+            raise
+
+        nodes, edges = element
+        return index, element, len(nodes), len(edges), time.perf_counter() - started_at
+
+    async def _build_graph(self, chunk_list: List[Any]):
+        chunks = list(chunk_list)
+        total = len(chunks)
+        progress_interval = max(1, self.config.extraction_progress_interval)
+        started_at = time.perf_counter()
+        completed = 0
+        extracted_nodes = 0
+        extracted_edges = 0
+        elements: list[Any] = [None] * total
+        tasks = [
+            asyncio.create_task(self._extract_entity_relationship_with_progress(index, chunk))
+            for index, chunk in enumerate(chunks)
+        ]
+        logger.info(
+            "[KG extraction] started chunks={} max_gleaning={} progress_interval={}",
+            total, self.config.max_gleaning, progress_interval,
+        )
+        try:
+            # ``as_completed`` only changes when progress is observed.  All
+            # extraction tasks are still scheduled immediately, as they were
+            # with gather(), and results are restored to input order before
+            # graph merging to retain deterministic downstream behavior.
+            for future in asyncio.as_completed(tasks):
+                index, element, node_count, edge_count, chunk_elapsed = await future
+                elements[index] = element
+                completed += 1
+                extracted_nodes += node_count
+                extracted_edges += edge_count
+
+                if completed % progress_interval == 0 or completed == total:
+                    elapsed = time.perf_counter() - started_at
+                    avg_seconds = elapsed / completed
+                    eta_seconds = avg_seconds * (total - completed)
+                    logger.info(
+                        "[KG extraction] completed={}/{} ({:.1f}%) chunk_s={:.2f} "
+                        "elapsed_s={:.1f} eta_s={:.1f} parsed_nodes={} parsed_edges={}",
+                        completed, total, completed * 100 / total if total else 100.0,
+                        chunk_elapsed, elapsed, eta_seconds, extracted_nodes, extracted_edges,
+                    )
             # Build graph based on the extracted entities and triples
             await self.__graph__(elements)
         except Exception as e:
             logger.exception(f"Error building graph: {e}")
+            for task in tasks:
+                if not task.done():
+                    task.cancel()
+            await asyncio.gather(*tasks, return_exceptions=True)
+            # Never let an extraction failure be persisted as an empty graph.
+            raise
         finally:
-            logger.info("Constructing graph finished")
+            logger.info(
+                "Constructing graph finished: completed={}/{} elapsed_s={:.1f}",
+                completed, total, time.perf_counter() - started_at,
+            )
 
     async def _extract_records_from_chunk(self, chunk_info: TextChunk):
         """

@@ -83,6 +83,9 @@ class LLMConfig(YamlModel):
     ollama_num_ctx: Optional[int] = None
     ollama_keep_alive: Optional[str] = None
     ollama_think: Optional[bool] = False
+    # Native Ollama has no cloud cost log.  Keep lightweight request telemetry
+    # enabled so long graph builds remain observable.
+    ollama_log_requests: bool = True
     max_retries: int = 2
 
     # For Amazon Bedrock

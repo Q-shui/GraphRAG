@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import asyncio
+import time
 from typing import Any
 
 from Config.LLMConfig import LLMConfig, LLMType
@@ -27,6 +28,7 @@ class OllamaLLM(BaseLLM):
             config.ollama_host, config.timeout, config.max_retries, config.ollama_allow_remote
         )
         self.last_response_metadata: dict[str, Any] = {}
+        self._request_sequence = 0
 
     def _options(self, max_tokens: int | None) -> dict[str, Any]:
         options: dict[str, Any] = {"temperature": self.config.temperature, "top_p": self.config.top_p}
@@ -103,8 +105,32 @@ class OllamaLLM(BaseLLM):
 
     async def acompletion_text(self, messages: list[dict], stream: bool = False, timeout=USE_CONFIG_TIMEOUT,
                                max_tokens: int | None = None, format: str = "text") -> str:
+        # This method is called after BaseLLM.aask has acquired the provider
+        # semaphore, so "started" means the request was actually admitted to
+        # Ollama rather than merely queued by GraphRAG.
+        self._request_sequence += 1
+        request_id = self._request_sequence
+        started_at = time.perf_counter()
+        if self.config.ollama_log_requests:
+            logger.info(
+                "[Ollama request {}] started model={} messages={} max_tokens={} format={}",
+                request_id, self.model, len(messages), max_tokens or self.config.max_token, format,
+            )
         response = await self._achat_completion(messages, timeout, max_tokens, format)
         text = self._extract_text(response)
+        if self.config.ollama_log_requests:
+            metadata = self.last_response_metadata
+            logger.info(
+                "[Ollama request {}] finished elapsed_s={:.2f} prompt_tokens={} completion_tokens={} "
+                "load_s={:.2f} server_total_s={:.2f} chars={}",
+                request_id,
+                time.perf_counter() - started_at,
+                metadata.get("prompt_eval_count"),
+                metadata.get("eval_count"),
+                (metadata.get("load_duration") or 0) / 1_000_000_000,
+                (metadata.get("total_duration") or 0) / 1_000_000_000,
+                len(text),
+            )
         if format == "json":
             # Reuse existing project validation/repair behavior, but never turn a
             # malformed response into an empty extraction silently.

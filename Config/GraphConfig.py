@@ -9,6 +9,9 @@ class GraphConfig(YamlModel):
     extract_two_step: bool = True
     max_gleaning: int = 1
     force: bool = False
+    # Emit one extraction progress line after this many completed chunks.  This
+    # affects observability only; it does not change extraction scheduling.
+    extraction_progress_interval: int = 1
 
     # For ER graph & KG graph and & RKG graph
     enable_entity_description: bool = False
