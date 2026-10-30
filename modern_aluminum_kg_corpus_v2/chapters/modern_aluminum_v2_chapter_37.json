@@ -1,0 +1,120 @@
+{
+  "book_id": "modern_aluminum_2008",
+  "book_title": "现代铝电解",
+  "chapter_file": "附录IV 铝热容和熔解热数据.pdf",
+  "chapter_id": "modern_aluminum_v2_chapter_37",
+  "chapter_order": 37,
+  "coverage_note": "This is the 616-page split-chapter collection. The complete source PDF has 650 pages; its 34-page difference is not yet mapped.",
+  "page_count": 3,
+  "pages": [
+    {
+      "book_id": "modern_aluminum_2008",
+      "book_page_ordinal_in_split_collection": 600,
+      "book_title": "现代铝电解",
+      "chapter_file": "附录IV 铝热容和熔解热数据.pdf",
+      "chapter_id": "modern_aluminum_v2_chapter_37",
+      "chapter_page": 1,
+      "graph_ingestion_status": "candidate_only",
+      "normalization": {
+        "operation": "remove spaces/tabs only when flanked by two CJK characters; trim line whitespace",
+        "raw_ocr_preserved": true,
+        "semantic_correction": "none"
+      },
+      "ocr_confidence": null,
+      "ocr_engine": "Tesseract 5.4.0 chi_sim",
+      "ocr_psm3_file": "modern_aluminum_kg_corpus_v2/ocr_psm3/附录_42387817/page-1.txt",
+      "ocr_psm3_file_sha256": "a901f9191030f24105c3ccd03989364edc21da7a565f7fb488963c295fd931d1",
+      "ocr_text_verbatim": "“102 .第 一 篇 ” 铝 电 解 理论 基础\n\n附录 IV 铝 热 容 和 熔 解 热 数据\n\n比热容 =4+B+C2+De+PEP ca/(mol.K)(lcal = 4.1868J)\n标准 烩 =4 + Bt2 + (C8)M3 + (DJAM4 -ET+ 正 - 刀 kcaljmol\n标准 炳 =4ln(i) + Bi +(C2)M + (DB2)7M3 -r(22) +G ceal(molK)\n式 中 ，! = KR/100; 4、 万 、C、D、 瑟 、F、CG 和 万 为 常数 ; 天 为 热力 学 温度 。\n( 注 : 来 源 于 http: /webbook. nist. gov 〈 标 准 参考 数据 程序 ) 。)\n\n附 表 IW-1 固态 铝 在 298 ~ 933. 4SK (0. 1MPa) 温度 范围 内 的 公式 参数\n\n项 目 4 妃 C 万 开 下 C 妃\n\n馈 6. 71348 -1.29418 | 2.04599 0. 819161 | -0.066294 | -2. 18623 | 14. 7968 0\n\n附 表 IV-2 ”液态 铝 在 933. 45 ~ 2790. 813K (0. 1MPa) 温度 范围 内 的 公式 参数\n\n项 目 4 B C 万 忆 下 C 吾\n铝 | 7.588681 |9.40685 x 10-?|4. 26987 x 10 -9?|6. 43922 x 10 -9|1. 30976 x 10 -9?| - 0. 226025| 17. 5429 | 2. 524381\n附 表 IY-3 ” 铝 加 热 和 熔融 所 需 能 量\n温 度 状 杰 比热容 项 目 阶梯 变化 的 能 量 | 从 25% 升温 的 累积\nKK /本 (mol.K) -1 AE 友 -hkg-i 能 量 /kW.bh.kg-1\n25 298 固体 24. 24 0. 00 0. 00\n660 933 32. 99 0.19 0. 19\n660 熔 体 395. 65 J/g 0.11\n660 933 液体 31.78 0.30\n775 1048 31.78 0.04 0.33\n960 1233 31.78 0.06 0.39\n2000 2273 31.78 0.34 0.73\n熔炼 25 -960% 总 量 0.39\n熔炉 熔化 25 ~775% 总 量 0.33\n\n注 : 固体 钻 的 比热容 随 温度 变化 很 大 ， 而 熔融 铝 接近 常数 。\n\n700\n\n600 因 站\n\n500\n只 400\ns 300\n\n200\n\n100 4\n\n0 1 复工 1 1 1 1\n20.93 23.03 25.12 2721 2931 31.40 33.49 35.59\n比热容 J, (mol *K)!\n\nrrTTTIT\n急\n多\n\n附 图 K-1 夯 体 铝 比 热 容\n",
+      "page_id": "modern_aluminum_v2_37_001",
+      "page_segmentation_mode": 3,
+      "quality_flags": [
+        "complex_layout_formula_table_or_low_cjk_density",
+        "raw_cjk_spacing_repaired_for_model_only"
+      ],
+      "record_type": "ocr_page_v2",
+      "review_status": "unreviewed",
+      "source_chapter_pdf": "现代铝电解/附录IV 铝热容和熔解热数据.pdf",
+      "source_chapter_pdf_sha256": "fb525b4f3f1b160881bdc8ad8ed4b45bb25bd3b00463c19cc1798a2b46908e65",
+      "source_complete_book_pdf": "现代铝电解/现代铝电解 -- 刘业翔等著 -- 2008 -- 北京：冶金工业出版社 -- 9787502445768 -- 3244a0affa302decce91ad6f6afd9aee -- Anna’s Archive.pdf",
+      "source_complete_book_pdf_sha256": "e096610e547e0fdf44df811a9127046c27a3bc4989788a7069ffe3b75a8b562b",
+      "source_image": "aluminum_industry_qa_benchmark/knowledge_qa_only/KQA_P8_textbook_qa/batches/full_textbook_ocr/images/B01/附录_42387817/page-1.png",
+      "source_image_sha256": "725d9221a856fd22fe59d7236811edf569a13ee1344636b2929a308badc024ea",
+      "text_for_extraction": "“102 .第一篇 ” 铝电解理论基础\n附录 IV 铝热容和熔解热数据\n比热容 =4+B+C2+De+PEP ca/(mol.K)(lcal = 4.1868J)\n标准烩 =4 + Bt2 + (C8)M3 + (DJAM4 -ET+ 正 - 刀 kcaljmol\n标准炳 =4ln(i) + Bi +(C2)M + (DB2)7M3 -r(22) +G ceal(molK)\n式中 ，! = KR/100; 4、 万 、C、D、 瑟 、F、CG 和万为常数 ; 天为热力学温度 。\n( 注 : 来源于 http: /webbook. nist. gov 〈 标准参考数据程序 ) 。)\n附表 IW-1 固态铝在 298 ~ 933. 4SK (0. 1MPa) 温度范围内的公式参数\n项目 4 妃 C 万开下 C 妃\n馈 6. 71348 -1.29418 | 2.04599 0. 819161 | -0.066294 | -2. 18623 | 14. 7968 0\n附表 IV-2 ”液态铝在 933. 45 ~ 2790. 813K (0. 1MPa) 温度范围内的公式参数\n项目 4 B C 万忆下 C 吾\n铝 | 7.588681 |9.40685 x 10-?|4. 26987 x 10 -9?|6. 43922 x 10 -9|1. 30976 x 10 -9?| - 0. 226025| 17. 5429 | 2. 524381\n附表 IY-3 ” 铝加热和熔融所需能量\n温度状杰比热容项目阶梯变化的能量 | 从 25% 升温的累积\nKK /本 (mol.K) -1 AE 友 -hkg-i 能量 /kW.bh.kg-1\n25 298 固体 24. 24 0. 00 0. 00\n660 933 32. 99 0.19 0. 19\n660 熔体 395. 65 J/g 0.11\n660 933 液体 31.78 0.30\n775 1048 31.78 0.04 0.33\n960 1233 31.78 0.06 0.39\n2000 2273 31.78 0.34 0.73\n熔炼 25 -960% 总量 0.39\n熔炉熔化 25 ~775% 总量 0.33\n注 : 固体钻的比热容随温度变化很大 ， 而熔融铝接近常数 。\n700\n600 因站\n500\n只 400\ns 300\n200\n100 4\n0 1 复工 1 1 1 1\n20.93 23.03 25.12 2721 2931 31.40 33.49 35.59\n比热容 J, (mol *K)!\nrrTTTIT\n急\n多\n附图 K-1 夯体铝比热容",
+      "use_constraint": "Any extracted claim must cite this page and be checked against source_image before acceptance."
+    },
+    {
+      "book_id": "modern_aluminum_2008",
+      "book_page_ordinal_in_split_collection": 601,
+      "book_title": "现代铝电解",
+      "chapter_file": "附录IV 铝热容和熔解热数据.pdf",
+      "chapter_id": "modern_aluminum_v2_chapter_37",
+      "chapter_page": 2,
+      "graph_ingestion_status": "candidate_only",
+      "normalization": {
+        "operation": "remove spaces/tabs only when flanked by two CJK characters; trim line whitespace",
+        "raw_ocr_preserved": true,
+        "semantic_correction": "none"
+      },
+      "ocr_confidence": null,
+      "ocr_engine": "Tesseract 5.4.0 chi_sim",
+      "ocr_psm3_file": "modern_aluminum_kg_corpus_v2/ocr_psm3/附录_42387817/page-2.txt",
+      "ocr_psm3_file_sha256": "171763e6b9c7ff9efb2e967d4efcd0da481a7edf6606679595c0aa4671d9c156",
+      "ocr_text_verbatim": "ee\n\n11. 工\n11.2\n11. 3\n11.4\n\n参考 文献\n\n母线 结构 pp\n\n的 管理\n\n12. 1\n12. 2\n12. 3\n12. 4\n12. 5\n\neeoeaeaeseeseroeeeetesesoowoeeees\n\n启动\n启动 初期 管理\n启动 后 期 管理\n大 型 预 焙 槽 焦 粒 阁 烧 一\n湿 法 启动 过 程 简介\n参考 文献\n\neeeeenesesesaeeheeaiessaswoeeese\noseeieoeeeeeeaseea\n\neeesaeaseeeoeeeeee\n\noaeeosseoieseseseoeseees\n\neeeeaeseeeeeee\n\n13. 1\n13.2\n13. 3\n\neeeeesieeiesasaeeeeeeseesu\nseeowesseeesyeseeesetoeseesbe ee\n\n出 银\n\n抬 母 线\n\neesseeeeearaeeeeseaseseeasiosses\n\neeeeeesaeieseseeesenoeessey\n\n14 铝 电解 生产 中 的 参数 测量\n\n14.1 银 液 高 度 、 电 解 质 高 度 测 定 …\n14.2 电解 质 温度 测定\n14.3 阳极 电流 分 布 测定\n\neeeosieeeeeeee\n\n138\n\n4 铝 电 解 的 生产 管理\n\n14. 4\n14. 5\n14.6\n14.7\n14. 8\n14. 9\n14. 10\n14. 11\n14. 12\n\n阳极 压 降 测 定\n阳极 上 覆盖 料 高 度 的 测定\n残 极 形状 测定\n极 距 测定\n便 部 炉 帮 有 形状 测定\n炉 底 隆起 测定\n炉 底 电压 降 测 定 pp，\n阴极 钢 棒 电流 分 布 测定 ………:\n\nee\neeaeassaeseeseseeeesew\n人\n\n14. 13\n14. 14\n\n取 电 解 质 试 样 、 原 银 试 样 ……\n钻 电解 参数 新 型 测量 方法 的\n\nveoooooveovoeoeoeoeeteeseoosoeies。\n\neeseeeesseeeesees\n\n15. 1 现代 预 焙 槽 管理 的 恩 想 与\n方法\n电解 模 工 艺 标准 ( 槽 基准 )\n的 制定 与 管理\n电解 质 组 成 适 理\n电压 管理\n下 料 管 理\n馈 液 高 度 和 出 银 量 管理\n电解 质 高 度 管理\n阳极 更 换 进 度 管理\n\n13. 2\n\nee\n\n13. 3\n15. 4\n15. 5\n15. 6\n15. 7\n15. 8\n15. 9\n\naeeeeooeieseoeyeseseseese\n",
+      "page_id": "modern_aluminum_v2_37_002",
+      "page_segmentation_mode": 3,
+      "quality_flags": [
+        "complex_layout_formula_table_or_low_cjk_density",
+        "raw_cjk_spacing_repaired_for_model_only"
+      ],
+      "record_type": "ocr_page_v2",
+      "review_status": "unreviewed",
+      "source_chapter_pdf": "现代铝电解/附录IV 铝热容和熔解热数据.pdf",
+      "source_chapter_pdf_sha256": "fb525b4f3f1b160881bdc8ad8ed4b45bb25bd3b00463c19cc1798a2b46908e65",
+      "source_complete_book_pdf": "现代铝电解/现代铝电解 -- 刘业翔等著 -- 2008 -- 北京：冶金工业出版社 -- 9787502445768 -- 3244a0affa302decce91ad6f6afd9aee -- Anna’s Archive.pdf",
+      "source_complete_book_pdf_sha256": "e096610e547e0fdf44df811a9127046c27a3bc4989788a7069ffe3b75a8b562b",
+      "source_image": "aluminum_industry_qa_benchmark/knowledge_qa_only/KQA_P8_textbook_qa/batches/full_textbook_ocr/images/B01/附录_42387817/page-2.png",
+      "source_image_sha256": "d414682edd0d2bd90ab3faf406bba797421d947f240a9b2d4946f5ae24c9cff1",
+      "text_for_extraction": "ee\n11. 工\n11.2\n11. 3\n11.4\n参考文献\n母线结构 pp\n的管理\n12. 1\n12. 2\n12. 3\n12. 4\n12. 5\neeoeaeaeseeseroeeeetesesoowoeeees\n启动\n启动初期管理\n启动后期管理\n大型预焙槽焦粒阁烧一\n湿法启动过程简介\n参考文献\neeeeenesesesaeeheeaiessaswoeeese\noseeieoeeeeeeaseea\neeesaeaseeeoeeeeee\noaeeosseoieseseseoeseees\neeeeaeseeeeeee\n13. 1\n13.2\n13. 3\neeeeesieeiesasaeeeeeeseesu\nseeowesseeesyeseeesetoeseesbe ee\n出银\n抬母线\neesseeeeearaeeeeseaseseeasiosses\neeeeeesaeieseseeesenoeessey\n14 铝电解生产中的参数测量\n14.1 银液高度 、 电解质高度测定 …\n14.2 电解质温度测定\n14.3 阳极电流分布测定\neeeosieeeeeeee\n138\n4 铝电解的生产管理\n14. 4\n14. 5\n14.6\n14.7\n14. 8\n14. 9\n14. 10\n14. 11\n14. 12\n阳极压降测定\n阳极上覆盖料高度的测定\n残极形状测定\n极距测定\n便部炉帮有形状测定\n炉底隆起测定\n炉底电压降测定 pp，\n阴极钢棒电流分布测定 ………:\nee\neeaeassaeseeseseeeesew\n人\n14. 13\n14. 14\n取电解质试样 、 原银试样 ……\n钻电解参数新型测量方法的\nveoooooveovoeoeoeoeeteeseoosoeies。\neeseeeesseeeesees\n15. 1 现代预焙槽管理的恩想与\n方法\n电解模工艺标准 ( 槽基准 )\n的制定与管理\n电解质组成适理\n电压管理\n下料管理\n馈液高度和出银量管理\n电解质高度管理\n阳极更换进度管理\n13. 2\nee\n13. 3\n15. 4\n15. 5\n15. 6\n15. 7\n15. 8\n15. 9\naeeeeooeieseoeyeseseseese",
+      "use_constraint": "Any extracted claim must cite this page and be checked against source_image before acceptance."
+    },
+    {
+      "book_id": "modern_aluminum_2008",
+      "book_page_ordinal_in_split_collection": 602,
+      "book_title": "现代铝电解",
+      "chapter_file": "附录IV 铝热容和熔解热数据.pdf",
+      "chapter_id": "modern_aluminum_v2_chapter_37",
+      "chapter_page": 3,
+      "graph_ingestion_status": "candidate_only",
+      "normalization": {
+        "operation": "remove spaces/tabs only when flanked by two CJK characters; trim line whitespace",
+        "raw_ocr_preserved": true,
+        "semantic_correction": "none"
+      },
+      "ocr_confidence": null,
+      "ocr_engine": "Tesseract 5.4.0 chi_sim",
+      "ocr_psm3_file": "modern_aluminum_kg_corpus_v2/ocr_psm3/附录_42387817/page-3.txt",
+      "ocr_psm3_file_sha256": "3f585df0d794e426d4db505f8817a06eb2942f6721c55543003424f115f4869b",
+      "ocr_text_verbatim": "“ 104， 第 二 篇 ” 铝 电 解 生产 工 程 技术\n\n15. 12 ”异常 槽 况 〈 病 槽 ) 及 事故\n\n的 防治 与 管理 pe 212\n15.13 ”系列 通 忠 、 停 电 与 停 槽 作业\n\n的 管理 pe 227\n15. 14 设备 与 工具 和 管理， 229\n参考 文献 230\n\n铝 电解 槽 的 破损 与 维 搞 pe 231\n\n16.1 银 电 解 槽 破损 的 特征 、 检 测\n与 维护 231\n16.2 铝 电 解 槽 破损 的 机 理 237\n16.3 延长 铝 电解 槽 寿命 的 途径 …… 254\n参考 文献 260\n17 ” 铝 电 解 的 供电 与 整流 PP 262\n17.1 馈 电 解 对 直流 电能 的 要 求 和” 262\n17.2 整流 机 组 的 选择 pp 262\n17.3 整流 所 供电 主 结 线 pe 264\n17.4 变 电 整 流 系 统 的 整体 配置 ，…… 265\n17.5 变 电 人 整流 的 自动 化 系统 282\n17.6 变 电 人 束 流 系 统 的 安全 保障 …… 289\n参考 文 衣 291\n18 铝 电 解 的 粉 状 物料 〈 氧 化 铝 )\n\n和 输送 系统 ppp 292\n18.1 粉 状 物料 输送 方式 的 分 类 292\n18.2 粉 状 物料 的 几 种 主要 输送\n\n方式 及 特点 ee 293\n\n18.3\n18. 4\n18. 5\n\n浓 相 输送 技术\n超 浓 相 输送 技术\n现代 大 型 电解 馈 厂 氧化 银\n输送 方式 的 选择\n参考 文献\n\n19 争 电 解 模 的 动态 平衡\n\n19.1 物料 平衡\n19.2 电压 平衡\n19.3 能 量 平衡 〈 热 平衡 )\n参考 文献\n\n20 ” 铝 电 解 模 的 物理 场\n\n物理 场 的 基本 概念\n物理 场 技术 的 发 展 历史\n物理 场 计算 机 仿真 的 数学\n模型 与 方法\n\neeeeeossereeseeeseseesaeseeaeeens\n\nee\n\naaseeeeereeeseeeeeeeeeeneeeeaeees\nee\n\n和\neeeeseseesweoseoseseeeiwee\nee\n\neeseeesesasrioeeeeetaesaeeeee ees\n\n和\n\n20.\n20. 2\n20.3\n\n20. 4\n20. 5\n20.6 熔 体 流 动 声\n20. 7\n20. 8\n20.9\n\neveeeaereseeoeeweesiseeeseeiesn\nee\nee\n\n应 力 场\n\neeeeioseehoeseieeeeeeeeee\n\n的 关系\n\neesaesesepaeeeeeseesaeeeheneee\n\neeeeoessereeeeraeeeeeeeee\n\nee\n",
+      "page_id": "modern_aluminum_v2_37_003",
+      "page_segmentation_mode": 3,
+      "quality_flags": [
+        "raw_cjk_spacing_repaired_for_model_only"
+      ],
+      "record_type": "ocr_page_v2",
+      "review_status": "unreviewed",
+      "source_chapter_pdf": "现代铝电解/附录IV 铝热容和熔解热数据.pdf",
+      "source_chapter_pdf_sha256": "fb525b4f3f1b160881bdc8ad8ed4b45bb25bd3b00463c19cc1798a2b46908e65",
+      "source_complete_book_pdf": "现代铝电解/现代铝电解 -- 刘业翔等著 -- 2008 -- 北京：冶金工业出版社 -- 9787502445768 -- 3244a0affa302decce91ad6f6afd9aee -- Anna’s Archive.pdf",
+      "source_complete_book_pdf_sha256": "e096610e547e0fdf44df811a9127046c27a3bc4989788a7069ffe3b75a8b562b",
+      "source_image": "aluminum_industry_qa_benchmark/knowledge_qa_only/KQA_P8_textbook_qa/batches/full_textbook_ocr/images/B01/附录_42387817/page-3.png",
+      "source_image_sha256": "9320a4f1ae79a224fef4273c7b82517bafee568308973e9675451ec6f3a84b5f",
+      "text_for_extraction": "“ 104， 第二篇 ” 铝电解生产工程技术\n15. 12 ”异常槽况 〈 病槽 ) 及事故\n的防治与管理 pe 212\n15.13 ”系列通忠 、 停电与停槽作业\n的管理 pe 227\n15. 14 设备与工具和管理， 229\n参考文献 230\n铝电解槽的破损与维搞 pe 231\n16.1 银电解槽破损的特征 、 检测\n与维护 231\n16.2 铝电解槽破损的机理 237\n16.3 延长铝电解槽寿命的途径 …… 254\n参考文献 260\n17 ” 铝电解的供电与整流 PP 262\n17.1 馈电解对直流电能的要求和” 262\n17.2 整流机组的选择 pp 262\n17.3 整流所供电主结线 pe 264\n17.4 变电整流系统的整体配置 ，…… 265\n17.5 变电人整流的自动化系统 282\n17.6 变电人束流系统的安全保障 …… 289\n参考文衣 291\n18 铝电解的粉状物料 〈 氧化铝 )\n和输送系统 ppp 292\n18.1 粉状物料输送方式的分类 292\n18.2 粉状物料的几种主要输送\n方式及特点 ee 293\n18.3\n18. 4\n18. 5\n浓相输送技术\n超浓相输送技术\n现代大型电解馈厂氧化银\n输送方式的选择\n参考文献\n19 争电解模的动态平衡\n19.1 物料平衡\n19.2 电压平衡\n19.3 能量平衡 〈 热平衡 )\n参考文献\n20 ” 铝电解模的物理场\n物理场的基本概念\n物理场技术的发展历史\n物理场计算机仿真的数学\n模型与方法\neeeeeossereeseeeseseesaeseeaeeens\nee\naaseeeeereeeseeeeeeeeeeneeeeaeees\nee\n和\neeeeseseesweoseoseseeeiwee\nee\neeseeesesasrioeeeeetaesaeeeee ees\n和\n20.\n20. 2\n20.3\n20. 4\n20. 5\n20.6 熔体流动声\n20. 7\n20. 8\n20.9\neveeeaereseeoeeweesiseeeseeiesn\nee\nee\n应力场\neeeeioseehoeseieeeeeeeeee\n的关系\neesaesesepaeeeeeseesaeeeheneee\neeeeoessereeeeraeeeeeeeee\nee",
+      "use_constraint": "Any extracted claim must cite this page and be checked against source_image before acceptance."
+    }
+  ],
+  "record_type": "chapter_ocr_corpus_v2",
+  "review_status": "unreviewed",
+  "source_chapter_pdf": "现代铝电解/附录IV 铝热容和熔解热数据.pdf",
+  "source_chapter_pdf_sha256": "fb525b4f3f1b160881bdc8ad8ed4b45bb25bd3b00463c19cc1798a2b46908e65",
+  "source_pdf_pages": 3
+}

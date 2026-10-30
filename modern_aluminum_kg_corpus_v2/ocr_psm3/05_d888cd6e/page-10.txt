@@ -1,0 +1,36 @@
+10
+
+11
+12
+
+13
+14
+
+15
+
+16
+
+5 铝 电 解 的 电极 过 程 ，35 ，
+(4): 231~236
+
+Porter B，Feinleib M. Determination of the activity of sodium in sodium-lead alloys at high temperatures.
+丁 Pilectrochem. Soco. 1956，103(5) : 300 ~303
+Asbjorn Solheim。Crystallization of eryolite and alumina at the metal-bath interface，Light Metals。Aluminium
+Reduction Cells. 双 arrendale ，Pennsylvania: TMS light metals committee ，2001 : 469 ~474
+Tingle 驳 H，Petit J，Frank 双 B. Sodium content of aluminum in equilibrium with NaF-AlFs melts，Alumin-
+ium，1981 ，(S7) : 286 ~288
+Asher R C. A lamellar compound of sodium and graphite，J， Inorg， Nucl，Chem. . 1959，10: 238 ~ 249
+Brilloit P，Lossius 站 P，0ye H A. Penetration and chemical reactions in carbon cathodes during aluminum elec-
+trolysis: Part I_ Laboratory Experiments, Metallurgical Transactions B， 1993 ,24B(1) : 75 ~89
+Liao Xian" an，Naas T，0ye 吾 A. Enhanced sodium expansion in carbon cathode materials due to the presence
+of alumina slurries，Aluminium (Germany) . 1997，73(7,8) : 528 ~S31
+Dell M，Percolation of hajll bath through carbon potlining and insulation。J. metals. 1997，23(6) : 18
+Dewing 匡 双 ，The reaction of sodium with nongraphitic carbon : reactions occurring in the linings of aluminurm
+reduction cells，Trans. met. soc, AIME. 1963 ，227 : 1328
+邱 竹 贤 . 铝 电解 原理 与 应 用 . 徐州 : 中 国政 业 大 学 出 版 社 . 1998 : 294
+Henrik Gudbrandsen ，et al Field study of anode overvoltage in PB cells，Light Metals，Warrendale ，Pennsyl-
+vania: TMS light metals committee ，2003 : 323
+Lai Yanqing，Yang Jianhong，et al. Determination of ohmic voltage drop and factors infiuencing anodic over-
+voltage of carbon anodes in cyrolite-alumina melts。Nianyi Chen。 Proc of the Sixth International Conference on
+Molten Salt Chemistzy & Technology，Shanghai: Shanghai University Press ，2001: 204 ~209
+艺 竹 贤 . 预 焙 模 炼 铝 〈 第 3 版 ) - 北京 : 冶金 工业 出 版 社 ，2005

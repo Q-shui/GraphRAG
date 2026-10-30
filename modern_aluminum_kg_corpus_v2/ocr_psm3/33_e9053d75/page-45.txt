@@ -1,0 +1,58 @@
+33 ” 铅 冶 炼 新 工艺 进展 “605.
+
+铝 业 公司 (Mitsui)” 曾 采 用 鼓 风 炉 进行 碳 热 还 原 炼 铝 ， 其 熔炼 过 程 首先 是 氧化 钻 、 氧 化
+硅 、 氧 化 铁 和 煤炭 在 鼓 风 炉 内 发 生还 原 反 应 ， 然 后 在 1300Y 下 将 金属 Pb 熔 体 喷 人 鼓 风 炉
+内 ， 形 成 的 Al-Pb 合金 冷却 后 上 浮 并 被 分 离 出 来 ， 其 中 含 Pb 量 为 0.2% ~ 0.3% ， 对 ALPh
+合金 进行 提纯 精炼 即 可 得 到 商品 级 原 银 。 期 间 ， 三 井 铝 业 公司 曾 建立 起 容积 为 0. 4m? 的 小 型
+鼓 风 炉 ， 在 鼓 人 0: 条 件 下 ， 无 须 提供 电能 就 得 到 了 Al-Si-Fe 合金 。 但 是 ， 由 于 未 得 到 足够 的
+经 费 支 持 ， 三 井 公 司 的 研究 工作 随后 被 迫 停止 。 此 后 的 见 年 内 ， 日 本 的 Dokiya 等 570 采 用 管
+状 试验 炉 进行 了 碳 热 法 炼 铝 工 艺 研究 ， 但 是 最 终 没 能 成 功 地 获得 金属 铝 。Yokokawa 等 !521 在
+试验 工厂 采用 鼓 风 炉 在 无 须 额外 热量 的 情况 下 ， 制 备 出 Al-Si-Fe 合金 ， 但 是 合金 产量 及 其 中
+的 Al 售 量 很 低 ， 尽 管 通过 在 配料 中 加 入 石灰 可 增加 合金 产量 及 其 中 的 Al 含量 ， 但 其 研究 工
+作 最 后 也 被 放弃 。
+
+20 世纪 80 年 代 后 期 ， 出 现 了 一 种 通过 添加 Sn 的 Al 精炼 新 工艺 。Frank 等 4 采用 碳 热 还
+原 法 ， 以 Al 0 为 原料 ， 在 1800% 下 制备 出 了 含 99 Al 的 Al-Sn 合金 ; 将 所 得 Al-Sn 合金 冷却 到
+330Y 使 其 部 分 结晶 得 到 金属 Al; 剩余 的 Sn 采用 Na 提取 后 返回 Al-Sn 合金 制备 。
+
+Murry ”于 1999 年 提出 ， 采 用 高 度 聚 焦 的 太阳 光 可 在 高 温 下 提供 巨大 能 量 ， 有 效 促进 爹
+属 热 还 原 过 程 的 进行 ， 其 中 Al 的 热 还 原 过 程 就 是 实现 太阳 能 在 工业 过 程 应 用 的 最 大 领域 ， 特
+别 是 Alcoa 的 铝 土 矿 直接 还 原 工艺 最 适合 于 太阳 能 技术 的 应 用 。Munry 采用 太阳 能 高 温 加 热 进
+行 了 铝 士 矿 碳 热 还 原 的 初步 试验 ， 得 到 少量 Al 含量 为 61% ~ 62% 的 Al-Si 合金 。Murry 希望，
+在 初步 研究 的 基础 上 进一步 开展 研究 ， 按 照 Aleoa 所 采用 的 技术 路 线 ， 利 用 太阳 能 加 热 技术 ，
+最 终 开 发 出 一 种 联合 加 热 碳 热 还 原 炼 铝 新 工艺 。
+
+参考 文 南
+
+1 De Nora V. Veronica and Tinor 2000 new technologies for aluminum production. Electrochemical Society Inter-
+face,，2002,，11 (4): 20 ~24
+
+2 Nancy M，Jack 下. Inert anode roadmap : A framework for technology development, The Aluminum Association ，
+Jnc. Fepruary 1998: 1 ~29
+
+3 Noel J. Future developments in the Bayer-Hall-Heroult process. Buzkin A R. Production of aluminium and alu-
+mina. Jobn Wiley & Sons，1987: 188 ~ 207
+
+4 Benedyk J C. Status Report on inert anode technology for primary aluminum. Light Metal Age，2001 ，59
+(1/2) : 36 ~37
+
+5 De Nora V. Inert anodes are knocking at the door of aluminium producers, CRU annual meeting. London. June，
+2001， 26
+
+6 Sadoway D R. Inert anodes for the Hall-Hkroult cell : the ultimate materials challenge. JOM ，2001 ， 53 (3S) :
+34 ~35
+
+7 eniry J The economics of inert anodes and wettable cathodes for aluminum reduction cells. JOM，2001 ，53
+(5): 43 ~47
+
+8 Hall C M, Process of electrolyzing fnsed salts of aluminum. US Patent 400，667. Filed September 21 ，
+1888. Patented April 2，1889
+
+9 Bilehaug KK，0Oye H A. Inert anodes for aluminium electrolysis in Hall-Heroult cells ( 工 ) . Aluminium ，1981 ，
+57 (2) : 146 ~150
+
+10 Billehaug K，Oye H A. Inert anodes for aluminium electrolysis in Hall-Hekroult cells (区 ) .Aluminium，
+
+1981, 57 (3): 228 ~231
+11 Keller R，Rolseth S，Thonstad J Mass transport considerations for the development of oxygen-evolving anodes
+

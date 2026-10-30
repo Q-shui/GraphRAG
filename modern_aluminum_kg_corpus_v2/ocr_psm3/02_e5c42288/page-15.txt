@@ -1,0 +1,52 @@
+2 铝 电 解 质 及 其 物理 化 学 性 质 '， 31
+
+2.S$.2 国内 概况
+
+我 国 自 20 世纪 60 年 代 起 ， 中 南大 学 、 东 北大 学 和 郑州 轻金属 研究 院 与 有 关 铝 电解 厂 合
+作 ， 都 开展 过 铝 电 解 质 添加 剂 的 研究 ， 抚 顺 铝 厂 对 添加 剂 作 了 大 量 的 工业 试验 及 应 用 。
+
+(1) 加 MgF:。 抚 顺 铝 三 于 1975 ~ 1976 年 继 苏 联 之 后 首次 在 我 国 作 了 工业 试验 ， 电 解 质 中
+含 MgF, 3% ~7% ， 可 提高 电流 效率 0.7% ~0.9% ， 后 又 增加 CaF, 4% ~5% ， 电 流 效 率 提 高 约
+1% ， 采 用 MgF;, + CaF: 含 量 约 10% 左 右 ， 有 较 好 效果 。
+
+(2) 加 LiCO，( 锂 盐 ) 及 Li-Mg 复合 盐 。1982 ~ 1983 年 ， 在 抚顺 铝 厂 添加 锂 盐 获 得 较 好
+的 效果 后 ， 在 国内 一 些 铝 贱 进一步 推广 应 用 ， 使 用 的 电解 质 含 LiF 2.5% ~3.5 9 ，MgF: 2. 5%
+~3.5% ，CaF, 2.5% ~3.5 %， 电 解 温度 降低 12 ~- 16% ， 电 流 效率 提高 2% ， 吨 铝 节 电
+600kW' h， 吨 铝 消耗 LizC0:1. 12kg， 吨 铝 炭 耗 降低 24. 8kg， 减 少 排 气量 30% ， 节 能 增产 效果
+十 分 明显 。
+
+(3) 自 1987 年 以 来 ， 我 国 以 160kA 中 间 点 式 下 料 预 焙 铝 电解 构 计算 机 控制 技术 的 改进 研
+究 为 契机 ， 开 始 进行 低 摩尔 比 电 解 质 的 应 用 研究 。 随 着 先进 控制 技术 的 推广 应 用 ， 我 国 铝 厂 所
+采用 的 摩尔 比 从 2. 8 逐步 降低 到 了 2. 5 ~2.0。 目 前 ， 我 国 铝 厂 的 电解 质 类 型 大 体 分 为 两 类 : 一
+类 是 采用 2.0 ~2.2 摩尔 比 ,不 使 用 添加 剂 ; 另 一 类 是 采用 2.3 ~2.5 摩尔 比 ， 使 用 镁 盐 添 加 剂
+(MgF.: 含量 2. 0% ~3.5% ) 和 (或 ) 镁 盐 添 加 剂 (2.0% -~3.5% )。
+
+参考 文献
+
+Grjotheim 玉 ，et al, Aluminum Electrolysis ，1lst edition. Dusseldoff: Aluminium-Verlag，1977
+Grjotheim K ，et al, Aluminum Electrolysis ，2nd edition. Dusseldoff: Aluminium-Verlag ，1982
+Thonstad J，et al. Aluminium Electrolysis ，3rd edition, Dusseldoff : Aluminium-Verag，2001
+
+emaea A 开 . 3rmekTpormHT arIOMHHHeBPD BaHH,， MeTaUIYypPII 3A AT，1961
+
+tn 上 mm 虽 一
+
+Belshimenko O P，et al. Pesymprarpr 7POMPIIUTeHHPT5 HCTEITaHPnomekTrpO7ETa C moBEXIIeHEHPIM KPHOEHTOBEIM
+oTHOIIeHHeM H CORep2kakHHeM 8o69BoK TDH 7 了 OH3BOHCTBe a7IOMHHHR Non-ferrous Metals (Russia) ，1988，
+(4): 和 4 ~55
+6 邱 竹 贤 . 预 焙 醒 炼 铝 〈 第 3 版 ) . 北京 : 冶金 工业 出 版 社 ，2005
+7 0ye Harald AMaterials used in aliuminum smejlting，R. D，、Peterson。Light Metals，Warrendale，Pennsylva-
+nia: TMS light metals committee，2000: 3 ~ 15
+8 Crotheim K，Welch B J， Aluminum smelter technology、Aluminum，Dusseldoff; Aluminium-Verlag，1980
+Haupin 允 ，The influence of additives on hall-htroult baih properties。JOM. 1991，11: 28 ~34
+10 ”Kai Crjotheim，Halvor Kvande，Welch Barry J，Low-mejlting baths in Aluminium electrolysis，R. ER. Miller.
+Light Metals，Warrendale ，Pennsylvania; TMS jlight metals committee ，1986 ,(2) : 417 ~ 423
+11 Sterten A，Rolseth S$，S$Skybakmoen 卫 ，et a. Some aspects of low melting baths in Aluminium electroly-
+sis, Larry C. Boxall，Light Metals. Warrendale ，Pennsylvania: TMS light metals committee ，1988 : 063 ~ 670
+12 Paulsen 人 A，et al. Current afficieney at a fanction of the contents of alumina and CaF: in industrial alumin-
+ium 型 ectrolysis cells. Subodh 了 . Das，Light Metals. 双 arrendale ，Pennsylvania: TMS light metals committee ，
+1993 : 233 ~ 238
+13 ”Langon 也 ，Varin P，Aluminium pechiney 280kA pots. R. 了 . Miller，Light Metals， 双 arrendale，Pennsylvania :
+TMS light metals committee，1986 : 343 ~347
+
+14 ” 陈 万 坤 等 . 有 色 金 属 进展 轻 金属 着 .长沙 : 中 南 工业 大 学 出 版 社 ，1995

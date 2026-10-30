@@ -1,0 +1,118 @@
+{
+  "book_id": "modern_aluminum_2008",
+  "book_title": "现代铝电解",
+  "chapter_file": "附录VI 自焙阳极.pdf",
+  "chapter_id": "modern_aluminum_v2_chapter_39",
+  "chapter_order": 39,
+  "coverage_note": "This is the 616-page split-chapter collection. The complete source PDF has 650 pages; its 34-page difference is not yet mapped.",
+  "page_count": 3,
+  "pages": [
+    {
+      "book_id": "modern_aluminum_2008",
+      "book_page_ordinal_in_split_collection": 614,
+      "book_title": "现代铝电解",
+      "chapter_file": "附录VI 自焙阳极.pdf",
+      "chapter_id": "modern_aluminum_v2_chapter_39",
+      "chapter_page": 1,
+      "graph_ingestion_status": "candidate_only",
+      "normalization": {
+        "operation": "remove spaces/tabs only when flanked by two CJK characters; trim line whitespace",
+        "raw_ocr_preserved": true,
+        "semantic_correction": "none"
+      },
+      "ocr_confidence": null,
+      "ocr_engine": "Tesseract 5.4.0 chi_sim",
+      "ocr_psm3_file": "modern_aluminum_kg_corpus_v2/ocr_psm3/附录_cdb75938/page-1.txt",
+      "ocr_psm3_file_sha256": "f71439b41576d656e3ccad7f119e7e5cdac6a2d081cd13f240210dfca7404180",
+      "ocr_text_verbatim": "“614 .第 四 篇 ” 铅 冶 炼 辅助 工程 与 新 技术\n\n附录 VI 自 焙 阳极\n\nVIL.1 概念\n\n自 焙 阳极 是 利用 铝 电解 槽 自身 热量 焙烧 阳极 ， 使 阳极 糊 中 沥青 热 解 焦化 并 与 骨 料 形成 致密\n的 固体 炭 阳 极 体 。 由 此 构成 的 电解 槽 称 为 自 焙 阳极 电解 开 ， 又 称 Soderburg 槽 。\n\n以 石油 焦 、 沥 青 焦 为 骨 料 ， 煤 沥青 为 蒜 结 剂 制 成 的 炭素 糊 料 ， 用 于 连续 自 焙 铝 电解 槽 作 阳\n极 材料 ， 因 其 黏 结 剂 的 含量 高 (超过 24% ) ， 在 电解 槽 上 部 被 烧结 以 前 呈 糊 状 ， 故 称 阳 极 糊 。\n阳极 糊 是 炭素 制品 中 产量 最 大 的 一 种 产品 。 根 据 铝 电解 覃 阳极 棒 的 插 人 部 位 的 不 同 ， 自 焙 阳极\n分 为 侧 插 阳 极 糊 与 上 捅 阳极 糊 。 侧 插 阳 极 糊 用 于 侧 插 自 焙 铝 电解 档 ， 上 插 阳 极 糊 用 于 上 揪 自 焙\n铝 电 解 槽 。 两 种 电解 槽 结构 示意 图 见 附 图 V-l 和 附 图 W-2。\n\n2\n人 光\n， 4\n| 二 一 一 一 一\n一 1700x4400 一\n[> 一 一 一 >\n吊 7 人- 下 5 6 7\n8 [人 人 -一 一 /\n| 上 一 = L_ 一 mx\n[一 一 一 一 一 二 一 一 一 酉 打 ]6L 下 9\nGTC\n加 | [ |\n12 i0\n时 图 V-1 焙 解 楼\n附 图 吕 ， 上 洗 梯 趟 自 烧 中 投 电解 稍 订 攻 附 图 W-2 侧 插 棒 式 自 焙 阳极 电解 槽 简 图\n1 一 阳极 母线 粱 ;2 一 阳极 棒 的 铝 导 杆 ; 3 一 阳极 棒 ;\n， 1 一 铝 箱 ; 2 一 阳极 框架 ; 3 一 阳极 母线 ; 4 一 槽 帘 ;\n4 一 阳极 框 套 ; 5 一 燃烧 器 ;6 一 集 气 章 ; 7 一 侧 部 上\n5 一 阳极 棒 ; 6 一 侧 部 炭 块 和 底部 炭 块 ; 7 一 档 壳 ;\n内 衬 ; 8 一 模 壳 ; 9 一 阴极 棒 ; 10 一 阴极 母线 ;\n、 轴 8 一 阴极 棒 ; 9 一 阴极 母线 ;10 一 底部 加 因 型 钢 ;\n1 一 保温 肢 ; 12 一 档 壳 底部 的 型 钢 ; 1 保温 县 ，12 阳极 由\n13 一 阳极 ，14 一 阳极 糊\n\n侧 插 与 上 插 自 焙 阳极 结构 类 似 ， 均 是 由 阳极 框架 、 阳 极 提 升 机 构 、 阳 极 棒 、 炭 素 阳极 本 体\n和 集 气 罩 5 部 分 组 成 ， 以 侧 播 自 焙 阳极 为 例 ， 各 部 分 具体 结构 如 下 :\n\n(1) 炭素 阳极 本 体 。 由 液体 阳极 糊 和 烧结 固体 炭 〈 锥 体 ) 构成 的 痰 素 阳 极 本 体 装 在 长 方\n形 的 铝 箱 内 ， 铝 箱 由 1. Smm 的 压延 铝板 制 成 ， 它 起 着 盛装 阳极 糊 和 保护 下 部 锥 体 不 被 氧化 的\n作用 ， 随 阳极 的 消耗 而 在 上 部 定期 锦 接 新 的 铝 箱 ， 并 定期 在 上 部 添加 阳极 糊 ， 以 确保 阳极 工作\n的 连续 性 。\n\n(2) 阳极 棒 。 在 阳极 体 四 周 或 前 后 大 面 插 有 多 排 阳 极 棒 ， 最 下 两 排 连 有 铜 母线 ， 起 电流 导\n人 阳极 体 和 悬挂 阳极 体 的 作用 ， 上 部 棒 为 备 续 棒 。 阳 极 棒 的 根 数 视 槽 容量 和 单 棒 负 荷 大 小 而\n",
+      "page_id": "modern_aluminum_v2_39_001",
+      "page_segmentation_mode": 3,
+      "quality_flags": [
+        "raw_cjk_spacing_repaired_for_model_only"
+      ],
+      "record_type": "ocr_page_v2",
+      "review_status": "unreviewed",
+      "source_chapter_pdf": "现代铝电解/附录VI 自焙阳极.pdf",
+      "source_chapter_pdf_sha256": "b0cb4a5eb4e69fc494b48c33b240695905d3ae035383ecc35887fc5e51d979f5",
+      "source_complete_book_pdf": "现代铝电解/现代铝电解 -- 刘业翔等著 -- 2008 -- 北京：冶金工业出版社 -- 9787502445768 -- 3244a0affa302decce91ad6f6afd9aee -- Anna’s Archive.pdf",
+      "source_complete_book_pdf_sha256": "e096610e547e0fdf44df811a9127046c27a3bc4989788a7069ffe3b75a8b562b",
+      "source_image": "aluminum_industry_qa_benchmark/knowledge_qa_only/KQA_P8_textbook_qa/batches/full_textbook_ocr/images/B01/附录_cdb75938/page-1.png",
+      "source_image_sha256": "b20f25223c6c4e151da2934d69af6d1e3a6d3655830a1a406a0224c93b4cdac0",
+      "text_for_extraction": "“614 .第四篇 ” 铅冶炼辅助工程与新技术\n附录 VI 自焙阳极\nVIL.1 概念\n自焙阳极是利用铝电解槽自身热量焙烧阳极 ， 使阳极糊中沥青热解焦化并与骨料形成致密\n的固体炭阳极体 。 由此构成的电解槽称为自焙阳极电解开 ， 又称 Soderburg 槽 。\n以石油焦 、 沥青焦为骨料 ， 煤沥青为蒜结剂制成的炭素糊料 ， 用于连续自焙铝电解槽作阳\n极材料 ， 因其黏结剂的含量高 (超过 24% ) ， 在电解槽上部被烧结以前呈糊状 ， 故称阳极糊 。\n阳极糊是炭素制品中产量最大的一种产品 。 根据铝电解覃阳极棒的插人部位的不同 ， 自焙阳极\n分为侧插阳极糊与上捅阳极糊 。 侧插阳极糊用于侧插自焙铝电解档 ， 上插阳极糊用于上揪自焙\n铝电解槽 。 两种电解槽结构示意图见附图 V-l 和附图 W-2。\n2\n人光\n， 4\n| 二一一一一\n一 1700x4400 一\n[> 一一一 >\n吊 7 人- 下 5 6 7\n8 [人人 -一一 /\n| 上一 = L_ 一 mx\n[一一一一一二一一一酉打 ]6L 下 9\nGTC\n加 | [ |\n12 i0\n时图 V-1 焙解楼\n附图吕 ， 上洗梯趟自烧中投电解稍订攻附图 W-2 侧插棒式自焙阳极电解槽简图\n1 一阳极母线粱 ;2 一阳极棒的铝导杆 ; 3 一阳极棒 ;\n， 1 一铝箱 ; 2 一阳极框架 ; 3 一阳极母线 ; 4 一槽帘 ;\n4 一阳极框套 ; 5 一燃烧器 ;6 一集气章 ; 7 一侧部上\n5 一阳极棒 ; 6 一侧部炭块和底部炭块 ; 7 一档壳 ;\n内衬 ; 8 一模壳 ; 9 一阴极棒 ; 10 一阴极母线 ;\n、 轴 8 一阴极棒 ; 9 一阴极母线 ;10 一底部加因型钢 ;\n1 一保温肢 ; 12 一档壳底部的型钢 ; 1 保温县 ，12 阳极由\n13 一阳极 ，14 一阳极糊\n侧插与上插自焙阳极结构类似 ， 均是由阳极框架 、 阳极提升机构 、 阳极棒 、 炭素阳极本体\n和集气罩 5 部分组成 ， 以侧播自焙阳极为例 ， 各部分具体结构如下 :\n(1) 炭素阳极本体 。 由液体阳极糊和烧结固体炭 〈 锥体 ) 构成的痰素阳极本体装在长方\n形的铝箱内 ， 铝箱由 1. Smm 的压延铝板制成 ， 它起着盛装阳极糊和保护下部锥体不被氧化的\n作用 ， 随阳极的消耗而在上部定期锦接新的铝箱 ， 并定期在上部添加阳极糊 ， 以确保阳极工作\n的连续性 。\n(2) 阳极棒 。 在阳极体四周或前后大面插有多排阳极棒 ， 最下两排连有铜母线 ， 起电流导\n人阳极体和悬挂阳极体的作用 ， 上部棒为备续棒 。 阳极棒的根数视槽容量和单棒负荷大小而",
+      "use_constraint": "Any extracted claim must cite this page and be checked against source_image before acceptance."
+    },
+    {
+      "book_id": "modern_aluminum_2008",
+      "book_page_ordinal_in_split_collection": 615,
+      "book_title": "现代铝电解",
+      "chapter_file": "附录VI 自焙阳极.pdf",
+      "chapter_id": "modern_aluminum_v2_chapter_39",
+      "chapter_page": 2,
+      "graph_ingestion_status": "candidate_only",
+      "normalization": {
+        "operation": "remove spaces/tabs only when flanked by two CJK characters; trim line whitespace",
+        "raw_ocr_preserved": true,
+        "semantic_correction": "none"
+      },
+      "ocr_confidence": null,
+      "ocr_engine": "Tesseract 5.4.0 chi_sim",
+      "ocr_psm3_file": "modern_aluminum_kg_corpus_v2/ocr_psm3/附录_cdb75938/page-2.txt",
+      "ocr_psm3_file_sha256": "ad05ea7ac8536ff17c326cb38bb9b1709b596983531e6a2af11469f5acc3cadf",
+      "ocr_text_verbatim": "附录 太 自 焙 阳极 “0615\n\n定 。 侧 插 阳 极 棒 为 圆锥 体形 状 的 钢 棒 。\n(3) 阳极 框架 。 位 于 炭素 阳极 本 体 的 外 部 ， 由 槽 钢 和 角钢 焊 制 而 成 ， 具 有 保持 阳极 体 的 定\n\n型 和 承载 阳极 体 实现 阳极 升降 的 作用 。\n(4) 阳极 提升 机 构 。 悬 挂 阳 极 体 并 能 使 之 上 下 移动 的 机 电 系 统 ， 包 括 电 机 、 减 速 机 、 卷\n\n简 、 钢 丝 绳 ， 这 些 设备 均 安 装 在 电解 槽 的 金属 平台 上 。\nVL.2 自 焙 阳 极 〈 阳极 糊 ) 的 规格 与 性 能 要 求\n\n根据 铝 电解 槽 阳极 棒 的 插 和 人 部 位 的 不 同 ， 阳 极 糊 分 为 侧 插 阳 极 糊 与 上 插 阳 极 糊 。 侧 插 阳 极\n糊 用 于 侧 插 自 焙 铝 电解 槽 ， 上 插 阳 极 糊 用 于 上 播 自 焙 铝 电解 档 。 上 插 阳 极 糊 的 理化 性 能 指标 与\n侧 插 阳 极 糊 相 近 阳极 糊 典 型 理化 性 能 指标 见 附 表 W-I ) ， 但 粒度 组 成 和 源 青 含量 都 不 同 ， 附\n表 V-2 是 对 两 种 糊 料 的 基本 配方 对 比 。\n\n附 表 V-L1 铝 用 炭素 阳极 糊 的 理化 性 能 指标 (GB 8741 一 1988 )\n灰分 〈 不 大 于 ) | 电阻 率 (不 大 于 ) 耐 压 强度 真 密度 〈 不 小 于 ) | 体积 密度 (不 小 于 )\n牌 号 /5 /AQ mr-' (不 小 于 ) /MPa L[g cm-3 [gcem -3\nTHY-! 0. 45 75 28 1.98 1. 38\nTHY-2 0.60 80 27 1.98 1.3\nTHY-3 1.00 80 27 1.98 1. 36\n附 表 VI-2 ”上 插 糊 和 例 插 糊 原料 基本 配方 对 比\n\n干 料 的 组 成 “| 普通 上 插 阳 极 糊 /% | 普通 侧 插 阳 极 糊 /% | 。 干 料 的 组 成 ”| 普通 上 插 阳 极 糊 /% | 普通 侧 插 阳 极 糊 /%\n\n6~4mm (6+2) <2 约 0. 147mm 《51 +2) (48 x2)\n\n(100 目 )\n4 ~2mm 《17 +2) 《20 +4)\n其 中 小 于 0.074mm\n2 ~ imm (13 +2) (15 +3) (200 目 ) 《38 +2) (38 +3)\n1 ~0.5mm 余 余 沥青 占 糊 料 量 (31-~33) (28 ~30)\n\n侧 插 阳 极 糊 根 据 竺 结 剂 含量 及 铝 电解 槽 的 使 用 要 求 ， 可 分 为 少 油 糊 和 多 油 糊 。 少 油 糊 是 新\n电解 槽 阳极 铸 型 时 使 用 的 糊 ， 多 油 糊 是 铝 电解 正常 生产 时 使 用 的 糊 。 多 油 糊 与 少 油 糊 的 生产 工\n艺 流程 及 控制 技术 条 件 基本 相同 ， 但 骨 料 粒度 配 比 和 沥青 用 量 不 同 。 少 油 糊 一 般 沥青 配 量 为\n22% ~25% ， 而 多 油 糊 沥 青 配 量 为 28% ~319% 。\n\n上 插 自 焙 阳极 的 阳极 钢 棒 是 从 阳极 上 部 垂直 插 人 阳极 锥 体 的 。 当 钢 棒 拔 出 后 ， 棒 和 孔 中 心 由\n液体 阳极 糊 流 和 人， 并 在 高 温 下 〈850Y 左右 ) 迅速 焦化 、 烧 结 ， 这 部 分 烧结 体 称 为 “二 次 阳\n极 ”。 由 于 流 人 棒 孔 的 流动 性 好 的 液 糊 与 形成 阴极 本 体 的 阳极 糯 成 分 不 一 致 ， 烧 结 条 件 和 过 程\n差别 较 大 ， 以 及 烧结 过 程 中 的 体积 收缩 等 。“ 二 次 阳极 ”往往 与 主体 阳极 黏 结 不 牢 ， 且 性 能 有\n差异 ， 这 就 使 阳极 底 掌 出 现 不 同 程度 的 止 坑 。 因 此 ， 上 插 阳 极 糊 对 糊 料 的 流动 性 有 严格 的 要\n求 ， 流 动 性 过 大 ， 将 导致 骨 料 焦 的 偏 析 ， 并 且 和 孔洞 易 被 过 分 富 集 的 沥青 填充 ， 使 “二 次 阳极 ”\n质量 变 差 。 为 提高 “二 次 阳极 ”的 质量 ， 专 门生 产 了 二 次 糊 、 炮 弹 糊 等 。\n\n此 外 ， 为 减少 沥青 烟 害 ， 改 善 阳极 糊 的 性 能 ， 上 揪 槽 和 侧 插 模 都 使 用 了 干 式 阳 极 糊 。 干 式\n阳极 糊 有 以 下 特点 :\n\n(1) 采用 大 颗粒 配方 (10 ~ 1Smm) ， 改 善 了 制品 的 热 特 性 和 机 械 性 能 。\n\n(2) 使 用 高 温 沥青 作 黏 结 剂 ， 提 高 了 糊 料 的 黏 结 性 和 结 焦 率 。\n\n",
+      "page_id": "modern_aluminum_v2_39_002",
+      "page_segmentation_mode": 3,
+      "quality_flags": [
+        "raw_cjk_spacing_repaired_for_model_only"
+      ],
+      "record_type": "ocr_page_v2",
+      "review_status": "unreviewed",
+      "source_chapter_pdf": "现代铝电解/附录VI 自焙阳极.pdf",
+      "source_chapter_pdf_sha256": "b0cb4a5eb4e69fc494b48c33b240695905d3ae035383ecc35887fc5e51d979f5",
+      "source_complete_book_pdf": "现代铝电解/现代铝电解 -- 刘业翔等著 -- 2008 -- 北京：冶金工业出版社 -- 9787502445768 -- 3244a0affa302decce91ad6f6afd9aee -- Anna’s Archive.pdf",
+      "source_complete_book_pdf_sha256": "e096610e547e0fdf44df811a9127046c27a3bc4989788a7069ffe3b75a8b562b",
+      "source_image": "aluminum_industry_qa_benchmark/knowledge_qa_only/KQA_P8_textbook_qa/batches/full_textbook_ocr/images/B01/附录_cdb75938/page-2.png",
+      "source_image_sha256": "210e98af86519551d8953c040e3ec26f146927e8731b87a2f298d3ca491af467",
+      "text_for_extraction": "附录太自焙阳极 “0615\n定 。 侧插阳极棒为圆锥体形状的钢棒 。\n(3) 阳极框架 。 位于炭素阳极本体的外部 ， 由槽钢和角钢焊制而成 ， 具有保持阳极体的定\n型和承载阳极体实现阳极升降的作用 。\n(4) 阳极提升机构 。 悬挂阳极体并能使之上下移动的机电系统 ， 包括电机 、 减速机 、 卷\n简 、 钢丝绳 ， 这些设备均安装在电解槽的金属平台上 。\nVL.2 自焙阳极 〈 阳极糊 ) 的规格与性能要求\n根据铝电解槽阳极棒的插和人部位的不同 ， 阳极糊分为侧插阳极糊与上插阳极糊 。 侧插阳极\n糊用于侧插自焙铝电解槽 ， 上插阳极糊用于上播自焙铝电解档 。 上插阳极糊的理化性能指标与\n侧插阳极糊相近阳极糊典型理化性能指标见附表 W-I ) ， 但粒度组成和源青含量都不同 ， 附\n表 V-2 是对两种糊料的基本配方对比 。\n附表 V-L1 铝用炭素阳极糊的理化性能指标 (GB 8741 一 1988 )\n灰分 〈 不大于 ) | 电阻率 (不大于 ) 耐压强度真密度 〈 不小于 ) | 体积密度 (不小于 )\n牌号 /5 /AQ mr-' (不小于 ) /MPa L[g cm-3 [gcem -3\nTHY-! 0. 45 75 28 1.98 1. 38\nTHY-2 0.60 80 27 1.98 1.3\nTHY-3 1.00 80 27 1.98 1. 36\n附表 VI-2 ”上插糊和例插糊原料基本配方对比\n干料的组成 “| 普通上插阳极糊 /% | 普通侧插阳极糊 /% | 。 干料的组成 ”| 普通上插阳极糊 /% | 普通侧插阳极糊 /%\n6~4mm (6+2) <2 约 0. 147mm 《51 +2) (48 x2)\n(100 目 )\n4 ~2mm 《17 +2) 《20 +4)\n其中小于 0.074mm\n2 ~ imm (13 +2) (15 +3) (200 目 ) 《38 +2) (38 +3)\n1 ~0.5mm 余余沥青占糊料量 (31-~33) (28 ~30)\n侧插阳极糊根据竺结剂含量及铝电解槽的使用要求 ， 可分为少油糊和多油糊 。 少油糊是新\n电解槽阳极铸型时使用的糊 ， 多油糊是铝电解正常生产时使用的糊 。 多油糊与少油糊的生产工\n艺流程及控制技术条件基本相同 ， 但骨料粒度配比和沥青用量不同 。 少油糊一般沥青配量为\n22% ~25% ， 而多油糊沥青配量为 28% ~319% 。\n上插自焙阳极的阳极钢棒是从阳极上部垂直插人阳极锥体的 。 当钢棒拔出后 ， 棒和孔中心由\n液体阳极糊流和人， 并在高温下 〈850Y 左右 ) 迅速焦化 、 烧结 ， 这部分烧结体称为 “二次阳\n极 ”。 由于流人棒孔的流动性好的液糊与形成阴极本体的阳极糯成分不一致 ， 烧结条件和过程\n差别较大 ， 以及烧结过程中的体积收缩等 。“ 二次阳极 ”往往与主体阳极黏结不牢 ， 且性能有\n差异 ， 这就使阳极底掌出现不同程度的止坑 。 因此 ， 上插阳极糊对糊料的流动性有严格的要\n求 ， 流动性过大 ， 将导致骨料焦的偏析 ， 并且和孔洞易被过分富集的沥青填充 ， 使 “二次阳极 ”\n质量变差 。 为提高 “二次阳极 ”的质量 ， 专门生产了二次糊 、 炮弹糊等 。\n此外 ， 为减少沥青烟害 ， 改善阳极糊的性能 ， 上揪槽和侧插模都使用了干式阳极糊 。 干式\n阳极糊有以下特点 :\n(1) 采用大颗粒配方 (10 ~ 1Smm) ， 改善了制品的热特性和机械性能 。\n(2) 使用高温沥青作黏结剂 ， 提高了糊料的黏结性和结焦率 。",
+      "use_constraint": "Any extracted claim must cite this page and be checked against source_image before acceptance."
+    },
+    {
+      "book_id": "modern_aluminum_2008",
+      "book_page_ordinal_in_split_collection": 616,
+      "book_title": "现代铝电解",
+      "chapter_file": "附录VI 自焙阳极.pdf",
+      "chapter_id": "modern_aluminum_v2_chapter_39",
+      "chapter_page": 3,
+      "graph_ingestion_status": "candidate_only",
+      "normalization": {
+        "operation": "remove spaces/tabs only when flanked by two CJK characters; trim line whitespace",
+        "raw_ocr_preserved": true,
+        "semantic_correction": "none"
+      },
+      "ocr_confidence": null,
+      "ocr_engine": "Tesseract 5.4.0 chi_sim",
+      "ocr_psm3_file": "modern_aluminum_kg_corpus_v2/ocr_psm3/附录_cdb75938/page-3.txt",
+      "ocr_psm3_file_sha256": "bc5d3399777eefc54f7373f72c263af66542e33c1da75d2e8aa5976a3e394070",
+      "ocr_text_verbatim": "“616 .第 四 篇 ” 铅 治 炼 辅助 工程 与 新 技术\n\n(3) 减少 了 符 结 剂 沥青 的 用 量 (24% ~ 26% ) ， 从 而 减少 了 沥青 烟 害 ， 改 善 了 劳动 环境 。\n(4) 阳极 单 耗 下降 ， 阳 极 压 降 降低 ， 达 到 了 节能 降 耗 的 效果 。\n\nVL 3 ”阳极 糊 制备 技术\n\n生产 阳极 糊 的 主要 原料 是 石油 焦 、 沥 青 焦 和 煤 沥 青 ， 石 油 焦 、 沥 青 焦 灰 分 含量 低 ， 焙 烧 后\n导电 性 能 好 ， 是 生产 阳极 糊 的 主要 上 骨 料 (我 国 阳极 糊 生 产 较 少 采 用 沥青 焦 ) 。 煤 沥青 是 生产 阳\n极 糊 的 竺 结 剂 ， 通 常 采用 中 温 煤 沥青 或 高 温 煤 源 青 。\n\n阳极 糊 在 生产 时 ， 需 将 原料 石油 焦 经 过 1250Y 以 上 高 温 炬 烧 ， 排 除 水 分 、 挥 发 分 ， 提 高 原\n料 的 密度 、 强 度 ， 改 善 原料 的 导电 性 和 抗 氧 化 性 等 。 烛 后 石油 焦 经 过 破碎 、 季 分、 磨 粉 ， 制 备\n成 多 种 粒 级 的 颗粒 和 骨 料 ， 作 配料 用 。 按 一 定 配方 配 好 的 骨 料 加 人 到 混 涅 锅 中 ， 先 进行 干 混 ，\n达到 一 定 的 温度 时 ， 按 比例 加 入 熔化 好 并 经 过 净 置 排除 了 水 分 的 液体 沥青 继续 进行 混 涅 ， 混 误\n好 的 糊 料 ， 按 需 方 要 求 的 质量 大 小 进行 铸 型 、 冷 却 ， 一 般 小 块 阳极 糊 质量 为 13kg 左右 ， 大 块\n阳极 糊 质 量 为 500 ~ 1000kg， 干 阳极 糊 一 般 为 小 块 糊 ， 每 块 质量 约 为 0.3 ~0. 5kg。\n\n以 自 焙 阳极 铝 电 解 槽 为 主流 槽 型 的 原 铝 生产 方式 曾经 主导 了 国内 外 铝 工 业 数 十 载 ， 自 焙 阳\n极 铝 电 解 槽 以 其 阳极 独 有 的 特色 被 广泛 应 用 于 各 国 的 铝 工 业 。 直 到 20 世纪 80 年 代 中 后 期 ， 由\n于 铝 工业 向 规模 化 、 集 团 化 发 展 的 需要 ， 尤 其 是 人 们 对 环境 保护 意识 的 增强 ， 自 焙 阳极 铝 电解\n槽 才 开 始 逐 渐 退出 历史 舞台 。 自 焙 阳 极 最 大 的 优点 首先 是 阳极 能 够 连续 工作 而 无 须 更 换 ， 保 证\n了 电解 过 程 电 解 槽 的 稳定 性 ; 此 外 ， 自 焙 档 还 可 以 利用 电解 槽 热量 焙烧 阳极 ， 与 预 焙 铝 电解 村\n相 比 节省 了 制造 阳极 所 需 的 压 型 和 焙烧 设备 ， 也 就 是 减少 了 阳极 工厂 的 投资 。\n\n但 是 ， 自 焙 槽 也 有 其 致命 缺陷 ， 正 是 由 于 这 些 缺 陷 ， 导 致 自 焙 槽 在 新 时 期 难以 继续 生存 。\n首先 是 它 的 环境 污染 问题 。 由 于 阳极 没有 经 过 预先 焙烧 ， 因 而 在 电解 过 程 中 不 可 避免 地 散发 出\n大 量 的 沥青 烟 气 ， 造 成 了 严重 的 大 气 污 染 ， 恶 化 了 工人 的 操作 环境 。 其 次 ， 自 焙 模 能 耗 过 高 ，\n导致 电解 生产 成 本 增加 。 因 为 自 焙 阳极 的 中 心 部 位 温度 高 ， 散 热 不 好 ， 电 流 分 布 受到 限制 ， 阳\n极 欧姆 电压 降 高 ; 再 者 ， 自 焙 槽 受到 容量 的 限制 ， 不 适合 大 型 化 ， 而 且 自 动 化 程度 低 。 这 些 缺\n点 加 快 了 自 焙 模 被 淘汰 的 步伐 ，80 年 代 后 ， 国 内 外 新 建 大 型 铝 厂 大 多 数 都 不 采用 此 种 模型 。\n\n",
+      "page_id": "modern_aluminum_v2_39_003",
+      "page_segmentation_mode": 3,
+      "quality_flags": [
+        "raw_cjk_spacing_repaired_for_model_only"
+      ],
+      "record_type": "ocr_page_v2",
+      "review_status": "unreviewed",
+      "source_chapter_pdf": "现代铝电解/附录VI 自焙阳极.pdf",
+      "source_chapter_pdf_sha256": "b0cb4a5eb4e69fc494b48c33b240695905d3ae035383ecc35887fc5e51d979f5",
+      "source_complete_book_pdf": "现代铝电解/现代铝电解 -- 刘业翔等著 -- 2008 -- 北京：冶金工业出版社 -- 9787502445768 -- 3244a0affa302decce91ad6f6afd9aee -- Anna’s Archive.pdf",
+      "source_complete_book_pdf_sha256": "e096610e547e0fdf44df811a9127046c27a3bc4989788a7069ffe3b75a8b562b",
+      "source_image": "aluminum_industry_qa_benchmark/knowledge_qa_only/KQA_P8_textbook_qa/batches/full_textbook_ocr/images/B01/附录_cdb75938/page-3.png",
+      "source_image_sha256": "8dc634bf447b152a500b7873a6a76f7f89245a4444a5a2ead784e4b423991b78",
+      "text_for_extraction": "“616 .第四篇 ” 铅治炼辅助工程与新技术\n(3) 减少了符结剂沥青的用量 (24% ~ 26% ) ， 从而减少了沥青烟害 ， 改善了劳动环境 。\n(4) 阳极单耗下降 ， 阳极压降降低 ， 达到了节能降耗的效果 。\nVL 3 ”阳极糊制备技术\n生产阳极糊的主要原料是石油焦 、 沥青焦和煤沥青 ， 石油焦 、 沥青焦灰分含量低 ， 焙烧后\n导电性能好 ， 是生产阳极糊的主要上骨料 (我国阳极糊生产较少采用沥青焦 ) 。 煤沥青是生产阳\n极糊的竺结剂 ， 通常采用中温煤沥青或高温煤源青 。\n阳极糊在生产时 ， 需将原料石油焦经过 1250Y 以上高温炬烧 ， 排除水分 、 挥发分 ， 提高原\n料的密度 、 强度 ， 改善原料的导电性和抗氧化性等 。 烛后石油焦经过破碎 、 季分、 磨粉 ， 制备\n成多种粒级的颗粒和骨料 ， 作配料用 。 按一定配方配好的骨料加人到混涅锅中 ， 先进行干混 ，\n达到一定的温度时 ， 按比例加入熔化好并经过净置排除了水分的液体沥青继续进行混涅 ， 混误\n好的糊料 ， 按需方要求的质量大小进行铸型 、 冷却 ， 一般小块阳极糊质量为 13kg 左右 ， 大块\n阳极糊质量为 500 ~ 1000kg， 干阳极糊一般为小块糊 ， 每块质量约为 0.3 ~0. 5kg。\n以自焙阳极铝电解槽为主流槽型的原铝生产方式曾经主导了国内外铝工业数十载 ， 自焙阳\n极铝电解槽以其阳极独有的特色被广泛应用于各国的铝工业 。 直到 20 世纪 80 年代中后期 ， 由\n于铝工业向规模化 、 集团化发展的需要 ， 尤其是人们对环境保护意识的增强 ， 自焙阳极铝电解\n槽才开始逐渐退出历史舞台 。 自焙阳极最大的优点首先是阳极能够连续工作而无须更换 ， 保证\n了电解过程电解槽的稳定性 ; 此外 ， 自焙档还可以利用电解槽热量焙烧阳极 ， 与预焙铝电解村\n相比节省了制造阳极所需的压型和焙烧设备 ， 也就是减少了阳极工厂的投资 。\n但是 ， 自焙槽也有其致命缺陷 ， 正是由于这些缺陷 ， 导致自焙槽在新时期难以继续生存 。\n首先是它的环境污染问题 。 由于阳极没有经过预先焙烧 ， 因而在电解过程中不可避免地散发出\n大量的沥青烟气 ， 造成了严重的大气污染 ， 恶化了工人的操作环境 。 其次 ， 自焙模能耗过高 ，\n导致电解生产成本增加 。 因为自焙阳极的中心部位温度高 ， 散热不好 ， 电流分布受到限制 ， 阳\n极欧姆电压降高 ; 再者 ， 自焙槽受到容量的限制 ， 不适合大型化 ， 而且自动化程度低 。 这些缺\n点加快了自焙模被淘汰的步伐 ，80 年代后 ， 国内外新建大型铝厂大多数都不采用此种模型 。",
+      "use_constraint": "Any extracted claim must cite this page and be checked against source_image before acceptance."
+    }
+  ],
+  "record_type": "chapter_ocr_corpus_v2",
+  "review_status": "unreviewed",
+  "source_chapter_pdf": "现代铝电解/附录VI 自焙阳极.pdf",
+  "source_chapter_pdf_sha256": "b0cb4a5eb4e69fc494b48c33b240695905d3ae035383ecc35887fc5e51d979f5",
+  "source_pdf_pages": 3
+}

@@ -1,0 +1,34 @@
+”62 ' 第 一 篇 ” 银 电 解 理论 基础
+采用 合适 的 参 比 电极 监测 阳极 电位 升 高， 以 此 预报 阳极 效应 。 刘 业 翔 等 ” 于 早年 采用 碳化
+
+硅 参 比 电极 ， 安 放 在 电解 质 中 ,测定 该 电极 同 阳极 之 间 的 电位 变化 ， 在 实验 室 中 可 以 较 好 地 测
+出 效应 前 的 电位 升 高 ， 然 而 在 工业 电解 槽 上 没有 取得 成 功 。 主 要 原因 是 当时 工业 电解 槽 的 供电
+不 稳定 ， 其 次 是 碳化 硅 参 比 电极 电阻 较 大 ， 而 且 不 能 长 期 耐 受 电解 质 腐蚀 。
+
+人 ID 一
+
+参考 文献
+
+Thonstad J，et al Aluminum Electrolysis ，3rd edition. Dusseldorf: Aluminum-Verlag，2001
+
+Crjotheim 天 ，et al Aluminum Electrolysis ，2nd edition, Dusseldorf: Aluminum-Verlag ，1982
+
+邱 竹 贤 . 铝 电 解 原理 与 应 用 徐州 : 中 国 矿业 大 学 出 版 社 ，1998
+
+Qiu Zhuxian，et al Studies on anode effect in aluminium electrolysis. Andersen ] 下 . Light Metals. Warrendale ，
+Pennsylvania: TMS ligpht metals committee ，1982 : 279
+
+Liu Yexiang，Xiao Haiming. The inhibition of anode effect in aluminum electrolysis process by anode dopants :
+a laboratory study， 了 lwin L Rooy，Light Metals。 Warendale ，Pennsylvania: TMS 1light metals committee，
+1991: 489 ~494
+
+Belyaev A E， 治 金 过 程 中 的 表面 现象 〈 俄 文 ) . 北京 : 治 金工 业 出 版 社 ，1963
+
+Nissen 9 S，Sadoway D 及 Perfluorocarbon (PFC ) generation in laboratory scale aluminum reduction cells. Kvande
+也 Light Metals. Warendale ，Pennsylvania: TMS light metals committee ，1997: 1S9 ~ 164
+
+Wily Bjerke ，Robert Chase，Reginald Gibson ，et al Intermnational aluminum institute anode effect survey re-
+sujts. Tabereaux Alton T，Light Metals ，Warrendale ，Pennsylvania: TMS light metals committee , 2004: 367 ~
+372
+
+刘 业 翔 . 预 焙 阳 极 铝 电解 槽 阳极 效应 预报 的 初步 研究 . 轻金属 ，1977，(1) : 35

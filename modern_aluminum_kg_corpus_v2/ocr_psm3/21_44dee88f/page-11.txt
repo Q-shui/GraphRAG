@@ -1,0 +1,101 @@
+23
+
+25
+
+26
+
+27
+
+28
+
+29
+
+30
+
+32
+
+33
+
+34
+
+35
+
+306
+
+37
+
+38
+
+39
+40
+
+42
+
+43
+
+45
+
+21 ” 铝 电 解 计算 机 控制 系统 的 基本 结构 与 功能 “367，
+
+协 第 三 届 青 年 学 术 年 会 论文 集 一 “信息 科学 与 微 电 子 技术 ”. 北京 : 中 国 科学 技术 出 版 社 ，1998:
+493 ~ 497
+
+李 民 军 . 大 型 预 焙 铝 电解 槽 模糊 专家 控制 器 及 新 颖 热平衡 控制 模型 的 研究 : [学 位 论文 ] .长沙 : 中
+南 工业 大 学 ，1999
+
+Frost 耻 ，Karri V. Intelligent control of aluminium reduction cells using backpropagation neural networks. In :
+M. Mohammadian ，ed, International Conference on Advances in Intelligent Systems : Theory and Applications
+(AISTA2000) . Canbera，ACT，Australia: IOS Press，2000: 34 ~39
+
+Frost FE，Karri V. Identifying significant Parameters for Hall-Heroult process modelling using general regression
+neural network. mm ，R. Loganantharaj ，G: Paljm，M，Ali，ed. Thirteenth International Conference on Indus-
+trial and Engineering Applications of Artificial Intelligence and Expert Systems (IEA/AIE2000) . New Orle-
+ans. Loujsiana. USA ，Springer，2000:， 73 ~ 了 78
+
+Salt D 本 Bath chemistry control system. Light Metals ，1990: 299 ~ 304
+
+Barber M. The optimization and control of bath chemistry. Proceedings of the International Symposium on Qual-
+ity and Process Control ip the Reduction and Casting of Aluminum and Other Light Metals ，New York ， Perg-
+mon Press，1987: 51 ~S8
+
+Peyneau J] M. The automated control of bath composition on high amperage cells. Proceedings of the Interna-
+tional Symposium on Reduction and Casting of Aluminum. New York :Pergmon Press ，1988 : 189 ~ 195
+Madsen D 本 Temperature measurement and control in reduction cels. Light Metals ，1992 ; 453 ~ 456
+
+Campo J 丁 ，Sancho 丁 P. Low bath ratio operation in side breaking V. S. S. pots. Aluminium ，1994 ，70 〈9/
+10) : 587 ~ 589
+
+Desclaux P AlF additions based on bath temperature measurements. Light Metals，1987: 309 ~313
+
+Wilson M J Practical considerations used in the development of a method for caleculating aluminium fuoride
+additions based on cell temperatures. Light Metals ，1992: 375 ~ 378
+
+Entner P M，Cudmundsson C A. Further development of the temperature model. Light Metals，1996: 44S ~
+449
+
+Entner P M. Control of AlF: concentration, Light Metals ，1992 : 369 ~ 374
+
+Eniner P M. Further development of the AlE; -model. Light Metals ，1993 : 265 ~ 268
+
+Entner P M. Control of bath temperature. Light Metals，1995: 227 ~ 230
+
+Rieck T，HHert M，White P et al Increased current e 粕 ciency and reduced energy consumption at the TRIT-
+MET smelter essen Using 9 box matrix control. Light Metals ，2003: 449 ~ 456
+
+Meghlaoui A，Aljabri N. Aluminum fiuoride control strategy improvement. Light Metals ，2003: 425 ~ 429
+周 诗 国 . 预 焙 铝 电解 槽 热平衡 诊断 专家 系统 的 研究 : [学 位 论文 ] . 长 钞 : 中 南大 学 ，2001
+
+陈 湘 涛 . 数据 仓库 与 数据 控 据 技术 在 新 型 铝 电 解 控制 系统 中 的 应 用 研究 : [学 位 论文 ] . 长 沙 : 中 南
+大 学 ，2004
+
+刘 业 翔 ， 陈 湘 涛 ， 张 文 根 等 ， 基于 连通 分 支 的 聚 类 分 析 算 法 及 其 在 铝 电解 中 的 应 用 ,计算 机 工程 与
+应 用 ，2004，23 : 216 ~219
+
+刘 业 翔 ， 陈 湘 涛 ， 张 更 容 等 . 铝 电解 控制 中 灰 关 联 规则 挖掘 算法 的 应 用 . 中 国有 色 金 属 学 报 ，2004，
+14 (3) : 494 ~498
+
+Chen Xiangtao，Li jie，Zhang Wengen et al. The development and application of data warehouse and data
+mining in aluminum electrolysis control systems. Light Metals ，2006: 5$15 ~ $19
+
+游 王 . 大 型 预 焙 铝 电解 槽 槽 膛 内 形 在 线 动 态 仿真 研究 : [学 位 论文 ] . 长 沙 : 中 南 工业 大 学 ，1997
+徐福 仓 . 专家 系统 技术 在 铝 电解 过 程 监控 中 的 应 用 研究 ; [学 位 论文 ] . 长 沙 : 中 南 工业 大 学 ，1998

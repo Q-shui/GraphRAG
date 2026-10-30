@@ -1,0 +1,82 @@
+20
+
+22
+
+23
+
+24
+
+25
+
+26
+
+27
+
+28
+
+29
+
+30
+
+32
+
+“606 第 四 篇 ” 铝 冶 炼 辅助 工程 与 新 技术
+
+in aluminium electrolysis, Electrochim Acta，1996 ,42 (12) : 1809 ~ 1917
+Grjotheim 多 ，Krohn C，Malinovsky M et al Aluminium electrolysis-Fundamentals of the Hal-Heroult process.
+2nd edition，Dusseldorf: Aluminium-Verlag，1982 : 365
+Thonstad 了 ，Fellner P，Haarberg G M et al. Aluminium electrolysis-Fundamentals of the Hall-Heroult process.
+3rd edition ，Dusseldorf : Aluminium-Verlag，2001. 279
+
+Horinouchi 氏 ，Tachikawa N ，Yamada 玫 , DSA in aluminum reduction cells. In: Organizing Committee of the
+First International Symposium on Molten Salt and Technology ，eds. Proceedings of the first intermational sym-
+posium on mojten salt chemistry and technology, Kyoto，Japan: Molten Salt Committee of the 了 Electrochemical
+Society of Japan，1983: 65 ~68
+
+Augustin C O，Srinivasan 工 及 ，Srinivasan 和 S. Inert anodes for environmentally clean production of alumin-
+ium. Bull Electrochem，1993 ,9 (8 ~10): $02 ~503
+
+于 先进 ， 邱 竹 贤 ， 金 松 哲 . ZnFe: 04 基 材料 在 NaF-AlF3: -Al 0: 熔 盐 中 的 腐蚀 . 中 国 腐蚀 与 防护 学 报 ，
+2000, 20 ($) : 275 ~279
+
+Galasiu R et al nert anodes for aluminium electrolysis : variation of the properties of njckel ferrite ceramics as
+a function of the way of preparation. Haarberg C M. Eleventh Internaiional Aluminium Symposium. Norway，
+September 19 ~22，2001: 133 ~ 136
+
+Zhang Y，Wu X，Rapp 及 A. Modeling of the solubility of NiO/NiAl,O0，and FeO/FeAl04， in cryolite
+melts. Crepeau P N. Light Metals, Warrendale，Pa: TMS,，2003: 415 ~ 421
+
+Pawlek R P. Inert anodes : an update. Tabereaux A T. Light Metals. Warrendale ，Pa: TMS ,2004: 283 ~ 287
+Yang 本 再，Liu 了 X， 双 ang H Z. The behavior and improvement of Sna0， based anodes in aluminum electroly-
+sis. Mason D. A. Light Metals. Warrendale ，Pa: TMS ，1993 : 493 ~ 495
+
+QiuZ2 X，FanL M. The rate-determining step of metal loss in cryolite alumina melts. JP. McGeer. Light Met-
+als 1984. Warrendale，Pa: TMS ,1984:， 789 ~ 804
+
+Haarberg C M. The interaction between tin oxide and cryolite-alumina melts. 9th Int. Symp. On Molten
+Sajlts. San Francisco，USA : Electrochemical Society，Inc，May 22 ~ 27，1994: 3S68 ~ 577
+
+Issaeva L. Electrochemical behaviour of tin dissolved in cryolite-alumina melts, Electrochim. Acta ，1997 ，42
+(6): 1011 ~1018
+
+Yang 本 H，Thonstad J. On the behaviour of tin-containing species in cryolite-alaumina melts，J 本 Appl，、Elec-
+trochem，1997 ,27 : 422 ~427
+
+Sadus A M V，Constable D C，Dorin R，et al Tin dioxide-based ceramics as inert anodes for aluminum smelt-
+ering: a laboratory study. Hale 多. Light Metals. Wareudale ，Pa: TMS，1996: 259 ~ 265
+
+Popescu A M ，Constantin V. The dependence of current efficiency on the operating parameters in aluminium
+electrolysis cejl with Sn0; -based inert anodes. Rev. Roum. Chim ，1998 , 43 (9) : 793 ~ 798
+
+Galasiu R. Sn0: -based inert anodes for aluminium electrolysis. Influence of Ag O on the electrical and electro-
+chemical properties. X. Al Symposium ，Slovak-Norwegian Symposium on Aluminium Smelting Technology，
+Stara Lesna-Ziar nad Hronom ，21 ~ 23 Sept 1999: 35 ~38
+
+Las 双 C. Infiuence of adqitives on the electrical properties of dense Sn0, -based ceramics, J Appl. Phys. ，
+1993, 74 (10) : 6191 ~ 6196
+Cassyre 工 ，Utigard T A，Bouvet S. Visuajizing gas evolution on graphite and oxygen evolving anodes. JOM ，
+2000, 54 (5) : 140 ~ 149
+Duruz JJ，Derivaz JP，Debely P 卫 et al. Molten salt electrowinning method ，anode and manufacture there-
+of US Patent ，4614569 ，1986
+Walker JJK，Kinkoph J，Saha C K. 本 Appl. Electrochem. ，1989 ，19: 225 ~ 230
+Dewing 世 双 ，Reesor D N. US Patent ，4668351 ，1987

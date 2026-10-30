@@ -1,0 +1,55 @@
+. 144 .第 二 篇 ” 铝 电解 生产 工程 技术
+使 灌 铝 完毕 后 的 槽 电压 保持 5.0 ~5.5V。
+12.5.9 启动 后 期 技术 条 件 与 操作 管理 ( 某 厂 200kA 神 实 例 )
+
+启动 后 期 技术 条 件 与 操作 管理 如 下 :
+
+(1) 槽 电压 在 灌 铝 后 8h 内 降 至 4.8V，16h 后 降 至 4.5SV; 40h 后 降 至 4. 30V; 72h 后 保持
+正常 ， 即 4.1~4.2V。
+
+(2) 灌 铝 后 3h， 极 上 和 边 部 加 保温 料 。 第 一 次 阳极 效应 结束 一 周 后 ， 保 持 Al0: 的 厚度 为
+18cm， 直 至 正常 生产 。
+
+(3) 灌 铝 后 40h 内 实施 定时 下 料 ( 缺 省 间隔 时 间 为 120s) ，40h 后 实施 “ 按 需 下 料 ”， 即
+实施 氧化 铝 浓度 自动 控制 。
+
+(4) 摩尔 比 在 启动 后 一 个 月 内 不 得 低 于 2.8; 第 二 个 月 末 保 持 2.6; 第 三 个 月 保持 正常 ，
+如 2.4 左 右 。 电 解 质 中 Ca 含量 为 5% 左右，MgF: 含 量 为 4% 左右 。
+
+(5) 铝 液 高 度 在 启动 第 一 个 月 保持 17cm 左右 ， 第 二 个 月 起 保持 正常 ， 即 19cm 左右 。
+
+(6) 电解 质 高 度 在 启动 后 一 周 内 保持 30cm 左右 ， 第 二 周 保持 27cm 左右 ， 第 三 周至 本 月
+内 保持 24em 左右 ; 启动 第 二 个 月 起 保持 正常 ， 即 21cm 左右 。
+
+(7) 其 他 。 灌 铝 后 取 铝 试 样 和 电解 质 试 样 各 一 个 ; 第 一 次 阳极 效应 后 彻底 捞 炭 酒 ; 局 动 后
+第 二 天 开始 换 极 ， 第 四 天 出 铝 ; 启动 后 3 个 月 严禁 使 用 多 功能 机 组 进行 加 工 ， 只 有 更 换 阳 极 作
+业 时 可 局 部 加 工 ， 但 不 允许 破坏 已 有 炉 帮 ，。
+
+参考 文献
+
+谍 恩 生 . 160kA 中 心 下 料 预 焙 铝 电解 槽 生产 工艺 及 管理 . 长 沙 : 中 南 工业 大 学 出 版 社 ，1997
+
+田 应 甫 . 大 型 预 焙 铅 电解 模 生 产 实践 .长沙 : 中 南 工业 大 学 出 版 社 ，1997
+
+邱 竹 贤 ， 预 焙 醒 炼 铝 (第 3 版 ) . 北京 : 冶金 工业 出 版 社 ，2005
+
+Richards 多 BThermal bake-out of reduction cell cathodes-advantages and problem areas，Proceedings of Ses-
+
+sions ，AIME Annual Meeting 1983，Warrendale ，Pennsylvania: US Metallurgical Soc of AIME.， 1983: 857 ~
+
+860
+
+5 Harald Bentzen，jJan Hvistendahl，Marianne Jensen，Gas preheating and start of Soderberg cells，Light Metals ，
+1990: 741 ~747
+
+6 Zhang Li，Wu Chengbo，Pan Liangming ，et al，The heat transfer chatacteristic of the gas baking method for
+heating electrolytic cell，Zhu G M，Peng S Q，Li Q P ed. Intemational Conference on 了 Energy Conversion and
+Application (ICECA 2001) .Wuhan，China: Energy Conversion and Application，2001: 373 ~377
+
+7 ， 任 永 杰 . 155kA 预 焙 电解 构 焦 粒 焙烧 电解 质 湿 法 启动 新 技术 的 应 用 与 发 展 . 轻金属, 2000，(7) : 38 ~41
+
+8 合成 波 ， 张 力 ， 张 两 怀 等 . 铝 电解 槽 焙烧 用 和 撼 形 高 速 供 烧 器 的 研制 ， 重庆 大 学 学 报 ，2003,， 26(2) :
+
+18 ~21
+
+上 昌 一

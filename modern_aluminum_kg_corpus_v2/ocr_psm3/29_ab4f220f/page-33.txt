@@ -1,0 +1,58 @@
+29 ”电解 铝 厂 的 烟 气 净 化 与 环境 保护 “489，
+
+年 的 基础 上 进一步 全 面 的 降低 了 PFC 的 排放 量 ， 其 余 3 个 国家 ， 巴 西 和 法 国 的 FFC 排放 量 分
+别 比 1999 年 高 了 一 些 ; 加拿大 则 没有 报告 其 最 新 的 数据 。 从 1999 年 的 报告 可 以 看 出 PFC 排放
+量 的 降低 率 已 从 1990 年 的 319 提高 到 1998 年 的 78% 。2000 年 报告 指出 PFC 排放 量 的 降低 率
+范围 为 8% ~92% 。2000 年 PFC 排放 量 减 少 的 数值 见 表 29-25 。
+
+表 29-25 PFC 排放 量 的 减少 值 " (2000 年 报告 )
+
+9
+
+国 家 吨 铝 当量 CO? 排 放量/tQ 开始 年 结束 年 减少 这
+整个 减少 率 @ 年 减少 率
+
+澳大利亚 0.6 1990 1999 82 17
+巴林 0.5 1995 1999 67 24
+巴西 1.8 1.6 1994 1999 8 2
+加 拿 大 5.5 2.7 1990 1995 49 13
+法 国 @ 7.0 20 1990 1998 71 14
+德国 3.3 1.3 1990 1999 60 10
+新 西 兰 2.5 0.2 1990 1999 92 24
+挪威 3.8 1.1 1990 1999 70 13
+英国 6.8 0.9 1990 1998 87 22
+美 国 4.9 2.7 1990 1999 44 6
+全 每 吨 铬 排放 的 当量 C0: 量 〈 指 PFC， 即 CF4 和 CzF6) ;
+@ 整 个 减少 率 是 指 按 排 放 率 计算 的 ;
+他 仅 指 CF4 的 排放 率 。
+
+参考 文献
+
+K. 格 里 奥 特 海 姆 等 著 ， 铅 电解 技术 . 邱 竹 贤 ， 李 德 祥 译 , 北京 : 治 金工 业 出 版 社 ，1985
+
+贵 阻 馈 镁 设计 研究 院 . 四 川 启明 星 铝 业 有 限 责任 公司 电解 铝 项 目 二 期 环境 报告 书 . 2000. 《内 部 资料 )
+虽 维 宁 , 铝 工业 污染 物 排放 标准 及 排放 控制 . 中 国 铝 业 ，2004，(2): 36 -~39
+
+Haupin 双 . Mathematical model of fluoriden from hall-hiroult cells. Light Metals 1993. Warrendale ，PA: USA ，
+TMS ，1993: 237 ~ 263
+
+Rosatum A，Solheim A，Sterten A. Phase diagram data in the systerm Nas AlFi-AlF3 -Al 03. Light Metals
+1990. Warendale，PA: USA，TMS，1990: 311 ~323
+
+Rdgar Dermedde. Estimation of fluoride emmissions to the atmosphere. Light Metals 1998. Warrendale，PA :
+USA，TMS，1998: 317 ~321
+
+曹 成 山 ， 杨 瑞祥 . 预 焙 阳极 铝 电解 槽 氟 平 衡 ， 轻金属 ，2003，(11) : 42 ~4
+
+陈 人 讼 ， 邵 郑 等 铝 电 解 烟 气 净 化 设备 的 合理 选择 . 见 : 第 四 届 钻 电解 专业 委员 会 2001 年 年 会 暨 学
+术 交 流 会 论文 集 . 昆明 ，2001; 180 ~ 184
+
+姚 世 焕 . 温室 气体 过 所 化 炭 对 铝 电解 工业 的 影响 . 中 国 铝 业 ，2004，(8) : 8 ~15
+
+10 The international aluminum institute "s report on the aluminum industry ' s global perfluocarbon gas emmissions
+
+reduction programme resujts of the 2001 anode effect survey. www. world aluminum org. iai
+
+11 Anode effect survey 1994 ~ 1997 and perfluocarbon compounds emissions survey 1990 ~ 1997. www. world alu-
+
+mintm org. ial

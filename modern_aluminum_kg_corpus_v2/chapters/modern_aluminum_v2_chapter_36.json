@@ -1,0 +1,120 @@
+{
+  "book_id": "modern_aluminum_2008",
+  "book_title": "现代铝电解",
+  "chapter_file": "附录III 理论能耗数据和计算.pdf",
+  "chapter_id": "modern_aluminum_v2_chapter_36",
+  "chapter_order": 36,
+  "coverage_note": "This is the 616-page split-chapter collection. The complete source PDF has 650 pages; its 34-page difference is not yet mapped.",
+  "page_count": 3,
+  "pages": [
+    {
+      "book_id": "modern_aluminum_2008",
+      "book_page_ordinal_in_split_collection": 597,
+      "book_title": "现代铝电解",
+      "chapter_file": "附录III 理论能耗数据和计算.pdf",
+      "chapter_id": "modern_aluminum_v2_chapter_36",
+      "chapter_page": 1,
+      "graph_ingestion_status": "candidate_only",
+      "normalization": {
+        "operation": "remove spaces/tabs only when flanked by two CJK characters; trim line whitespace",
+        "raw_ocr_preserved": true,
+        "semantic_correction": "none"
+      },
+      "ocr_confidence": null,
+      "ocr_engine": "Tesseract 5.4.0 chi_sim",
+      "ocr_psm3_file": "modern_aluminum_kg_corpus_v2/ocr_psm3/附录_fae4f028/page-1.txt",
+      "ocr_psm3_file_sha256": "e87feb6b983d561002d4a81b9b0dc09d9169bc29fbc6768b9b9ab60483a8b99b",
+      "ocr_text_verbatim": "附录 下\n\n理论 能 耗 数据 和 计算\n\n附 表 亚 -1 电解 模 情 性 阳极 系统 的 理论 最 小 能 耗\n\n附录 严 。 理论 能 耗 数据 和 计算 “99 ，\n\n反应 物 温度 产物 温度 298 民 时 反应 热力 学 产物 -反应 物\n/9 LA%C (AL 0; ) 一 一 (2Al+1.53 02:) /eal. (gmol(Al) )\nAC -378179 0 - 0 189089\nA 刀 一 400500 0 0 200250\n泡 AS ]12 14 74 11155\n一 宇和 反应 过 程 理论 最 小 能 耗 能 耗 /KW -hkg-!\n电解 反应 能 耗 A6 8. 16\n维持 温度 的 热能 AH - AC) 0.48\n960 和 时 Al 的 热能 0. 39\n理论 最 小 值 9.03\n960 民 时 0 的 热能 0.27\n注 ，1.， lcal =4. 1868J;\n2. 热力 学 数据 C、 如 、S 来 自 附 表 下 3， 热 容 来 自 附 表 严 -5 和 附录 。\n附 表 亚 -2 ”电解 槽 炭 阳 极 系统 的 理论 最 小 能 耗\n反应 物 温度 产物 温度 298 民 时 反应 热力 学 产物 -反应 物\n[ 人 (2Ab0; + 3C) 一 (4AL+3 5C02) | /eal(g-mol(AD) -:\nAC |-756358| 0 0 一 282779 118395\nA5 |-801000| 0 0 一 282155 129711\n一 2 -一 绵 一 AS 24.3 4.1 27. 开 1S3.2 11311\n次 及 反应 过 程 理论 最 小 能 丰 能 耗 /kW.hvkg 1\n_ 3c | 电解 浊 | 3Co:\n5 一 二 一 电解 反应 能 耗 AC 5.11\n维持 温度 的 热能 〈AF - AG) 0.49\n960 和 时 Al 的 热能 0. 39\n理论 最 小 值 5. 99\n960 民 时 C0; 的 热能 0.17\n\n注 ; 1，lcal =4. 1868J;\n\n2. 热力 学 数据 C、 囊 、$ 来 自 哇 表 焉 -3 ， 比 热 容 来 自 附 表 下 -5 和 内 录 叹 。\n",
+      "page_id": "modern_aluminum_v2_36_001",
+      "page_segmentation_mode": 3,
+      "quality_flags": [
+        "raw_cjk_spacing_repaired_for_model_only"
+      ],
+      "record_type": "ocr_page_v2",
+      "review_status": "unreviewed",
+      "source_chapter_pdf": "现代铝电解/附录III 理论能耗数据和计算.pdf",
+      "source_chapter_pdf_sha256": "65720ce75765da896e3240d04a473e7bd0aa87910a668e5c1a54593f4ad9c81a",
+      "source_complete_book_pdf": "现代铝电解/现代铝电解 -- 刘业翔等著 -- 2008 -- 北京：冶金工业出版社 -- 9787502445768 -- 3244a0affa302decce91ad6f6afd9aee -- Anna’s Archive.pdf",
+      "source_complete_book_pdf_sha256": "e096610e547e0fdf44df811a9127046c27a3bc4989788a7069ffe3b75a8b562b",
+      "source_image": "aluminum_industry_qa_benchmark/knowledge_qa_only/KQA_P8_textbook_qa/batches/full_textbook_ocr/images/B01/附录_fae4f028/page-1.png",
+      "source_image_sha256": "2b8aa37da980cedff2f765521fc38f30442923806d6e4db0dbe6b124f9afc3ec",
+      "text_for_extraction": "附录下\n理论能耗数据和计算\n附表亚 -1 电解模情性阳极系统的理论最小能耗\n附录严 。 理论能耗数据和计算 “99 ，\n反应物温度产物温度 298 民时反应热力学产物 -反应物\n/9 LA%C (AL 0; ) 一一 (2Al+1.53 02:) /eal. (gmol(Al) )\nAC -378179 0 - 0 189089\nA 刀一 400500 0 0 200250\n泡 AS ]12 14 74 11155\n一宇和反应过程理论最小能耗能耗 /KW -hkg-!\n电解反应能耗 A6 8. 16\n维持温度的热能 AH - AC) 0.48\n960 和时 Al 的热能 0. 39\n理论最小值 9.03\n960 民时 0 的热能 0.27\n注 ，1.， lcal =4. 1868J;\n2. 热力学数据 C、 如 、S 来自附表下 3， 热容来自附表严 -5 和附录 。\n附表亚 -2 ”电解槽炭阳极系统的理论最小能耗\n反应物温度产物温度 298 民时反应热力学产物 -反应物\n[ 人 (2Ab0; + 3C) 一 (4AL+3 5C02) | /eal(g-mol(AD) -:\nAC |-756358| 0 0 一 282779 118395\nA5 |-801000| 0 0 一 282155 129711\n一 2 -一绵一 AS 24.3 4.1 27. 开 1S3.2 11311\n次及反应过程理论最小能丰能耗 /kW.hvkg 1\n_ 3c | 电解浊 | 3Co:\n5 一二一电解反应能耗 AC 5.11\n维持温度的热能 〈AF - AG) 0.49\n960 和时 Al 的热能 0. 39\n理论最小值 5. 99\n960 民时 C0; 的热能 0.17\n注 ; 1，lcal =4. 1868J;\n2. 热力学数据 C、 囊 、$ 来自哇表焉 -3 ， 比热容来自附表下 -5 和内录叹 。",
+      "use_constraint": "Any extracted claim must cite this page and be checked against source_image before acceptance."
+    },
+    {
+      "book_id": "modern_aluminum_2008",
+      "book_page_ordinal_in_split_collection": 598,
+      "book_title": "现代铝电解",
+      "chapter_file": "附录III 理论能耗数据和计算.pdf",
+      "chapter_id": "modern_aluminum_v2_chapter_36",
+      "chapter_page": 2,
+      "graph_ingestion_status": "candidate_only",
+      "normalization": {
+        "operation": "remove spaces/tabs only when flanked by two CJK characters; trim line whitespace",
+        "raw_ocr_preserved": true,
+        "semantic_correction": "none"
+      },
+      "ocr_confidence": null,
+      "ocr_engine": "Tesseract 5.4.0 chi_sim",
+      "ocr_psm3_file": "modern_aluminum_kg_corpus_v2/ocr_psm3/附录_fae4f028/page-2.txt",
+      "ocr_psm3_file_sha256": "3a7b1295cff4a51e644a6c63af8221d766c9a784f2cf7d3279b2092fc0261264",
+      "ocr_text_verbatim": "第 一 篇 ” 铝 电 解 理论 基础\n\n“100\n\n“ 谓 属 时 将 币 % 4ewgurmeH sonxg 半 S 9 Sn 甲 品 阅 本 Seuaxas 基 蚁 “《 训 入 支 下 洗 崩 杯 夯 》 革 法 米 器 背 人\n“于 确 讨 示 08 味 丽 07 04D “sprT pwed 其 旷 “《 提 王 枉 儿 吐 去 玫 》 芋 喜 米 器 阁 : 羽\n\n9.TZ 5 -06 650 6L 04 .055 L9yLyI- | 000.19- LZ0LST- | 000LS9- (3)7?TDIS 06 69T | 和 0-9z00f 我 玫 往 团\n606 6 9 让 5T907z- 599LTZ- | 004016- z0S 80 '09 妃 09-808bT 条 玫 熙 一\n865 ff [3 8 -88T Z69t5- Z8S8ZZ- 86LLS- 9z8ItZ- 0 区 00 '8T 阔\n8500 6 0 50C 0 0 0 0 (3)z0 00 ZE 万 十-Z8LL 入\nT90 TS 9'fEIZ 09zy6- gf8gb65 ZS0bp6- 8TS8568- (8)z09 10 钞 6-8EtCZT 次 沁 入 二\nT05 -省 6'L6T 808z5- 89zLET- 9Iy9Z- fZSOTT- (38)00 I0 8Z 0-80-059 淮 开 国 一\n98z 55 6'zZZ 0 0 0 0 (3)z1D TI6 '0L 小\nTI95 LS 0 0 0 0 9 TI0ZTI 0- 示 -0yb 盏 苹\nTS8T6L- 0y85y8- 0g8 . 50O5TV by0'z9T 志 辑 由 冰 竺\n切 /906- | 00656L5- | Sotb86- | 0006TTY- 0 下 二 8S-ZEET @ 叱 加 抽\n… 05， 50zTV\n85094 人 -| 006fSIT- | 8S0606- | 00re6zT- | ozHe.sozy | 96'551 二 氏 冰 三\n88 8T 6 S9T'ZT 6105 6LI8L5- | 008z8ST- | 00S00y- | 004S/9T- 5OzTV 96 'T0f T-8z-yE8T 骨 消 和 菌\n56'TZ ty8 16 T90 4 L 00[ L8Z0sI- | 0088z9- | 80889T- | 00zp0L- SIDIV YE '58I 0-04-9ytL 形 黎\nZ8 5 SE 这 t949 8 8Z 0 0 0 0 TV 86 9Z S06-6z 纺 角\nTouviTeo Iom/[ TomviTeo Tom TomvIeo Tour IonryTeo [om 人\n王 支 下 再 暂 风 圭 | NH SYD | 移 号 下 时 闪 工\n(s) 9 (s)8 (s)9 (s)\n\n咯 凌 过 冰 话 虹 此 号 于 号 束 工 肌 关 半 寺 和 句 与 人- 卫 华 其\n",
+      "page_id": "modern_aluminum_v2_36_002",
+      "page_segmentation_mode": 3,
+      "quality_flags": [
+        "complex_layout_formula_table_or_low_cjk_density",
+        "raw_cjk_spacing_repaired_for_model_only"
+      ],
+      "record_type": "ocr_page_v2",
+      "review_status": "unreviewed",
+      "source_chapter_pdf": "现代铝电解/附录III 理论能耗数据和计算.pdf",
+      "source_chapter_pdf_sha256": "65720ce75765da896e3240d04a473e7bd0aa87910a668e5c1a54593f4ad9c81a",
+      "source_complete_book_pdf": "现代铝电解/现代铝电解 -- 刘业翔等著 -- 2008 -- 北京：冶金工业出版社 -- 9787502445768 -- 3244a0affa302decce91ad6f6afd9aee -- Anna’s Archive.pdf",
+      "source_complete_book_pdf_sha256": "e096610e547e0fdf44df811a9127046c27a3bc4989788a7069ffe3b75a8b562b",
+      "source_image": "aluminum_industry_qa_benchmark/knowledge_qa_only/KQA_P8_textbook_qa/batches/full_textbook_ocr/images/B01/附录_fae4f028/page-2.png",
+      "source_image_sha256": "53b0cc3cef0e5635e47e7ac5d5c9fdb7328d77fc98da7346e0f01d3fdd57fa92",
+      "text_for_extraction": "第一篇 ” 铝电解理论基础\n“100\n“ 谓属时将币 % 4ewgurmeH sonxg 半 S 9 Sn 甲品阅本 Seuaxas 基蚁 “《 训入支下洗崩杯夯 》 革法米器背人\n“于确讨示 08 味丽 07 04D “sprT pwed 其旷 “《 提王枉儿吐去玫 》 芋喜米器阁 : 羽\n9.TZ 5 -06 650 6L 04 .055 L9yLyI- | 000.19- LZ0LST- | 000LS9- (3)7?TDIS 06 69T | 和 0-9z00f 我玫往团\n606 6 9 让 5T907z- 599LTZ- | 004016- z0S 80 '09 妃 09-808bT 条玫熙一\n865 ff [3 8 -88T Z69t5- Z8S8ZZ- 86LLS- 9z8ItZ- 0 区 00 '8T 阔\n8500 6 0 50C 0 0 0 0 (3)z0 00 ZE 万十-Z8LL 入\nT90 TS 9'fEIZ 09zy6- gf8gb65 ZS0bp6- 8TS8568- (8)z09 10 钞 6-8EtCZT 次沁入二\nT05 -省 6'L6T 808z5- 89zLET- 9Iy9Z- fZSOTT- (38)00 I0 8Z 0-80-059 淮开国一\n98z 55 6'zZZ 0 0 0 0 (3)z1D TI6 '0L 小\nTI95 LS 0 0 0 0 9 TI0ZTI 0- 示 -0yb 盏苹\nTS8T6L- 0y85y8- 0g8 . 50O5TV by0'z9T 志辑由冰竺\n切 /906- | 00656L5- | Sotb86- | 0006TTY- 0 下二 8S-ZEET @ 叱加抽\n… 05， 50zTV\n85094 人 -| 006fSIT- | 8S0606- | 00re6zT- | ozHe.sozy | 96'551 二氏冰三\n88 8T 6 S9T'ZT 6105 6LI8L5- | 008z8ST- | 00S00y- | 004S/9T- 5OzTV 96 'T0f T-8z-yE8T 骨消和菌\n56'TZ ty8 16 T90 4 L 00[ L8Z0sI- | 0088z9- | 80889T- | 00zp0L- SIDIV YE '58I 0-04-9ytL 形黎\nZ8 5 SE 这 t949 8 8Z 0 0 0 0 TV 86 9Z S06-6z 纺角\nTouviTeo Iom/[ TomviTeo Tom TomvIeo Tour IonryTeo [om 人\n王支下再暂风圭 | NH SYD | 移号下时闪工\n(s) 9 (s)8 (s)9 (s)\n咯凌过冰话虹此号于号束工肌关半寺和句与人- 卫华其",
+      "use_constraint": "Any extracted claim must cite this page and be checked against source_image before acceptance."
+    },
+    {
+      "book_id": "modern_aluminum_2008",
+      "book_page_ordinal_in_split_collection": 599,
+      "book_title": "现代铝电解",
+      "chapter_file": "附录III 理论能耗数据和计算.pdf",
+      "chapter_id": "modern_aluminum_v2_chapter_36",
+      "chapter_page": 3,
+      "graph_ingestion_status": "candidate_only",
+      "normalization": {
+        "operation": "remove spaces/tabs only when flanked by two CJK characters; trim line whitespace",
+        "raw_ocr_preserved": true,
+        "semantic_correction": "none"
+      },
+      "ocr_confidence": null,
+      "ocr_engine": "Tesseract 5.4.0 chi_sim",
+      "ocr_psm3_file": "modern_aluminum_kg_corpus_v2/ocr_psm3/附录_fae4f028/page-3.txt",
+      "ocr_psm3_file_sha256": "4973dd6b086982a7ec447a2b3c945338d2175552b64f2eda1268f5ced9b1653a",
+      "ocr_text_verbatim": "附录 下 理论 能 耗 数据 和 计算 “101，\n附 表 亚 -4 ”作为 温度 函数 的 生成 热 值 的 变化\n生成 热 /calmol-1!\n温度 /% 温度 /K AL 03 C Al C0; CO 02\n25 298 -400300 0 0 -94050 -26400 0\n727 1000 -404400 2310 18710 -94400 -26750 9249\n827 1100 -404000 3320 21710 -94250 -26900 10515\n927 1200 -403600 3850 24740 -94300 -27000 11843\n960 1233 -403500 4030 25750 -94300 -27100 12295\n1027 1300 -403200 4390 27790 -94300 -27300 13233\n1127 1400 -402800 4930 30850 -94300 -27350 14680\n注 : 1. 数值 来 自 “惰性 阳极 技术 研究 组 \"， 附 录 A9， 第 11 页 ;\n2，1Cal =4. 1868]。\n附 表 亚 -5 ”与 锅 生 产 有 关 的 气体 比热容\n(标准 摩尔 比热容 c=a+b7+ec，(7 了 和) )\n比热容 /cal. (mol,K) -1\n气 体 有 ec\n0， 6. 148 3. 102 x10 -3 -923 x10-7\nCO 6. 420 1. 665 x 10-3 -1.96 xl10-?\nCO， 6.214 10. 396 x10 -3 -35.45 x102\nCl 7. 576 2.424 x10-3 -0.65x10-\n\n注 ， 1. 数据 来 源 于 : 热力 学 的 另 一 种 近似 ， 双 .下 Ludar，1967;\n2，lcal =4. 1868J。\n",
+      "page_id": "modern_aluminum_v2_36_003",
+      "page_segmentation_mode": 3,
+      "quality_flags": [
+        "complex_layout_formula_table_or_low_cjk_density",
+        "raw_cjk_spacing_repaired_for_model_only"
+      ],
+      "record_type": "ocr_page_v2",
+      "review_status": "unreviewed",
+      "source_chapter_pdf": "现代铝电解/附录III 理论能耗数据和计算.pdf",
+      "source_chapter_pdf_sha256": "65720ce75765da896e3240d04a473e7bd0aa87910a668e5c1a54593f4ad9c81a",
+      "source_complete_book_pdf": "现代铝电解/现代铝电解 -- 刘业翔等著 -- 2008 -- 北京：冶金工业出版社 -- 9787502445768 -- 3244a0affa302decce91ad6f6afd9aee -- Anna’s Archive.pdf",
+      "source_complete_book_pdf_sha256": "e096610e547e0fdf44df811a9127046c27a3bc4989788a7069ffe3b75a8b562b",
+      "source_image": "aluminum_industry_qa_benchmark/knowledge_qa_only/KQA_P8_textbook_qa/batches/full_textbook_ocr/images/B01/附录_fae4f028/page-3.png",
+      "source_image_sha256": "30bc55acce87470cbf3eb92555d0be8a43c61a6b0765c8a64345a0248988b655",
+      "text_for_extraction": "附录下理论能耗数据和计算 “101，\n附表亚 -4 ”作为温度函数的生成热值的变化\n生成热 /calmol-1!\n温度 /% 温度 /K AL 03 C Al C0; CO 02\n25 298 -400300 0 0 -94050 -26400 0\n727 1000 -404400 2310 18710 -94400 -26750 9249\n827 1100 -404000 3320 21710 -94250 -26900 10515\n927 1200 -403600 3850 24740 -94300 -27000 11843\n960 1233 -403500 4030 25750 -94300 -27100 12295\n1027 1300 -403200 4390 27790 -94300 -27300 13233\n1127 1400 -402800 4930 30850 -94300 -27350 14680\n注 : 1. 数值来自 “惰性阳极技术研究组 \"， 附录 A9， 第 11 页 ;\n2，1Cal =4. 1868]。\n附表亚 -5 ”与锅生产有关的气体比热容\n(标准摩尔比热容 c=a+b7+ec，(7 了和) )\n比热容 /cal. (mol,K) -1\n气体有 ec\n0， 6. 148 3. 102 x10 -3 -923 x10-7\nCO 6. 420 1. 665 x 10-3 -1.96 xl10-?\nCO， 6.214 10. 396 x10 -3 -35.45 x102\nCl 7. 576 2.424 x10-3 -0.65x10-\n注 ， 1. 数据来源于 : 热力学的另一种近似 ， 双 .下 Ludar，1967;\n2，lcal =4. 1868J。",
+      "use_constraint": "Any extracted claim must cite this page and be checked against source_image before acceptance."
+    }
+  ],
+  "record_type": "chapter_ocr_corpus_v2",
+  "review_status": "unreviewed",
+  "source_chapter_pdf": "现代铝电解/附录III 理论能耗数据和计算.pdf",
+  "source_chapter_pdf_sha256": "65720ce75765da896e3240d04a473e7bd0aa87910a668e5c1a54593f4ad9c81a",
+  "source_pdf_pages": 3
+}

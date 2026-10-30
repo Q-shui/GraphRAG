@@ -1,0 +1,55 @@
+3 ”氧化 铝 在 电解 质 中 的 溶解 及 其 行为 39
+
+(1) 炉 帮 是 由 电解 质 所 凝固 而 成 的 ， 从 接触 液体 电解 质 处 起 ， 沿 槽 壁 形成 一 图 炉 帮 ， 内 空 处
+为 炉膛 。 在 靠近 液体 电解 质 处 的 炉 帮 含 Al0, 量 较 低 ， 靠 近 炭 素 内 衬 处 的 炉 帮 含 Al0, 量 较 高 。
+
+同 铝 液 接触 以 下 的 炉 帮 称 为 伸 腿 ， 它 向 铝 液 中 凸 出 。 生 产 实 践 表 明 ， 槽 内 铝 液 高 度 〈 工 业
+上 又 称 铝 水 平 ) 有 多 高 ， 伸 腿 也 就 相应 增高 。 因 为 铝 液 的 导热 性 比 电 解 质 好 ， 散 热 快 ， 故 与 铝
+液 接 触 处 的 炉 帮 长 得 大 而 厚 ， 形 成 了 伸 腿 。
+
+(2) 炉 帮 形成 的 厚薄 主要 取决 于 槽 壳 结 构 和 模子 工作 面 的 大 小 。 最 终 由 电解 生产 的 热 平
+衡 来 确定 。 显 而 易 见 ， 当 模子 的 热 收 入 减 小 时 〈 例 如 极 距 降低 ) ， 槽 子 变 冷 ， 炉 帮 将 变 厚 ; 当
+模子 热 收入 增多 时 ， 则 炉 帮 变 薄 。 反 之 ， 槽 子 散 热 大 ， 热 损失 大 ， 炉 帮 有 自动 变 厚 ， 当 模子 周边
+保温 好 ， 不 易 散 热 时 ， 炉 帮 有 自动 熔化 变 薄 。 炉 帮 的 “长 ”和 “化 ”是 一 定 条 件 下 电解 槽 具备
+的 自 调节 功能 。 如 今 科 技 发 展 ， 已 能 用 计算 机 模拟 出 由 于 热平衡 的 变化 ， 引 起 炉膛 内 型 变化 的
+曲线 图 。
+
+(3) 在 新 槽 启动 或 大 修 横 槽 底 周边 加 入 固体 物料 CaF: 和 NaF (或 苏打 ) ， 作 为
+日 后 形成 炉膛 的 骨 料 ， 当 浇 和 人 液体 电解 质 时 ， 角 部 能 形成 炉 帮主 体 。
+
+启动 期 间 ， 采 取 “ 高 温 建 炉膛 ”的 操作 方法 ， 可 为 日 后 形成 规整 的 耐 熔化 的 炉膛 打下 基
+础 ， 使 后 期 的 生产 顺利 并 获得 高 产 。
+
+参考 文 献
+
+Thonstad JJ，et al. Aluminum Electrolysis ，3rd edition. Dusseldorf: Aluminum-Verlag ，2001
+
+2 Kuschel GTI，Welch B JJ Further stuqies of alumina dissolution under conditions similar to cell operation。 也 uel
+R. Cutshall，Light Metals，Warrendale ，Pennsylvania: TMS light metals committee ，1991 : 229 ~ 303
+
+3 Thonstad J，Liu Yexiang，The effect of an alumina layer at the electrolyte/aluminium interface. Bell Cordon
+M. Light Metals. Warrendale，BPennsylvania: TMS light metals committee ，1981: 303 ~ 312
+
+4 Soiheim A，et al. Liquiqds temperature andq alumina solubility in the system NasAlFe-AlF; -LiF-CaF2-MgF2:，Ev-
+ans James 多 Light Metals，Warrendale ，Pennsylvania:， TMS light metals committee ，1995 : 451 ~ 460
+
+5 Pauljsen K A，et al Curent afficiency at a fanction of the contents of Alumina and CaF2> in industrial Alumin-
+ium Electrolysis cells。Subodh K. Das，Light Metals，Warrendale ，Pennsylvania: TMS light metals committee ，
+1993 : 233 ~ 238
+Belyaev AI Electrolyte of aluminium electrolysis cel，Moscow: Metallurzdat ，1961 : 129
+
+7 Welch B ]，et al. The interface of aluminium properties on its dissolution in smelting electrolyte. Miller R 开 .
+Light Metals。Warrendale ，Pennsylvania: TMS light metals committee ，1986: 35 ~ 39
+
+8 ”0ve Kobbeltvedt，Sverre Rolseth ，Jomar Thonstad. On the mechanisms of alumina dissolution with relevance to
+point feeding aluminium cell，Wayne Hale，Light Metals，Warrendale ，Pennsylvania: TMS light metals com-
+mittee，1996: 421 ~427
+
+9 Lillebuen B，et al. Alumina dissolution in point-fed cells. Cutshall Euel R。Light Metals. Warrendale ，Pennsyl-
+vania: TMS light metals committee ，1992 : 449 ~ 452
+
+10 ”KKvande H Pseudo ressistance curves for aluminium cell control alumina dissolution and cell dynamics. 于 Kvande.
+
+Light Metals，Warrendale ，Pennsylvania，TMS light metals committee ，1997: 403 ~409
+11 “Kobbeltvedt O，Moxnes B P. On the bath flow Alumina distribution and anode gas release in aluminium
+cells. Vande HK，Light Metals， 妈 arendale，Pennsylvania: TMS light metals committee ，1997 : 369 ~ 452

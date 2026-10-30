@@ -1,0 +1,42 @@
+14 ” 铝 电 解 生产 中 的 参数 测量 “175，
+
+质 流 场 和 阳极 气泡 干扰 等 ， 还 需 作 大 量 研究 工作 才 有 工业 应 用 价值 。
+
+fo 一
+
+习 了 上
+
+9
+
+参考 文 献
+
+龙凤 翔 ， 王 云 利 ， 王 魁 汉 . 馈 电 解 温度 间歇 式 在 线 测 量 . 轻金属 ，2002，(5) : 39 -41
+
+李 动 .提高 贵州 铝 厂 160kA 预 焙 铝 电解 槽 控制 系统 的 控制 水 平 : [硕士 学 位 论文 ] . 长 沙 : 中 南 工业
+大 学 ，1989
+
+周 萍 ， 梅 炽 . 铝 电解 模 构 膀 内 形 的 连续 检测 . 轻金属 ，1992，(4) : 19
+
+王 化 章 ， 薛 健 ， 刘 业 翔 等 .高温 熔 体 的 测 温 方 法 及 其 装置 . 中 国 专利 91106724，1991
+
+徐福 仓 ， 李 蔓 . 用 于 铅 电解 质 动态 测 温 的 一 种 新 算法 . 自动 化 仪表 ，1999，20(8) : 13 ~ 15
+
+喻 学 研 ， 王 化 章 ， 薛 健 等 . 铝 电解 槽 动态 法 测 温 用 热电 偶 . 有 色 金 属 ，1996，(2) : 76 ~79
+
+李 动 ， 刘 业 翔 ， 黄 永忠 等 点 式 下 料 铝 电 解 槽 电解 质 温度 模型 中 国有 色 金 属 学 报 ，1994, 4 (2) :
+12 ~16
+
+Can YY R，GCao Z S,， Zhang A L，Multifunctional sensor for use in aluminum cells。Light Metals ，1995 : 233 -~
+240
+
+Verstreken P，Bath Liquidus，Temperature sensor for molten salts，Light Metals ，1996: 437 ~ 444
+
+10 Jgrimsey 了 An in-bath liquidus measurement for molten salts and slag，Light Metals ，1996:; 1149 ~ 1154
+
+11
+
+黄 攀 ， 王 俊杰 . 铝 电解 工业 中 参数 测量 技术 的 新 进展 . 仪表 技术 与 传感器 ，2002，(8) : 52 ~ 54
+
+12 Wilson C A，Tabereaux A T. Aljumina control in center-break cells. Light Metal ，TMS (有 arrendale，Penn-
+
+sylyania) ，1983 : 479 ~493

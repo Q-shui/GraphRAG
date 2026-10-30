@@ -1,0 +1,153 @@
+{
+  "book_id": "modern_aluminum_2008",
+  "book_title": "现代铝电解",
+  "chapter_file": "附录I 铝的各种性质.pdf",
+  "chapter_id": "modern_aluminum_v2_chapter_34",
+  "chapter_order": 34,
+  "coverage_note": "This is the 616-page split-chapter collection. The complete source PDF has 650 pages; its 34-page difference is not yet mapped.",
+  "page_count": 4,
+  "pages": [
+    {
+      "book_id": "modern_aluminum_2008",
+      "book_page_ordinal_in_split_collection": 588,
+      "book_title": "现代铝电解",
+      "chapter_file": "附录I 铝的各种性质.pdf",
+      "chapter_id": "modern_aluminum_v2_chapter_34",
+      "chapter_page": 1,
+      "graph_ingestion_status": "candidate_only",
+      "normalization": {
+        "operation": "remove spaces/tabs only when flanked by two CJK characters; trim line whitespace",
+        "raw_ocr_preserved": true,
+        "semantic_correction": "none"
+      },
+      "ocr_confidence": null,
+      "ocr_engine": "Tesseract 5.4.0 chi_sim",
+      "ocr_psm3_file": "modern_aluminum_kg_corpus_v2/ocr_psm3/附录_820466ed/page-1.txt",
+      "ocr_psm3_file_sha256": "213effc613f5e4591e5517f6419299b89818934cc58b9d05c371e8037fae9a58",
+      "ocr_text_verbatim": "附录 [\n\n附录 I\n\n铝 的 各 种 性 质\n\n铝 的 各 种 性 质\n\n。 13 ，\n\n附 表 I-1 ” 铝 的 性 质\n原子 序数 13\n原子 半径 /nm 0.143\n相对 原子 质量 26. 98154\n晶体 结构 面 心 立 方 体\n电子 排 布 Ne 3923p\n序 号 ev\n1 5. 99\n2 18.8\n原子 性 质 电离 电位 3 28.4\n4 120\n] 154\n6 190\n天 外 符 疝 同性 分 质量 数 百分比 /%\n27 100\n光电 子 功 函 数 /ev 4.2\n热 中 子 捕获 鹤 面 /bams 0.232\n价 态 3\n电阻 率 (20Y )/kQ . em 2.67\n温度 系数 (0 ~ 100YC )AK 0.0045\n电 性 质\n超 导 临界 温度 人 K L 175\n相对 铀 的 热电 动 势 (0 ~ 100Y )/mv +0.42\n材料 情况 软 下 单 品 体\n体积 弹性 模 量 /GPa 75.2\n使 度 21 35 ~48\n力学 性 质 泊 松 比 0.345\n拉 伸 弹性 模 景 /GPa 70.6\n拉 伸 应 力 /MPa 50 ~90 130 ~ 195\n屈服 应 力 /MPa 10 ~35 110 ~170\n\n",
+      "page_id": "modern_aluminum_v2_34_001",
+      "page_segmentation_mode": 3,
+      "quality_flags": [
+        "raw_cjk_spacing_repaired_for_model_only"
+      ],
+      "record_type": "ocr_page_v2",
+      "review_status": "unreviewed",
+      "source_chapter_pdf": "现代铝电解/附录I 铝的各种性质.pdf",
+      "source_chapter_pdf_sha256": "a2ea0c25e902cbebb1d197a0a254a0a28b91180be2354d58e2fce6d97209d7d0",
+      "source_complete_book_pdf": "现代铝电解/现代铝电解 -- 刘业翔等著 -- 2008 -- 北京：冶金工业出版社 -- 9787502445768 -- 3244a0affa302decce91ad6f6afd9aee -- Anna’s Archive.pdf",
+      "source_complete_book_pdf_sha256": "e096610e547e0fdf44df811a9127046c27a3bc4989788a7069ffe3b75a8b562b",
+      "source_image": "aluminum_industry_qa_benchmark/knowledge_qa_only/KQA_P8_textbook_qa/batches/full_textbook_ocr/images/B01/附录_820466ed/page-1.png",
+      "source_image_sha256": "7ebdc8b9bb00abb303290029c4aa25ce98a118c9385761cc01ee40e55e8d5936",
+      "text_for_extraction": "附录 [\n附录 I\n铝的各种性质\n铝的各种性质\n。 13 ，\n附表 I-1 ” 铝的性质\n原子序数 13\n原子半径 /nm 0.143\n相对原子质量 26. 98154\n晶体结构面心立方体\n电子排布 Ne 3923p\n序号 ev\n1 5. 99\n2 18.8\n原子性质电离电位 3 28.4\n4 120\n] 154\n6 190\n天外符疝同性分质量数百分比 /%\n27 100\n光电子功函数 /ev 4.2\n热中子捕获鹤面 /bams 0.232\n价态 3\n电阻率 (20Y )/kQ . em 2.67\n温度系数 (0 ~ 100YC )AK 0.0045\n电性质\n超导临界温度人 K L 175\n相对铀的热电动势 (0 ~ 100Y )/mv +0.42\n材料情况软下单品体\n体积弹性模量 /GPa 75.2\n使度 21 35 ~48\n力学性质泊松比 0.345\n拉伸弹性模景 /GPa 70.6\n拉伸应力 /MPa 50 ~90 130 ~ 195\n屈服应力 /MPa 10 ~35 110 ~170",
+      "use_constraint": "Any extracted claim must cite this page and be checked against source_image before acceptance."
+    },
+    {
+      "book_id": "modern_aluminum_2008",
+      "book_page_ordinal_in_split_collection": 589,
+      "book_title": "现代铝电解",
+      "chapter_file": "附录I 铝的各种性质.pdf",
+      "chapter_id": "modern_aluminum_v2_chapter_34",
+      "chapter_page": 2,
+      "graph_ingestion_status": "candidate_only",
+      "normalization": {
+        "operation": "remove spaces/tabs only when flanked by two CJK characters; trim line whitespace",
+        "raw_ocr_preserved": true,
+        "semantic_correction": "none"
+      },
+      "ocr_confidence": null,
+      "ocr_engine": "Tesseract 5.4.0 chi_sim",
+      "ocr_psm3_file": "modern_aluminum_kg_corpus_v2/ocr_psm3/附录_820466ed/page-2.txt",
+      "ocr_psm3_file_sha256": "788592f39953b451a4877fde315f00a1fec74b919100c7e025915e0ab263348c",
+      "ocr_text_verbatim": "\" 14， 附录 工 。 铝 的 各 种 性 质\n\n续 附 表 工 -1\n\n沸点 /%C 2467\n物理 性 质 密度 (20YC )[/g .cm 2. 70\n迷 点 /所 660.4\n\n线 膨 胀 系数 (0 ~ 100% )/K-! 23.5 x10 -54\n蒜 发 潜 热 /] 8 10800\n热 性 质 熔 解 潜 热 /J' g 388\n比热容 (25% )/ 了 到- 、 kg” 900\n导热 系数 (0 ~100% )/ 驳 ，m7K-: 237\n\n注 : 数据 来 自 “Aluminium( Al) -Material Information ，http : //www. goodfellow. com/cspyactive/STATICAE/Aluminium-\n\nHTML (2007-12-28)”。\n",
+      "page_id": "modern_aluminum_v2_34_002",
+      "page_segmentation_mode": 3,
+      "quality_flags": [
+        "complex_layout_formula_table_or_low_cjk_density",
+        "raw_cjk_spacing_repaired_for_model_only"
+      ],
+      "record_type": "ocr_page_v2",
+      "review_status": "unreviewed",
+      "source_chapter_pdf": "现代铝电解/附录I 铝的各种性质.pdf",
+      "source_chapter_pdf_sha256": "a2ea0c25e902cbebb1d197a0a254a0a28b91180be2354d58e2fce6d97209d7d0",
+      "source_complete_book_pdf": "现代铝电解/现代铝电解 -- 刘业翔等著 -- 2008 -- 北京：冶金工业出版社 -- 9787502445768 -- 3244a0affa302decce91ad6f6afd9aee -- Anna’s Archive.pdf",
+      "source_complete_book_pdf_sha256": "e096610e547e0fdf44df811a9127046c27a3bc4989788a7069ffe3b75a8b562b",
+      "source_image": "aluminum_industry_qa_benchmark/knowledge_qa_only/KQA_P8_textbook_qa/batches/full_textbook_ocr/images/B01/附录_820466ed/page-2.png",
+      "source_image_sha256": "6f0933cd2c2d1d45d268da828b3b5543557ab088c60f2b8bb2da74ce6e75f35a",
+      "text_for_extraction": "\" 14， 附录工 。 铝的各种性质\n续附表工 -1\n沸点 /%C 2467\n物理性质密度 (20YC )[/g .cm 2. 70\n迷点 /所 660.4\n线膨胀系数 (0 ~ 100% )/K-! 23.5 x10 -54\n蒜发潜热 /] 8 10800\n热性质熔解潜热 /J' g 388\n比热容 (25% )/ 了到- 、 kg” 900\n导热系数 (0 ~100% )/ 驳 ，m7K-: 237\n注 : 数据来自 “Aluminium( Al) -Material Information ，http : //www. goodfellow. com/cspyactive/STATICAE/Aluminium-\nHTML (2007-12-28)”。",
+      "use_constraint": "Any extracted claim must cite this page and be checked against source_image before acceptance."
+    },
+    {
+      "book_id": "modern_aluminum_2008",
+      "book_page_ordinal_in_split_collection": 590,
+      "book_title": "现代铝电解",
+      "chapter_file": "附录I 铝的各种性质.pdf",
+      "chapter_id": "modern_aluminum_v2_chapter_34",
+      "chapter_page": 3,
+      "graph_ingestion_status": "candidate_only",
+      "normalization": {
+        "operation": "remove spaces/tabs only when flanked by two CJK characters; trim line whitespace",
+        "raw_ocr_preserved": true,
+        "semantic_correction": "none"
+      },
+      "ocr_confidence": null,
+      "ocr_engine": "Tesseract 5.4.0 chi_sim",
+      "ocr_psm3_file": "modern_aluminum_kg_corpus_v2/ocr_psm3/附录_820466ed/page-3.txt",
+      "ocr_psm3_file_sha256": "ccf3bf230b097d2c179d1ce9788aad680a34fd2036bf26ca22cc58b17975dcd0",
+      "ocr_text_verbatim": "第 -条 ”负电\n\n2 铝 电 解 质 及 其 物理 化 学 性 质 …………. 17\n3. 1 往事 eeooosemeeeereeomoeeeeeeeeerm 17\n2.2 银 电 解 质 的 相 平衡 图 ee 18\n23 工业 铝 电解 质 的 物理 化 学 性 质 … 23\n2.4 低温 电解 质 ee 29\n2.5 银 电 解 质 成 分 的 改进 pe， 30\n区 者 区 藤 meanaauarswenagasaeeaankaaaaam 31\n\n3 氧化 铝 在 电解 质 中 的 溶解 及 其 行为 ，… 32\n3. 1 概述 ooeveeoeooyoresceeooiioooeeoeosooyou 32\n3.2 氧化 银 的 物理 性 质 pe 32\n\n3.3 氧化 银 深 解 的 实验 室 研 究 .……… 32\n3.4 工业 电解 模 上 氧化 银 深 解 研究 … 35\n\n3.5 结 壳 、 炉 帮 及 沉淀 .pe 36\n参考 文献 39\n4 冰 电 石 -氧化 铝 (Na,AlF,-ALO,)\n系 熔 盐 结构 RN 40\n4.1 概述 40\n4.2 NaF-AIF, 系 泪 体 结构 “ee 40\n4.3 Na AIF。-ALO, 系 迷 体 结构 ，………: 41\n4.4 离子 实体 的 迁移 pp 44\n4.5 电荷 迁移 主体 一 Na 44\n参考 文献 45\ns 铝 电解 的 电极 过 程 pp 46\n5.1 阴极 过 程 46\n5.2 阳极 过 程 51\n\n6.1 概述\n6.2 临界 电流 密度\n6.3 阳极 效应 时 的 气体 分 析 .pp\n6.4 阳极 效应 机 理 pp\n\n铝 电解 中 谈 阳极 上 的 电 催化 作用 ……\n\n7.1 概述\n\n7.2 挫 杂 类 阳极 的 电 催化 功能\n\n7.3 挫 杂 炭 阳 极 在 馈 电解 中 的\n其 他 行为\n\neseeseeseessseseoseocooeooey\n\n锅 在 电解 质 中 的 溶解 及 二 次\n才 应 报 兴 aeeeaeeenmnaanassaasaoooooeoons\n\n8. 1 概述 ee\n8.2 馈 在 冰晶 石 -氧化 铝 熔 盐 中\n\n的 深 解 eeeseeees\n8.3 馈 在 冰晶 石 熔 体 中 的 湾 解 度 ……\n8.4 早期 研究 工作 的 若干 资料 ，…………，\n8.5 CO0: 在 冰 蝇 石 -氧化 银 烷 体 中 的\n\n猴 静 魔 cowemrenerresseamsneaaeooeon\n8.6 工业 电解 档 上 馈 的 溶解 与 损失 …\n\n",
+      "page_id": "modern_aluminum_v2_34_003",
+      "page_segmentation_mode": 3,
+      "quality_flags": [
+        "raw_cjk_spacing_repaired_for_model_only"
+      ],
+      "record_type": "ocr_page_v2",
+      "review_status": "unreviewed",
+      "source_chapter_pdf": "现代铝电解/附录I 铝的各种性质.pdf",
+      "source_chapter_pdf_sha256": "a2ea0c25e902cbebb1d197a0a254a0a28b91180be2354d58e2fce6d97209d7d0",
+      "source_complete_book_pdf": "现代铝电解/现代铝电解 -- 刘业翔等著 -- 2008 -- 北京：冶金工业出版社 -- 9787502445768 -- 3244a0affa302decce91ad6f6afd9aee -- Anna’s Archive.pdf",
+      "source_complete_book_pdf_sha256": "e096610e547e0fdf44df811a9127046c27a3bc4989788a7069ffe3b75a8b562b",
+      "source_image": "aluminum_industry_qa_benchmark/knowledge_qa_only/KQA_P8_textbook_qa/batches/full_textbook_ocr/images/B01/附录_820466ed/page-3.png",
+      "source_image_sha256": "30e2e5a9dcddd658763cf0af4fd471c80bbf06d1a4e9d80989d4b6579caa6cab",
+      "text_for_extraction": "第 -条 ”负电\n2 铝电解质及其物理化学性质 …………. 17\n3. 1 往事 eeooosemeeeereeomoeeeeeeeeerm 17\n2.2 银电解质的相平衡图 ee 18\n23 工业铝电解质的物理化学性质 … 23\n2.4 低温电解质 ee 29\n2.5 银电解质成分的改进 pe， 30\n区者区藤 meanaauarswenagasaeeaankaaaaam 31\n3 氧化铝在电解质中的溶解及其行为 ，… 32\n3. 1 概述 ooeveeoeooyoresceeooiioooeeoeosooyou 32\n3.2 氧化银的物理性质 pe 32\n3.3 氧化银深解的实验室研究 .……… 32\n3.4 工业电解模上氧化银深解研究 … 35\n3.5 结壳 、 炉帮及沉淀 .pe 36\n参考文献 39\n4 冰电石 -氧化铝 (Na,AlF,-ALO,)\n系熔盐结构 RN 40\n4.1 概述 40\n4.2 NaF-AIF, 系泪体结构 “ee 40\n4.3 Na AIF。-ALO, 系迷体结构 ，………: 41\n4.4 离子实体的迁移 pp 44\n4.5 电荷迁移主体一 Na 44\n参考文献 45\ns 铝电解的电极过程 pp 46\n5.1 阴极过程 46\n5.2 阳极过程 51\n6.1 概述\n6.2 临界电流密度\n6.3 阳极效应时的气体分析 .pp\n6.4 阳极效应机理 pp\n铝电解中谈阳极上的电催化作用 ……\n7.1 概述\n7.2 挫杂类阳极的电催化功能\n7.3 挫杂炭阳极在馈电解中的\n其他行为\neseeseeseessseseoseocooeooey\n锅在电解质中的溶解及二次\n才应报兴 aeeeaeeenmnaanassaasaoooooeoons\n8. 1 概述 ee\n8.2 馈在冰晶石 -氧化铝熔盐中\n的深解 eeeseeees\n8.3 馈在冰晶石熔体中的湾解度 ……\n8.4 早期研究工作的若干资料 ，…………，\n8.5 CO0: 在冰蝇石 -氧化银烷体中的\n猴静魔 cowemrenerresseamsneaaeooeon\n8.6 工业电解档上馈的溶解与损失 …",
+      "use_constraint": "Any extracted claim must cite this page and be checked against source_image before acceptance."
+    },
+    {
+      "book_id": "modern_aluminum_2008",
+      "book_page_ordinal_in_split_collection": 591,
+      "book_title": "现代铝电解",
+      "chapter_file": "附录I 铝的各种性质.pdf",
+      "chapter_id": "modern_aluminum_v2_chapter_34",
+      "chapter_page": 4,
+      "graph_ingestion_status": "candidate_only",
+      "normalization": {
+        "operation": "remove spaces/tabs only when flanked by two CJK characters; trim line whitespace",
+        "raw_ocr_preserved": true,
+        "semantic_correction": "none"
+      },
+      "ocr_confidence": null,
+      "ocr_engine": "Tesseract 5.4.0 chi_sim",
+      "ocr_psm3_file": "modern_aluminum_kg_corpus_v2/ocr_psm3/附录_820466ed/page-4.txt",
+      "ocr_psm3_file_sha256": "67286ee95227174ba7b9e2d234666e11be5beea1a426b940a520dbd59bd1f765",
+      "ocr_text_verbatim": "。16 ，\n\n第 一 篇 ” 铝 电解 理论 基础\n\n人 铝 电 解 的 电流 效率 re\n\n9.1\n9.2\n9.3\n\n10. 1\n\n概述 Se\n工业 预 焙 覃 上 的 电流 效率 问题 …\n\n若干 基本 概念 pp\n\n10.2 电解 用 原材料 的 理论\n\n86\n\n88\n89\n\n10.4 馈 电 解 节能 的 方向 ，ee 91\n参考 文 直 ee 93\n附录 开国 体 盐 及 熔 盐 的 结构 ………………， 94\nIT.1 固态 盐 结构 基本 概念 94\nI.2 冰 唱 石 与 氧化 银 的 结构 95\nT.3 次 盐 结 构 97\n开 .4 离子 成 对 势能 ，pp 98\n参考 文献 98\n附录 于 ”理论 能 耗 数据 和 计算 ……………: 99\n附录 到 铝 热 容 和 熔 解 热 数据 es 102\n",
+      "page_id": "modern_aluminum_v2_34_004",
+      "page_segmentation_mode": 3,
+      "quality_flags": [
+        "raw_cjk_spacing_repaired_for_model_only"
+      ],
+      "record_type": "ocr_page_v2",
+      "review_status": "unreviewed",
+      "source_chapter_pdf": "现代铝电解/附录I 铝的各种性质.pdf",
+      "source_chapter_pdf_sha256": "a2ea0c25e902cbebb1d197a0a254a0a28b91180be2354d58e2fce6d97209d7d0",
+      "source_complete_book_pdf": "现代铝电解/现代铝电解 -- 刘业翔等著 -- 2008 -- 北京：冶金工业出版社 -- 9787502445768 -- 3244a0affa302decce91ad6f6afd9aee -- Anna’s Archive.pdf",
+      "source_complete_book_pdf_sha256": "e096610e547e0fdf44df811a9127046c27a3bc4989788a7069ffe3b75a8b562b",
+      "source_image": "aluminum_industry_qa_benchmark/knowledge_qa_only/KQA_P8_textbook_qa/batches/full_textbook_ocr/images/B01/附录_820466ed/page-4.png",
+      "source_image_sha256": "56466505507be4ce3c55665a87cd297cbe4fe2afd426363f2ddd79f16193fffc",
+      "text_for_extraction": "。16 ，\n第一篇 ” 铝电解理论基础\n人铝电解的电流效率 re\n9.1\n9.2\n9.3\n10. 1\n概述 Se\n工业预焙覃上的电流效率问题 …\n若干基本概念 pp\n10.2 电解用原材料的理论\n86\n88\n89\n10.4 馈电解节能的方向 ，ee 91\n参考文直 ee 93\n附录开国体盐及熔盐的结构 ………………， 94\nIT.1 固态盐结构基本概念 94\nI.2 冰唱石与氧化银的结构 95\nT.3 次盐结构 97\n开 .4 离子成对势能 ，pp 98\n参考文献 98\n附录于 ”理论能耗数据和计算 ……………: 99\n附录到铝热容和熔解热数据 es 102",
+      "use_constraint": "Any extracted claim must cite this page and be checked against source_image before acceptance."
+    }
+  ],
+  "record_type": "chapter_ocr_corpus_v2",
+  "review_status": "unreviewed",
+  "source_chapter_pdf": "现代铝电解/附录I 铝的各种性质.pdf",
+  "source_chapter_pdf_sha256": "a2ea0c25e902cbebb1d197a0a254a0a28b91180be2354d58e2fce6d97209d7d0",
+  "source_pdf_pages": 4
+}

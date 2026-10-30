@@ -1,0 +1,20 @@
+10 ” 馈 电 解 的 理论 最 低能 耗 与 节能 ，93 ，
+
+参考 文献
+
+William T Choate ，John A S$ Creen. U. S. Energy requirments for aluminum production ;historical perspective，
+theoretical limits and new opportunities. Prepared under contract to BCS，Incorporated ，columbia，MD ，for
+the U. S. Department of Energy ，Efficiency and Renewable Energy，Washington D. C. ，2003
+
+刘 业 翔 . 铝 电解 节能 科研 新 动向 . 轻金属 ，1987，(1) : 32
+
+K&vande 有 ，Haupin 双 . Cell vojtage in aluminum electrolysis; a practical approach. JOM ，2000， (2) : 31 ，
+33 ~37
+
+刘 业 翔 . 论 铝 电解 的 节能 潜力 . 《轻金属 》 创 刊 40 周年 文集 ，2004
+
+Liu Yexiang， 双 ang Xiangmin, New type electrocatalysts for energy saving in aluminum electrolysis. Light Met-
+als，1995 : 247
+
+Yang Jianhong，Liu Yexiang，et alL Lowering the anodic overvoltage by doping the carbon anodes in aluminum
+electrolysis. Light Metals ，1999 : 453

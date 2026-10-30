@@ -1,0 +1,57 @@
+“260. 第 二 篇 ” 铝 电 解 生产 工程 技术
+
+作业 质量 ， 及 时 消除 可 能 引起 病 模 的 潜在 因素 ， 使 电解 模 长 期 平稳 运行 。
+
+(3) 保证 稳定 的 电力 供应 。 若 系列 电流 供应 不 稳 、 过 流 或 欠 流 ， 都 将 严重 影响 电解 槽 寿
+
+命 。 过 流 会 使 槽 内 热 收入 过 多 ， 瓦 解 炉膛 ， 成 为 热 档 ， 导 致 侧 部 内 衬 破损 。 从 流 则 引起 电解 温
+度 过 低 ， 出 现 冷 行程 ， 渗 透 到 党 块 中 的 电解 质 上 凝固 ， 将 促使 淡 块 隆起 或 断裂 ; 特别 因 电力 短缺
+
+被 迫 停 槽 后 ， 再 进行 二 次 启动 ， 更 会 促使 内 衬 破损 ， 加 速 槽 壳 变 形 ， 大 大 缩短 电解 本
+
+的 使 用 寿
+
+命 。 因 此 ， 系 列 电力 供应 必须 稳定 ， 特 别 不 允许 任意 降低 电流 或 停电 。
+
+上 mi 一
+
+20
+
+参考 文 献
+
+田 应 肃 . 大 型 预 焙 铝 电解 枢 生 产 实践 . 长沙 : 中 南 工业 大 学 出 版 社 , 2001
+尹 书 奢 , 邵 勇 , 翰 继 明 ， 等 . 大 型 预 焙 铝 电解 槽 阴极 内 衬 破损 特征 及 检测 . 轻金属 , 2005(12) : 29 ~ 32
+孙 志 宏 ， GCL190kA 预 焙 铝 电解 槽 槽 寿命 问题 研究 ; [ 硕士 学 位 论文 ]. 长 沙 : 中 南大 学 ,2005
+李兵 , 彭 建 项 .电解 档 早期 破损 的 成 因 与 对 策 ， 云 南 冶金 , 1999， 28(6) : 20 ~24
+Sorlie M，0ye 丽 A.Cathodes in aluminum electrolysis，3rd edition ，Dusseldorf，FRC : Aluminium-Verlag，
+1994
+Vadla JJ Simultaneous 中 uing of bar to block and block to block on relining. Cutshall 卫 用，Light Metals 1992.
+Warrendale PA，USA: TMS，1992. 795 ~799
+刘海 石 ， 延 长 大 型 铝 电 解 槽 寿命 的 研究 : [博士 学 位 论文 ] . 沈阳 : 东北 大 学 , 2006
+朱 广 斌 , 朱 六 群 ， 铝 电解 槽 阴极 内 衬 破损 特征 与 检测 ， 世界 有 色 人 金属, 2006(12) : 33 ~ 34
+刘 德 福 , 朱 晓 庆 , 刘 世 恒 .160kA 预 焙 铝 电解 槽 破损 的 维护 及 修补 方法 探讨 ， 轻 金属 ，2002 (11 ) :
+30 ~33
+李 世 军 . 大 型 预 焙 银 电 解构 破损 的 检测 、 判 断 及 维护 ， 有 色 金 属 〈 冶 炼 部 分 ) ，1999(3) : 33 ~36
+Sorlie M，Gran 瑞 . Cathode collector bar-to-carbon contact resistance，Cutshall E R，Light Metals 1992，War-
+rendale PA，USA: TMS，1992 ，779 ~ 787
+Rapoport M B，Samoilenko V N，Deformation of cathode blocks in aluminium baths during process of electrol-
+ysis，Tsvet Met，19357,， 30(2) : 44 ~51
+peyneau 了 M ，Caspard ] R，Dumas D ，et 引 .Laboratory testing of ihe expansion under pressure due to sodium
+intercalation in carbon cathode materials for aluminium smelters、Cutshall E R， Light Metals 1992， Warrenda-
+le PA，USA: TMS,， 1992，801 ~ 808
+方 静 . 铝 电解 用 惰性 可 润 湿 性 TiB:/C 复合 阴极 材料 的 制备 与 性 能 研究 : [ 硕士 学 位 论文 ] 长沙: 中
+南大 学 ，2004
+Newman D S，Dahl O 了 T，Justnes 了 可，Kopperstad S，Oye 了 A，Technique for measuring in situ cathode ex-
+pansion 〈 Rapoport test ) during aluminium electrolysis. Miler R RE，Light Metals 1986，Warrendale ，Pa，
+TMS，1986，685 ~688
+Brandtzaeg S RR，Welch B 本 Mechanical changes in cathode carbons during start-up，Campbell P G，Light
+Metals 1989，Warrendale PA，USA: TMS，1989，169 ~ 174
+Wilkening S，Winkhaus C. Material problems in electrowinning of aluminium by the Hall-Heroult process,
+Journal of Applieqd Eiectrochemistry，1989 ，19(4) : 596 ~ 604
+Wikening S$ Busse C. Evaluation and production of carbon cathode biocks，McMinn C J_ Light Metals 1980.
+Warendale PA，USA: TMS,，1980，653 ~ 674
+Cuilliatt IF，Chandler 于 W. Stress analysis in carbon cathode beams during eleetrolysis，Cutshall E R. Light
+Metals 1977. New York，USA: TMS ，1977 ，437 ~ 451
+Peyneau j M，Gaspard 本 及，Dumas D ，Samanos B，Laboratory testing of the expansion under pressure due to
+sodium intercalation in carbon cathode materiais for aluminum smelters，Cutshall 下 玉 . Light Metals 1992.
+

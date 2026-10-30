@@ -1,0 +1,54 @@
+24 氧化 铝 浓度 控制 (下 料 控制 ) “397，
+
+在 第 23 章 中 已 指出 ， 加 强人 机 配合 是 改进 槽 电阻 控制 效果 的 重要 措施 。 同 样 ， 加 强人 机
+配合 对 获得 理想 的 氧化 铝 浓 度 控制 效果 至 关 重 要 。
+
+从 人 工 操作 维护 方面 来 考虑 ， 要 求 操 作 管 理 人 员 掌 握 下 料 控制 的 基本 原理 ， 懂 得 下 料 周 期
+切换 的 基本 策略 ， 能 正确 地 进行 控制 模式 的 选择 和 相关 设 定 参数 的 设置 ， 尤 其 是 要 尽量 减少 对
+下 料 控制 过 程 的 人 为 干扰 ， 例 如 :
+
+(1) 要 避免 在 槽 控 机 上 进行 错误 的 操作 〈 例 如 错误 地 通报 人 工 操作 工序 ) ， 并 避免 进行 手
+动 与 自动 控制 模式 的 来 回 切换 ， 因 为 进行 了 一 些 错误 的 操作 或 者 转换 了 控制 模式 后 ， 控 制 系统
+会 立即 终止 正常 的 控制 程序 (可 能 转 人 特定 的 下 料 模式 或 简单 的 定时 下 料 ) ， 而 再 从 其 他 控制
+模式 转 回 正常 的 自动 控制 模式 时 ， 控 制 系统 要 经 历 一 个 较 长 的 初始 化 阶段 才 会 转 和 人 正常 控制 程
+序 ， 并 且 一 般 都 是 从 欠 量 下 料 周期 重新 开始 正常 的 控制 过 程 。 显 然 ， 反 复 从 欠 量 下 料 周期 开始
+容易 导致 效应 的 发 生 。
+
+(2) 要 尽 可 能 减少 人 工 调整 极 距 ， 因 为 阳极 移动 引起 的 电阻 变化 打 断 了 控制 系统 对 模 电
+阻 变化 速率 (斜率 ) 的 跟踪 ， 使 控制 系统 对 氧化 铝 浓 度 的 正常 跟踪 与 控制 过 程 暂停 (一般 需
+要 暂停 4 ~6min) 。 因 此 ， 如 果 这 种 干扰 恰好 发 生 在 氧化 铝 浓度 很 低 的 阶段 ， 则 可 能 引起 “ 闪
+量 ” 转 “ 过 量 ”的 迟缓 ， 从 而 导致 效应 发 生 。
+
+(3) 要 尽量 减少 人 工 额 外 下 料 ， 要 改变 过 去 的 经 常 进行 边 加 工 的 习惯 。 若 进行 了 额外 下 料
+(包括 进行 了 会 引起 额外 下 料 的 人 工作 业 工 序 与 边 加 工 ) ， 一 定 要 按照 操作 规程 通报 槽 控 机 ，
+这 样 可 以 使 控制 系统 及 时 地 调整 控制 模式 ， 减 少 控制 失误 。 对 于 炉 底 沉淀 的 处 理 ， 应 尽 可 能 通
+过 适当 调整 技术 条 件 达 到 逐步 消除 沉淀 的 目的 ， 例 如 采取 适当 提高 设 定 电 压 、 适 当 增 加 出 馈
+量 、 加 强 保温 等 措施 ， 使 电解 槽 通过 自身 的 调节 消除 沉淀 。
+
+与 槽 电阻 控制 一 样 ， 人 机 配合 还 有 很 重要 的 一 个 方面 ， 那 就 是 现场 操作 人 员 必 须 严格 执行
+作业 标准 ， 提 高 操作 与 管理 质量 ， 减 少 对 电解 槽 的 于 扰 ， 维 持 正 确 的 工艺 技术 条 件 ， 从 而 为 氧
+化 铝 浓 度 的 控制 创造 一 个 良好 的 控制 环境 与 条 件 。
+
+参考 文献
+
+1 Haupin 双 了 Production of Aluminium and Alumina. Chichester: John Wilcy & Sons，1987
+
+2 李 动 . 点 式 下 料 铝 电解 槽 计算 机 控制 模型 的 研究 : [博士 学 位 论文 ] . 长 沙 : 中 南 工业 大 学 ，1993
+
+3 “Bonny ，et al. Process andq Apparatus for Accurately Controling the Rate of Introduction and tbhe Content of Alu-
+mina in an Jgneous Electrolysis Tank in the Production of Aluminium:， US，4431491. 1984-02
+
+4 Macaudiere Y. Recent advances in process control of the potline, Light Metals，1988. Warrendale ，PA: USA，
+TMS，1988: 607 ~ 612
+
+S$ Moen T，Aalbu A，Borg P. Adaptive control of alumina reduction cells with point feeders, Light Metals
+1985. Warrendale，PA: USA ，TMS ，1985 : 458 ~ 469
+
+6 EL je，Huang Yongzhong，Wang Huazhang，et al An estimation model of alumina concentration for point-feed-
+ing aluminium reduction cels, Light Metals 1994. Warrenqale，PA: USA，TMS, 1994: 441 ~447
+
+7 李 动 , 丁 凤 其 ， 邹 忠 等 . 铅 电 解 模糊 专家 控制 器 的 开发 与 应 用 . 有 色 金 属 ，2000，52 (4) : 558 ~561
+
+8 李 乾 , 张 文 根 ， 丁 凤 其 等 基于 在 线 智 能 辨识 的 模糊 专家 控制 方法 及 其 应 用 . 中 南大 学 学 报 (自然 科
+学 版 ) ，2004, 35 (6) : 911 ~914
+

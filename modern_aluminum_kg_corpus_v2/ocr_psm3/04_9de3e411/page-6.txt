@@ -1,0 +1,44 @@
+10
+
+11
+
+12
+
+14
+
+4 冰晶 石 - 氧化 铝 ( NasAlFe-Al0: ) 系 熔 盐 结构 45 ，
+
+参考 文献
+
+Crjotheim 氏 ，Krohn C，Malinovsky M，et al Aluminum Electrolysis ，2nd edition, Dusseldorf: Aluminium-
+Verlag ，1982
+Thonstad J，et al Aluminum Electrolysis ，3rd edition，Dusseldorf: Aluminum-Verlag，2001
+Papatheodorou C N，Structure and thermodynamic of molten salts. Conway B 下 ，J 0 M Bockris ，Yeager E.
+Comprehensive Treatise of Electrochemistry ，Vol. 5. New York : Plenum Press ，1983
+Madden 下 A，Wilson M. The interpretation of vibrational spectra of ionic meljts. 机 Chem。 了 Phys. ，1997，107
+(24) : 10446 ~ 10457
+Roward 下 互 . Some physical and chemical properties of a new sodium aluminum fluoride， 本 Am. Chem. Soc.
+1954，76(8) : 2041 ~2042
+Robert ，Lacassagne V ，Bessada C ，et al. Study of NaF-AIF，melts by high temperature 7” Al NMR spectrosco-
+py : comparison with resujts from Raman spectroscopy. Inorganic Chemistry，1999 ，38(2) : 214 ~ 217
+Gilbert B，et al. Structure and thermodynamics of NaF-AIF:， melts with addition of CaF，and MgF.， JInorganic
+Chemistry ，1996，3S(14) : 4198 ~ 4210
+Lacassagmne V， 了 Bessada C，Florian P，et al Structure of high temperature NaF-AlF, -Al0, melts : a mnultinu-
+clear NMR study，J. Phys. Chem. B ，2002，106(8) : 1862 ~ 1868
+Sanjeev Cupta，Yunshu Zhang，Yogesh Sahai ，et al，Modeling the solubility of alumina in the NaF-AIF 3 SyS-
+tem at 1300K. Anjier Joseph LELight Metals，Warrendale ，Pennsylvania: TMS light metals committee ，2001 :
+449 ~453
+Sterten A，Structural entities in NaF-AIF。melts containing alumina. Electrochim. Acta。1980(25) ， 1673 ~
+1677
+Denek V，GCustavsen 0 了 ，0Ostvold T. Strueture of the MF-AIF3 -AL 0，(M = Li，Na, K) Melts。Canadian
+Metalurgical Quarterly.2000, 39(2) : 153 ~ 162
+Belashchenko D 玉 ，Sapozhnikova S Yu. Computer simulation of the structure and thermodynamic properties of
+cryolite-alumina melts and the mechanism of ion transfer Russian JPhys. chem. ，1997，71(6) ; 920
+Lacassagne V，Bessaqa C ，Florian P，et al, Structure of high temperature NaF-AIF3-AL O，meits : a multi-
+nuclear NMR stndy. J Phys. Chem. B ，2002 ，106(8) : 1862 ~ 1868
+Asbjorm Solheim. Crystallization of cryolite and alumina at the metal-bath interface in aluminium reducetion
+cells，SINTEF Materiais Technology ，NO-7465 Trondheim ，Norway
+Frank 到 B，Foster L M. The constitution of cryoalite and NaF-AIF，melts。， 丁 Phys. Chem，1960，64(1 ) :
+95 ~98
+
+9

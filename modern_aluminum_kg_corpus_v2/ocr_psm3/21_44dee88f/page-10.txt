@@ -1,0 +1,57 @@
+20
+
+22
+
+366. 第 三 篇 ” 馈 电 解 计算 机 控制 及 铝 厂 信息 化
+
+参考 文献
+
+Mohr R A. Aluminum reduction plant distributive control system, Light Metals ，1982 : 595 ~ 608
+Macaudiere Y. Recent advances in process control of the potline, Light Metals ，1988 : 607 ~ 612
+李 朝 ， 丁 凤 其 ， 霍 本 龙 等 . 基于 现场 总 线 的 全 分 布 式 铝 电解 槽 自动 控制 机 . 轻金属 ，2001，(〈4) : 36
+~38
+丁 凤 其 ， 李 朝 ， 邹 忠 等 . 基于 CAN 总 线 的 全 分 布 式 控制 器 及 其 在 铝 电解 过 程控 制 中 的 应 用 .自动 化
+代表 ，2001,，22 (7): 42 ~43
+刘 业 翔 ， 陈 湘 涛 ， 张 文 根 等 . 基于 数据 仓库 的 铝 电解 网 络 监控 系统 的 设计 与 实现 、 轻 金属 ，2003 ，
+(9):， 2S ~29
+Bonny P，Gerphagnon J 工 ，Laboure G et al Process and apparatus for accurately controlling the rate of intro-
+duction and the content of alumina in an igneous electrolysis tank in the production of alumin-
+ium. US4431491. 1984
+Moen T，Aalbu J，Borg P. Adaptive control of altumina reduction cells with point feeders, Light Metals ，1935 :
+459 ~469
+Borg P，Moen T，Aalbu J Adaptive control of alumina reduction cells with point feeders. Modeling ，Identifica-
+tion and Control (MIC) ，1986, 7 (1) : 45 ~56
+MecKenna ] S，Omani 下 人 ，Nyadziehe T. An adaptive feed strategy for a center-break reduction cell. JOM-
+Journal of the Minerals Metals & Materials Society，1993，45 (11): 44 ~47
+李 胡 . 点 式 下 料 铝 电解 槽 计算 机 控制 模型 的 研究 长沙: 中 南 工业 大 学 ，1993
+Li jie，Huang Yongzhong，Wang Huazhang，et al An estimation model of alumina concentration for point-
+feeding aluminum reduction cells. Light Metals ，1994: 441 ~ 447
+Li Jie，Xiao Jin，Liu Yexiang，et 引 . Hierarchical intelligent control system for aluminium reduction cells.
+Light Metals，1997: 463 ~ 467
+EL Jie，Xu Fucang，Xiao Jin，et al, An intelligent fuzzy control system for prebaked-anode aluminum reduec-
+tion cells. mm， Huang Xinhan et al ed. Proceedings of The International Conference on Artificial Intelligence for
+Engineering. Wuhan: HUST Press，1998 : 476 ~479
+
+李 动 ， 王 前 普 ， 肖 劲 等 . 预 焙 铝 电解 槽 智能 模糊 控制 系统 . 中 国有 色 金 属 学 报 ，1998，8 (3) : 557
+~362
+
+李 动 ， 肖 劲 ， 张 泰山 等 . 铝 电 解 槽 点 式 下 料 的 专家 模糊 控制 方法 . 中 南 工业 大 学 学 报 ，1998，29
+(1): 32 ~35
+
+李 朝 ， 丁 凤 其 ， 邹 忠 等 . 铝 电解 模糊 专家 控制 器 的 开发 与 应 用 . 有 色 金 属 ，2000，52 (4) : 61~63
+李 胡 ， 张 文 根 ， 丁 风 其 等 . 基于 在 线 智 能 辨识 的 模糊 专家 控制 方法 及 其 应 用 . 中 南大 学 学 报 (自然
+科学 版 ) ，2004,，35 (6): 911 ~914
+
+Meghlaoui A，Bui RT，Thibault J et al. Intelligent control of the feeding of aluminum electrolytic cells using
+neural networks. Metallurgical and Materials Transactions 3，1997，28B (4) : 215 ~ 221
+
+Meghlaoui A，Bui R T，Thibault J et al. Predictive control of aluminum electrolytic cells using neural net-
+works. Metallurgical and Materials Transactions B，1998，29B (10) : 1007 ~ 1019
+
+Meghlaoul A，Thibault J，Bui R T et aL. Neural networks for the identification of the aluminium ejectrolysis
+process. Computer & Chemical Engineering，1998，22 (10) : 1419 ~ 1428
+
+Li jie，Liu Yexiang，Huang Yongzhong et al. Bath temperature model for point-feeding aluminium reduction
+cells. Transactions of Nonferrous Metals Society of China，1994,， 4 (1): 26 ~32
+
+李 动 ， 李 民 军 ， 肖 劲 等 . 铝 电 解 槽 槽 电阻 的 智能 控制 方法 研究 . 见 : 中 国 科 学 技术 协会 编 . 中 国 科

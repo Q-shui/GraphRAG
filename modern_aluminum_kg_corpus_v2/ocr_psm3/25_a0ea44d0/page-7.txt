@@ -1,0 +1,22 @@
+荆
+
+404 第 三 篇 ” 铝 电 解 计算 机 控制 及 铝 厂 信息 化
+
+TMS，1992 : 453 ~456
+Campo JJ del，Sancho JP. Low bath ratio operation in side breaking V， S. S. pots. Aluminium. 1994, 70 〈9 ~
+10) : 3587 ~ $89
+Desclaux P. AlF additions based on bath temperature measurements. Light Metals 1987 ，Warrendale ，PA:
+TMS，1987: 309 ~313 .
+Wilson M 本 Practical considerations used in the development of a method for calculating aluminium fluoride ad-
+ditions based on cell temperature. Light Metals 1992 ， 双 arrendale ，PA: TMS，1992: 375 ~378
+Entner P M，Gudmundsson G A. Further development of the temperature model. Light Metals 1996 ，Warrenda-
+le,，PA: TMS，1996: 445 ~ 449
+Entner P M. Control of AJF，concentration, Light Metals 1992. Warrendale ，PA: TMS ，1992 : 369 ~ 374
+Entner P M. Further qdevelopment of the AlEF:-model. Light Metals 1993 ， 双 arrendale ，PA: TMS ,1993 : 265 ~
+268
+Entner P M. Control of bath temperature, Light Metals 1995 ，Warrendale，PA: TMS，1995: 227 ~ 230
+Rieck T，Iffert M， 肌 hite P et al. Inereased current e 竹 ciency and reduced energy consumption at the TRIL-
+MET smelter essen using 9 box matrix. Light Metals 2003 ，Warrendale ，PA : TMS 2003 : 449 ~ 456
+李 民 军 . 大 型 预 焙 锅 电 解 模 模 糊 专 家 控制 器 及 新 颖 热平衡 控制 模型 的 研究 : [博士 学 位 论文 ] . 长
+沙 : 中 南 工业 大 学 ，1999
+周 诗 国 . 预 焙 铝 电 解 槽 热平衡 诊断 专家 系统 的 研究 : [学 位 论文 ] 长 沙 : 中 南大 学 ，2001

@@ -1,0 +1,70 @@
+7 铝 电 解 中 炭 阳 极 上 的 电 催 化 作用 “71
+
+所 谓 临 界 电流 密度 ， 即 在 该 电解 条 件 下 发 生 阳 极 效应 时 的 阳极 电流 密度 。 由 表 7-6 和 图
+
+7-9 可 知 ， 含 有 这 些 迭 杂 剂 的 炭 阳 极 具 有 较 高 的 临
+
+界 电 流 密度 值 ， 将 不 同 程度 地 推迟 阳极 效应 的 发
+生 。 试 验 也 证 明 〈 见 图 7-10) ， 挨 有 Pb (NO; ); 和
+CrCl 的 炭 阳 极 可 以 在 容易 发 生 阳极 效应 的 条 件 下
+(高 电流 密度 和 低 氧 化 铝 浓度 ) 持续 电解 相当 长 的
+时 间 而 不 发 生 阳 极 效应 ， 起 到 了 挨 杂 剂 抑制 阳极 效
+应 的 作用 。 他 们 还 对 挫 杂 剂 的 作用 作 了 如 下 解释 :
+当 熔 融 电解 质 中 的 含 氛 离 子 在 炭 阳 极 上 放电 时 ， 放
+电 的 氟 离 子 将 同 挫 杂 剂 离子 相互 作用 而 生成 MF, 氟
+
+临界 电流 密度 /Avcm
+to Up
+和
+
+T
+
+3
+
+上 1
+
+化 物 〈M 为 金属 ， 此 处 为 Ii、Pb、Cr 等 )， 它 们 比  。 让
+放电 氨 离 子 同 碳 作 用 生成 CF., 要 容易 些 。 热 力学 计 om
+
+算 表 明 ，PhbF: 、LF、NaF 和 Crfs 的 生成 自由 能 图 7-10 挫 杂 炭 阳极 在 高 电流 密度 下
+( -AGr) 都 要 大 于 CF. 的 。 此 外 ， 有 研究 证 明 ， 抑制 阳极 效应 的 持续 时 间
+MF. 比 CF. 有 较 好 的 导电 性 及 较 好 的 与 熔融 电解 质 1 一 挫 有 Pb(NO,)。， 档 电压 6.0Vi
+的 湿润 性 。 炭 阳极 表面 有 较 多 的 MF. 存 在 有 利于 增 2 一 挫 有 CrCb ， 樟 电 压 4. 5V;
+
+强 界面 电子 转移 和 改善 熔 盐 对 炭 电 极 的 湿润 性 ， 减 3 一 训 撞 闲 ， 梢 中 故 50V
+
+少 气泡 滞留 时 间 ， 因 此 可 使 临界 电流 密度 增 大 而 抑制 阳极 效应 的 发 生 。
+
+抒 竹 贤 等 ”的 研究 也 指出 ， 含 有 LizC0; 败 阳极 糊 具 有 较 好 的 阳极 -电解 质 的 湿润 性 ， 较 高
+
+的 临界 电流 密度 〈 能 抑制 阳极 效应 的 发 生 ) 以 及 较 低 的 阳极 过 电压 ， 可 以 节约 电能 。
+
+序 占 宁 研 究 了 火 阳极 杂质 ,诸如 V、S、Al、Fe、Ni、L 和 Na 对 铝 电解 时 炭 阳 极 消 耗 的 影
+
+响 。
+参考 文献
+1 刘 业 翔 . 功能 电极 材料 及 其 应 用 .长沙 : 中 南 工业 大 学 出 版 社 ，1996
+
+Korovin H V，Kasatking E. V. 3JIEKTPOKATAJI3ATOPPI 3TEKTPOXHMIUECKHK yYCTPO 六 CTB. Ele-
+ctrochemistry (Russian) . 1993 ，29(4) : 448 ~ 460
+
+Haupin 机 . 卫 . A_ scanning reference electrode for voltage contours in aluminum smelting cells，J. of Metals.
+1971，(10) : 46 ~49
+
+严 大 洲 ， 刘 业 翔 ， 肖 海 明 . 锅 电 解 中 新 型 炭 阳 极 的 反应 过 程 及 作用 机 理 . 长 沙 : 中 南 矿 治 学 院 学 报 ，
+1989，20(S) : 505 ~S11
+
+Bockris ] 0 M，OtagawaTJ The electrocatalysis of oxygen evolution on perovskites, J. 了 jectrochem. Soc, 1984 ，
+131(2) : 290 ~302
+
+Liu Yexiang，Xiao Haiming, The inhibition of anode effect in alnminum electrolysis process by anode dopants :
+a_ laboratory study。 了 Elwin L. Rooy，Light Metals， Warrendale，Pennsylvania: TMS light metals committee ，
+1991: 489 ~494
+
+Devilliers D ，et al. Polished carbon electrodes for improving the fluorine production process，J， of Applied
+Electrochem，1990，(20) : 91 ~ 96
+
+邱 竹 贤 等 . 锂 盐 阳 极 上 临界 电流 密度 的 测定 . 轻金属 ，1994(5): 31 ~33
+
+Qiu Zhuxian ，et al. Carbon anode with lithium salt addition， James 双 . Evans， Light Metals。 Warrendale，
+Pennsylvania: TMS light metals committee ，1995 ;749 ~ 751

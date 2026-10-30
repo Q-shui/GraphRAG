@@ -1,0 +1,100 @@
+36
+
+57
+
+58
+
+59
+
+60
+
+62
+
+65
+
+66
+
+67
+68
+
+69
+
+70
+
+72
+
+73
+
+74
+
+75
+76
+
+77
+
+“608 ， ”第 四 篇 ” 铝 治 炼 辅助 工程 与 新 技术
+
+Gregg JS，Frederick M S，King HL et al. Testing of cerium oxide coated cermet anodes in aluminum labora-
+tory celL. S. K. Das. Light Metals 1993. Warrendale，Pa; TMS， 1993 : 455 ~ 464
+
+Gregg 本 S，Frederick M S$，YVaccaro A 本 Pilot cell demonstration of cerium oxide coated anodes. S.
+K. Das. Light Metals 1993. Warrendale ，Pa: TMS，1993: 465 ~473
+
+Kozarek KK T，Ray SP 了 P，Dawless R K et al. Corrosion of cermet anodes during low temperature Electrolysis of
+alumina. DE-FC07-89ID12848 ，PA : Alecoa Inc. ，September 26 ，1997
+
+Kozarek K [，Ray SP，Dawless R 区 et al Energy efficient aluminum production - Pilot-scale cell tests : final
+report for phase [I and phase 芽 . DE-FC07-941D13219 ，PA:， Alcoa Inc. ，December 30 ，1999
+
+Christini R A，Dawless RK，Ray S P et al. Phase 焉 Advanced Anodes and Cathodes Utilized in Energy 三 -
+ficient Aluminum Production Cells. DE-FRC07-98ID13666 ，PA : Alcoa Inc, ，November 2001
+
+Ray S P. Electrolytic production of high purity aluminium using ceramic inert anodes，US Patent，6，416，
+649 ，2001
+
+Blinov V，Polyakov P. Behaviour of cermet inert anodes for aluminium electrolysis in a low temperature elec-
+trolyte. Ceir Martin Haarberg. 11th International Aluminiaum Symposium. Norway，September 19 ~ 22，2001:
+123 ~ 131
+
+Lorentsen 0 A，Thonstad J. Laboratory cell design considerations and behaviour of inert anodes in cryolite-a-
+lumina mejlts. Ceir Martin Haarberg. 1tth International Aluminium Symposium. Norway，September 19 ~ 22，
+2001: 14S ~ 1S4
+
+Blinov V，Polyakov P，Krasnoyarsk ，et al Behaviour of inert anodes for aluminium electrolysis in a low tem-
+perature electrolyte，part 工 . Aluminium，1997 ,73 (12) : 906 ~910
+
+Dawless R K et al. Reduced temperature aluminium produetion in an electrolytic cell having inert anodes. US
+patent，6，030，518 ，1997
+
+Office of Industrial Technologies. Advanced anodes and cathodes utilized in energy-efficient aluminium produc-
+tion cells. Aluminum Project fact Sheet ，jJan. 1999: 2
+
+Belda A. Aleoa quarterly financial report to analysts ，19 July 2001
+
+YuXJ，Zhang C 工 ，Qiu Z X et al. Electrical conductivity and corrosion resistance of ZnFe: 04 -based materi-
+als used as inert anode for aluminum electrolysis, Journal of Shanghai University，1999, 3 (3) : 251 ~ 254
+YuXJT，QiuZX，jJin $ 瓦 .Corrosion of zinc ferrite in NaF-AlF; -Al 0; molten salts. Journal of Chinese Soci-
+ety for Corrosion and Protection ，2000, 20 (5) : 275 ~ 280
+
+Cao XZ，WangZ 友 ,ShiZ N et al. Al-Ti-0-X cermet as inert anode for aluminium electrolysis。 M，Sor-
+lie. Light Metals 2007. Warreudale ，Pa: TMS ,2007; 927 ~ 929
+
+Cao XZ，Wang 2 克 ，Shi ZN et alStady on the conductivity of Fe-Ni-Al0O cermet inert anode，
+M. Sorlie. Light Metals 2007. Warreudale ，Pa: TMS,， 2007: 937 ~ 939
+
+王 兆 文 ， 罗 涛 ， 高 炳 亮 等 . Wife 04 基 惰性 阳极 的 制备 及 电解 腐蚀 研究 . 矿 治 工程 , 2004, 24 (6) :
+61 ~66
+
+De Young D 也 Solupbilities of oxides for inert anode in cryolite-based melts. R. E. Miller. Light Metals 1986.
+Warrendale，Pa: TMS，1986: 299 ~307
+
+Olsen 下 ，Thonstad J The behaviour of nickel fermrite cermet materials as inert anodes. 允 ayne Hale. Light Met-
+als. Warrendale，Pa: TMS，1996: 249 ~ 257
+
+秦 庆 伟 . 铝 电解 惰性 阳极 及 腐蚀 率 预测 研究 : [博士 学 位 论文 ] . 长 沙 : 中 南大 学 ,2004
+
+段 华南 . Cu-Ni-NiO-NiFe04 金 属 陶瓷 在 冰晶 石 -氧化 铝 熔 体 中 的 电解 腐蚀 行为 研究 : [ 硕士 学 位 论文 ]，
+长 沙 : 中 南大 学 ,2005
+
+Tarcy C P. Corrosion and passivation of cermet inert anodes in cryolite-type electrolytes. R. EMiller Light
+Metals. Warendale， Pa，USA: TMS，1986: 309 ~320
