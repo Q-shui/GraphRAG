@@ -1,0 +1,22 @@
+# Copy this file to a user-owned Config2.yaml (or merge its llm/embedding
+# blocks into the selected experiment config). It contains no API key.
+llm:
+  api_type: "ollama"
+  ollama_host: "http://127.0.0.1:11434"
+  model: "qwen3:32b"
+  max_token: 2048
+  ollama_num_ctx: 8192
+  temperature: 0.0
+  timeout: 600
+  max_retries: 2
+  max_concurrent: 1
+  ollama_think: false
+
+embedding:
+  api_type: "ollama"
+  ollama_host: "http://127.0.0.1:11434"
+  model: "nomic-embed-text:latest"
+  dimensions:
+  timeout: 600
+  max_retries: 2
+  embed_batch_size: 16

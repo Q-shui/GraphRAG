@@ -4,8 +4,9 @@
 
 from enum import Enum
 from typing import Optional
+from urllib.parse import urlparse
 
-from pydantic import field_validator
+from pydantic import field_validator, model_validator
 
 from Core.Common.Constants import CONFIG_ROOT, LLM_API_TIMEOUT, GRAPHRAG_ROOT
 from Core.Utils.YamlModel import YamlModel
@@ -34,7 +35,9 @@ class LLMConfig(YamlModel):
     Optional Fields in pydantic: https://docs.pydantic.dev/latest/migration/#required-optional-and-nullable-fields
     """
 
-    api_key: str = "sk-"
+    # A local Ollama server authenticates by its loopback listener, not an API key.
+    # Keep this optional so local mode never needs a real or placeholder key.
+    api_key: Optional[str] = None
     api_type: LLMType = LLMType.OPENAI
     base_url: str = "https://api.openai.com/v1"
     api_version: Optional[str] = None
@@ -72,6 +75,16 @@ class LLMConfig(YamlModel):
     timeout: int = 600
     context_length: Optional[int] = None  # Max input tokens
 
+    # Native Ollama options.  They are deliberately separate from ``base_url``:
+    # the latter remains the OpenAI-compatible endpoint setting used by legacy
+    # cloud providers.
+    ollama_host: str = "http://127.0.0.1:11434"
+    ollama_allow_remote: bool = False
+    ollama_num_ctx: Optional[int] = None
+    ollama_keep_alive: Optional[str] = None
+    ollama_think: Optional[bool] = False
+    max_retries: int = 2
+
     # For Amazon Bedrock
     region_name: str = None
 
@@ -84,10 +97,22 @@ class LLMConfig(YamlModel):
     # For Messages Control
     use_system_prompt: bool = True
 
-    @field_validator("api_key")
-    @classmethod
-    def check_llm_key(cls, v):
-        if v in ["", None, "YOUR_API_KEY"]:
+    @model_validator(mode="after")
+    def validate_backend_settings(self):
+        if self.api_type == LLMType.OLLAMA:
+            if self.api_key not in ["", None]:
+                raise ValueError("llm.api_key must be omitted in native Ollama mode")
+            parsed = urlparse(self.ollama_host)
+            is_loopback = parsed.hostname in {"127.0.0.1", "localhost", "::1"}
+            if parsed.scheme not in {"http", "https"} or not parsed.hostname:
+                raise ValueError("llm.ollama_host must be an absolute HTTP(S) URL")
+            if not self.ollama_allow_remote and not is_loopback:
+                raise ValueError("Native Ollama only permits a loopback ollama_host unless ollama_allow_remote=true")
+            if not self.model:
+                raise ValueError("llm.model is required in native Ollama mode")
+            return self
+
+        if self.api_key in ["", None, "YOUR_API_KEY"]:
             repo_config_path = GRAPHRAG_ROOT / "Option/Config2.yaml"
             root_config_path = CONFIG_ROOT / "Config2.yaml"
             if root_config_path.exists():
@@ -99,7 +124,7 @@ class LLMConfig(YamlModel):
                 raise ValueError(f"Please set your API key in {repo_config_path}")
             else:
                 raise ValueError("Please set your API key in config2.yaml")
-        return v
+        return self
 
     @field_validator("timeout")
     @classmethod

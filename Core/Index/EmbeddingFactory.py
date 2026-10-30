@@ -9,7 +9,6 @@ from __future__ import annotations
 from typing import Any
 
 from llama_index.core.embeddings import BaseEmbedding
-from llama_index.embeddings.ollama import OllamaEmbedding
 from llama_index.embeddings.openai import OpenAIEmbedding
 try:
     from llama_index.embeddings.huggingface import HuggingFaceEmbedding
@@ -18,6 +17,7 @@ except ImportError:
 from Config.EmbConfig import EmbeddingType
 from Config.LLMConfig import LLMType
 from Core.Common.BaseFactory import GenericFactory
+from Core.Index.OllamaEmbedding import NativeOllamaEmbedding
 from Option.Config2 import Config
 
 class RAGEmbeddingFactory(GenericFactory):
@@ -60,14 +60,18 @@ class RAGEmbeddingFactory(GenericFactory):
         return OpenAIEmbedding(**params)
 
  
-    def _create_ollama(self, config) -> OllamaEmbedding:
+    def _create_ollama(self, config) -> NativeOllamaEmbedding:
         params = dict(
-            base_url=config.embedding.base_url,
+            model_name=config.embedding.model,
+            ollama_host=config.embedding.ollama_host,
+            timeout=config.embedding.timeout,
+            max_retries=config.embedding.max_retries,
+            allow_remote=config.embedding.ollama_allow_remote,
+            expected_dimension=config.embedding.dimensions,
+            max_input_characters=config.embedding.max_input_characters,
+            embed_batch_size=config.embedding.embed_batch_size or 16,
         )
-
-        self._try_set_model_and_batch_size(params, config)
-
-        return OllamaEmbedding(**params)
+        return NativeOllamaEmbedding(**params)
 
     def _create_hf(self, config) -> HuggingFaceEmbedding:
         

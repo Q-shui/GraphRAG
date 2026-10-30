@@ -20,6 +20,9 @@ outputs/
 logs/
 wandb/
 
+# Local migration audit, implementation, and test reports (keep only locally)
+docs/ollama_migration/
+
 # OS files
 .DS_Store
 Thumbs.db

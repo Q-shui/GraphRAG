@@ -2,8 +2,8 @@
 
 
 
-# from Core.Provider.ollama_api import OllamaLLM
 from Core.Provider.OpenaiApi import OpenAILLM
+from Core.Provider.OllamaApi import OllamaLLM
 
 
 __all__ = [
