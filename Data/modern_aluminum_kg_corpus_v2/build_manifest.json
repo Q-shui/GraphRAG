@@ -1,0 +1,22 @@
+{
+  "artifact": "modern_aluminum_kg_corpus_v2",
+  "created_at_utc": "2026-10-23T02:47:54.475944+00:00",
+  "run_command": "python modern_aluminum_kg_corpus_v2/scripts/build_chapter_ocr_v2.py",
+  "source": "existing 250-DPI local chapter renders; re-OCR with Tesseract PSM 3",
+  "chapters": 39,
+  "pages": 616,
+  "chunks": 1110,
+  "quality_flag_counts": {
+    "complex_layout_formula_table_or_low_cjk_density": 48,
+    "empty_ocr": 2,
+    "raw_cjk_spacing_repaired_for_model_only": 613
+  },
+  "python_version": "3.14.7 | packaged by Anaconda, Inc. | (main, Aug 14 2026, 10:12:46) [MSC v.1942 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "random_seed": null,
+  "limitations": [
+    "OCR is not a semantic correction or expert verification.",
+    "Tables, figures, formulas, and numeric thresholds require image-level review.",
+    "The 34-page coverage difference between split chapters and complete PDF remains unresolved."
+  ]
+}

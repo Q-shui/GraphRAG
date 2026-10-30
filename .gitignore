@@ -1,0 +1,25 @@
+__pycache__/
+*.py[cod]
+
+# Python environments and local tooling
+.venv/
+venv/
+.vscode/
+
+# Secrets and machine-specific settings
+.env
+.env.*
+!.env.example
+
+# Generated data, caches, and experiment outputs
+Data/HotpotQA/
+Data/modern_aluminum_kg_corpus_v2/chapters/
+Data/modern_aluminum_kg_corpus_v2/data/
+Data/modern_aluminum_kg_corpus_v2/ocr_psm3/
+outputs/
+logs/
+wandb/
+
+# OS files
+.DS_Store
+Thumbs.db
