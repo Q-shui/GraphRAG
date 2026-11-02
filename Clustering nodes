@@ -1,0 +1,35 @@
+2026-10-31 00:15:43.153 | INFO     | Core.Storage.JsonKVStorage:load:33 - Load KV /data1/wqc/GraphRAG/test/kg_graph/community_storage_community_node_map.json with 0 data
+2026-10-31 00:15:43.154 | ERROR    | Core.Community.LeidenCommunity:_load_cluster_map:276 - ❌ Failed to load community <-> node map.
+2026-10-31 00:15:43.155 | INFO     | Core.Community.LeidenCommunity:_clustering:62 - Each level has communities: {0: 5}
+2026-10-31 00:15:43.155 | INFO     | Core.Storage.JsonKVStorage:persist:29 - Write KV /data1/wqc/GraphRAG/test/kg_graph/community_storage_community_node_map.json with 58 data
+2026-10-31 00:15:43.155 | INFO     | Core.Community.BaseCommunity:generate_community_report:26 - Generating community report...
+2026-10-31 00:15:43.155 | INFO     | Core.Storage.JsonKVStorage:load:33 - Load KV /data1/wqc/GraphRAG/test/kg_graph/community_storage_community_report.json with 0 data
+2026-10-31 00:15:43.155 | ERROR    | Core.Community.LeidenCommunity:_load_community_report:259 - Failed to load community report.
+2026-10-31 00:15:43.155 | INFO     | Core.Storage.NetworkXStorage:_cluster_data_to_subgraphs:159 - Rewrite the graph with cluster data
+2026-10-31 00:15:43.155 | INFO     | Core.Storage.NetworkXStorage:_persist:109 - Writing graph into /data1/wqc/GraphRAG/test/kg_graph/graph_storage_nx_data.graphml
+2026-10-31 00:15:43.155 | INFO     | Core.Storage.NetworkXStorage:write_nx_graph:45 - Writing graph with 484 nodes, 248 edges
+2026-10-31 00:15:43.173 | INFO     | Core.Community.LeidenCommunity:_generate_community_report:81 - Generating by levels: [0]
+2026-10-31 00:15:43.178 | INFO     | Core.Provider.OllamaApi:acompletion_text:115 - [Ollama request 31] started model=qwen3:32b messages=2 max_tokens=2048 format=json
+2026-10-31 00:15:43.179 | INFO     | Core.Provider.OllamaApi:acompletion_text:115 - [Ollama request 32] started model=qwen3:32b messages=2 max_tokens=2048 format=json
+2026-10-31 00:16:01.510 | INFO     | Core.Provider.OllamaApi:acompletion_text:123 - [Ollama request 32] finished elapsed_s=18.33 prompt_tokens=1889 completion_tokens=609 load_s=0.00 server_total_s=18.32 chars=3188
+2026-10-31 00:16:01.511 | INFO     | Core.Provider.OllamaApi:acompletion_text:115 - [Ollama request 33] started model=qwen3:32b messages=2 max_tokens=2048 format=json
+2026-10-31 00:16:30.168 | INFO     | Core.Provider.OllamaApi:acompletion_text:123 - [Ollama request 31] finished elapsed_s=46.99 prompt_tokens=4054 completion_tokens=944 load_s=0.00 server_total_s=46.99 chars=4954
+2026-10-31 00:16:30.169 | INFO     | Core.Provider.OllamaApi:acompletion_text:115 - [Ollama request 34] started model=qwen3:32b messages=2 max_tokens=2048 format=json
+2026-10-31 00:17:02.993 | INFO     | Core.Provider.OllamaApi:acompletion_text:123 - [Ollama request 33] finished elapsed_s=61.48 prompt_tokens=3874 completion_tokens=1051 load_s=0.00 server_total_s=61.48 chars=5458
+2026-10-31 00:17:02.994 | INFO     | Core.Provider.OllamaApi:acompletion_text:115 - [Ollama request 35] started model=qwen3:32b messages=2 max_tokens=2048 format=json
+2026-10-31 00:17:20.316 | INFO     | Core.Provider.OllamaApi:acompletion_text:123 - [Ollama request 34] finished elapsed_s=50.15 prompt_tokens=2077 completion_tokens=594 load_s=0.00 server_total_s=50.14 chars=3208
+2026-10-31 00:17:41.525 | INFO     | Core.Provider.OllamaApi:acompletion_text:123 - [Ollama request 35] finished elapsed_s=38.53 prompt_tokens=2363 completion_tokens=742 load_s=0.00 server_total_s=38.53 chars=3823
+2026-10-31 00:17:41.527 | INFO     | Core.Storage.JsonKVStorage:persist:29 - Write KV /data1/wqc/GraphRAG/test/kg_graph/community_storage_community_report.json with 5 data
+2026-10-31 00:17:41.527 | INFO     | Core.Community.BaseCommunity:generate_community_report:34 - ✅ [Community Report]  Finished
+2026-10-31 00:17:41.528 | INFO     | Core.GraphRAG:_update_costs_info:205 - Index Building stage cost: Total prompt token: 0, Total completeion token: 0, Total cost: 0
+2026-10-31 00:17:41.528 | INFO     | Core.GraphRAG:_update_costs_info:207 - Index Building time(s): 125.32
+2026-10-31 00:17:41.528 | INFO     | Core.GraphRAG:_build_retriever_context:176 - Building retriever context for the current execution
+2026-11-02 13:39:39.446 | INFO     | Core.Storage.JsonKVStorage:load:33 - Load KV /data1/wqc/GraphRAG/test/kg_graph/community_storage_community_node_map.json with 58 data
+2026-11-02 13:39:39.446 | INFO     | Core.Community.LeidenCommunity:_load_cluster_map:279 - ✅ Successfully loaded community <-> node map.
+2026-11-02 13:39:39.446 | INFO     | Core.Community.BaseCommunity:generate_community_report:26 - Generating community report...
+2026-11-02 13:39:39.447 | INFO     | Core.Storage.JsonKVStorage:load:33 - Load KV /data1/wqc/GraphRAG/test/kg_graph/community_storage_community_report.json with 5 data
+2026-11-02 13:39:39.447 | INFO     | Core.Community.LeidenCommunity:_load_community_report:263 - Successfully loaded community report.
+2026-11-02 13:39:39.447 | INFO     | Core.Community.BaseCommunity:generate_community_report:34 - ✅ [Community Report]  Finished
+2026-11-02 13:39:39.447 | INFO     | Core.GraphRAG:_update_costs_info:205 - Index Building stage cost: Total prompt token: 0, Total completeion token: 0, Total cost: 0
+2026-11-02 13:39:39.447 | INFO     | Core.GraphRAG:_update_costs_info:207 - Index Building time(s): 1.69
+2026-11-02 13:39:39.447 | INFO     | Core.GraphRAG:_build_retriever_context:176 - Building retriever context for the current execution
