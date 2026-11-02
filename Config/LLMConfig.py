@@ -113,6 +113,11 @@ class LLMConfig(YamlModel):
                 raise ValueError("Native Ollama only permits a loopback ollama_host unless ollama_allow_remote=true")
             if not self.model:
                 raise ValueError("llm.model is required in native Ollama mode")
+            if self.ollama_num_ctx and self.max_token >= self.ollama_num_ctx:
+                raise ValueError(
+                    "llm.max_token must be smaller than llm.ollama_num_ctx in native Ollama mode; "
+                    "otherwise a response alone consumes the entire context window"
+                )
             return self
 
         if self.api_key in ["", None, "YOUR_API_KEY"]:

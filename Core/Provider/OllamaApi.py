@@ -76,6 +76,7 @@ class OllamaLLM(BaseLLM):
             "eval_count": response.get("eval_count"),
             "total_duration": response.get("total_duration"),
             "load_duration": response.get("load_duration"),
+            "done_reason": response.get("done_reason"),
             "thinking": message.get("thinking"),
         }
         usage = {
@@ -122,13 +123,14 @@ class OllamaLLM(BaseLLM):
             metadata = self.last_response_metadata
             logger.info(
                 "[Ollama request {}] finished elapsed_s={:.2f} prompt_tokens={} completion_tokens={} "
-                "load_s={:.2f} server_total_s={:.2f} chars={}",
+                "load_s={:.2f} server_total_s={:.2f} done_reason={} chars={}",
                 request_id,
                 time.perf_counter() - started_at,
                 metadata.get("prompt_eval_count"),
                 metadata.get("eval_count"),
                 (metadata.get("load_duration") or 0) / 1_000_000_000,
                 (metadata.get("total_duration") or 0) / 1_000_000_000,
+                metadata.get("done_reason"),
                 len(text),
             )
         if format == "json":

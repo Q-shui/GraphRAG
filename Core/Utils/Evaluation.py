@@ -21,12 +21,20 @@ nltk_path = "YOUR_OWN_NLTK_CACHE_PATH"
 # add the nltk_path to the nltk.data.path
 nltk.data.path.append(nltk_path)
 
-try:
-    nltk.data.find("tokenizers/punkt")
-except LookupError:
-    print("Downloading punkt")
-    nltk.download("punkt", download_dir=nltk_path)
-    nltk.download("wordnet", download_dir=nltk_path)
+def require_nltk_resources(*resource_paths: str):
+    """Fail explicitly instead of downloading evaluation assets at runtime."""
+    missing = []
+    for resource_path in resource_paths:
+        try:
+            nltk.data.find(resource_path)
+        except LookupError:
+            missing.append(resource_path)
+    if missing:
+        raise RuntimeError(
+            "Missing NLTK resources: {}. Offline GraphRAG evaluation never downloads "
+            "resources automatically; pre-install them into the configured NLTK cache."
+            .format(", ".join(missing))
+        )
 
 
 def bleu_1(p, g):
@@ -145,10 +153,13 @@ def get_metric_score(prediction, ground_truths):
 
 
 class Evaluator:
-    def __init__(self, eval_path: str, dataset_name: str):
+    def __init__(self, eval_path: str, dataset_name: str, config=None):
 
         self.path = eval_path
-        self.config = default_config
+        # Evaluation may make local LLM calls for some dataset modes.  Use the
+        # active experiment configuration rather than silently reverting to
+        # the repository default model/backend.
+        self.config = config or default_config
         self.llm = create_llm_instance(self.config.llm)
         self.dataset_name = dataset_name
         self.short_eval_metrics = ["accuracy", "f1", "precision", "recall", "em"]
@@ -281,6 +292,7 @@ class Evaluator:
         return res_dict, df
 
     def long_narrative_eval(self, df: pd.DataFrame):
+        require_nltk_resources("tokenizers/punkt", "corpora/wordnet")
         label_list, pred_list = self.get_label_pred_list(df, "output", "answer")
 
         # Load results
@@ -506,6 +518,7 @@ class Evaluator:
         return out.mauve * 100
 
     def compute_rouge(self, df):
+        require_nltk_resources("tokenizers/punkt")
         def _rouge_calculation(
             hypotheses, references1, references2=[], metrics=["rougeLsum"]
         ):

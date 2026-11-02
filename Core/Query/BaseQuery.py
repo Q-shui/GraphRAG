@@ -4,7 +4,7 @@ from Core.Retriever.MixRetriever import MixRetriever
 from typing import Any
 from Core.Prompt import GraphPrompt, QueryPrompt
 from Core.Common.Utils import clean_str, prase_json_from_response, truncate_list_by_token_size, \
-    list_to_quoted_csv_string
+    truncate_str_by_token_size, list_to_quoted_csv_string
 from Core.Common.Logger import logger
 
 
@@ -29,6 +29,15 @@ class BaseQuery(ABC):
             logger.error("Invalid query type")
         return response
 
+    @staticmethod
+    def _json_object(response, stage: str) -> dict:
+        """Normalize native Ollama and legacy provider JSON return contracts."""
+        if isinstance(response, dict):
+            return response
+        if not isinstance(response, str):
+            raise TypeError(f"{stage} returned {type(response).__name__}, expected JSON object or string")
+        return prase_json_from_response(response)
+
     @abstractmethod
     async def generation_summary(self, query, context):
         pass
@@ -42,8 +51,8 @@ class BaseQuery(ABC):
         try:
             ner_messages = GraphPrompt.NER.format(user_input=query)
 
-            response_content = await self.llm.aask(ner_messages)
-            entities = prase_json_from_response(response_content)
+            response_content = await self.llm.aask(ner_messages, format="json")
+            entities = self._json_object(response_content, "query entity extraction")
 
             if 'named_entities' not in entities:
                 entities = []
@@ -58,9 +67,9 @@ class BaseQuery(ABC):
 
     async def extract_query_keywords(self, query, mode="low"):
         kw_prompt = QueryPrompt.KEYWORDS_EXTRACTION.format(query=query)
-        result = await self.llm.aask(kw_prompt)
+        result = await self.llm.aask(kw_prompt, format="json")
         keywords = None
-        keywords_data = prase_json_from_response(result)
+        keywords_data = self._json_object(result, "query keyword extraction")
         if mode == "low":
             keywords = keywords_data.get("low_level_keywords", [])
             keywords = ", ".join(keywords)
@@ -82,12 +91,25 @@ class BaseQuery(ABC):
 
         # TODO: support other type of context filter
         community_groups = []
+        # Leave room for CSV labels and the global-map instruction.  The
+        # configured budget has already been clamped to Ollama's context
+        # window by Config; this local reserve prevents a single report from
+        # consuming that entire budget.
+        report_budget = max(1, self.config.global_max_token_for_community_report - 256)
         while len(communities_data):
             this_group = truncate_list_by_token_size(
                 communities_data,
                 key=lambda x: x["report_string"],
-                max_token_size=self.config.global_max_token_for_community_report,
+                max_token_size=report_budget,
             )
+            if not this_group:
+                # Without advancing, an oversized first report causes an
+                # infinite loop.  Preserve a bounded prefix instead.
+                oversized = dict(communities_data[0])
+                oversized["report_string"] = truncate_str_by_token_size(
+                    oversized["report_string"], report_budget
+                )
+                this_group = [oversized]
             community_groups.append(this_group)
             communities_data = communities_data[len(this_group):]
 
@@ -108,11 +130,15 @@ class BaseQuery(ABC):
 
             response = await self.llm.aask(
                 query,
-                system_msgs=[sys_prompt]
+                system_msgs=[sys_prompt],
+                format="json",
             )
-
-            data = prase_json_from_response(response)
-            return data.get("points", [])
+            data = self._json_object(response, "global community map")
+            points = data.get("points", [])
+            if not isinstance(points, list):
+                logger.warning("Global community map returned a non-list points field; ignoring that group")
+                return []
+            return points
 
         logger.info(f"Grouping to {len(community_groups)} groups for global search")
         responses = await asyncio.gather(*[_process(c) for c in community_groups])

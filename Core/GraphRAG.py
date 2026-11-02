@@ -26,7 +26,7 @@ class GraphRAG(ContextMixin, BaseModel):
 
     def __init__(self, config):
         super().__init__(config=config)
-   
+
         
 
     @model_validator(mode="before")
@@ -153,6 +153,10 @@ class GraphRAG(ContextMixin, BaseModel):
         """
         cls._retriever_context = {
             "config": True,
+            # Community retrieval needs query-time limits (level, report
+            # budget and rating threshold), whereas the other retrievers use
+            # RetrieverConfig.  Keep both configs distinct.
+            "query_config": True,
             "graph": True,
             "doc_chunk": True,
             "llm": True,
@@ -177,9 +181,12 @@ class GraphRAG(ContextMixin, BaseModel):
         try:
             for context_name, use_context in self._retriever_context.items():
                 if use_context:
-                    config_value = getattr(self, context_name)
                     if context_name == "config":
                         config_value = self.config.retriever
+                    elif context_name == "query_config":
+                        config_value = self.config.query
+                    else:
+                        config_value = getattr(self, context_name)
                     self.retriever_context.register_context(context_name, config_value)   
             self._querier = get_query(self.config.retriever.query_type, self.config.query, self.retriever_context)
 
@@ -290,22 +297,4 @@ class GraphRAG(ContextMixin, BaseModel):
         response = await self._querier.query(query)
 
         return response
-        
-
-
-   
-
-    
-    
-   
-      
-        
-
-   
-
-
-
-   
-
-  
   

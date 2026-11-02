@@ -25,7 +25,7 @@ class QueryConfig(YamlModel):
     community_information: bool = False  # Open for MS-GraphRAG based method
     # global search
     global_min_community_rating: float = 0
-    global_max_consider_community: float = 512
+    global_max_consider_community: int = 512
     global_max_token_for_community_report: int = 16384
     max_token_for_global_context: int = 4000
     global_special_community_map_llm_kwargs: dict = field(
