@@ -8,6 +8,8 @@ from shutil import copyfile
 from Data.QueryDataset import RAGQueryDataset
 import pandas as pd
 from Core.Utils.Evaluation import Evaluator
+from Core.Common.Logger import logger
+from time import perf_counter
 
 
 
@@ -31,17 +33,28 @@ def check_dirs(opt, option_path):
 def wrapper_query(query_dataset, digimon, result_dir):
     all_res = []
 
-    dataset_len = len(query_dataset)
-    
-    for _, i in enumerate(range(dataset_len)):
+    # Keep the default command suitable for an interactive local smoke test.
+    # The full dataset remains available by changing this explicit limit.
+    dataset_len = min(10, len(query_dataset))
+    logger.info("Starting question answering for the first {}/{} questions", dataset_len, len(query_dataset))
+
+    for i in range(dataset_len):
         query = query_dataset[i]
-        res = asyncio.run(digimon.query(query["question"]))
+        question = query["question"]
+        logger.info("[Query {}/{}] Question: {}", i + 1, dataset_len, question)
+        started_at = perf_counter()
+        res = asyncio.run(digimon.query(question))
         query["output"] = res
         all_res.append(query)
+        logger.info(
+            "[Query {}/{}] Answer (elapsed_s={:.2f}):\n{}",
+            i + 1, dataset_len, perf_counter() - started_at, res,
+        )
 
     all_res_df = pd.DataFrame(all_res)
     save_path = os.path.join(result_dir, "results.json")
     all_res_df.to_json(save_path, orient="records", lines=True)
+    logger.info("Saved {} query results to {}", len(all_res), save_path)
     return save_path
 
 
