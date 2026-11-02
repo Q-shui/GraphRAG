@@ -19,6 +19,7 @@ Data/modern_aluminum_kg_corpus_v2/ocr_psm3/
 outputs/
 logs/
 wandb/
+Output/
 
 # Local migration audit, implementation, and test reports (keep only locally)
 docs/ollama_migration/

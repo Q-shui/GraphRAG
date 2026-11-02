@@ -2,13 +2,13 @@ llm:
   # Native local Ollama: no API key, OpenAI-compatible endpoint, or cloud fallback.
   api_type: "ollama"
   ollama_host: "http://127.0.0.1:11434"
-  model: "qwen3:4b"
+  model: "qwen3:32b"
   max_token: 2048
   ollama_num_ctx: 8192
   temperature: 0.0
   timeout: 600
   max_retries: 2
-  max_concurrent: 1
+  max_concurrent: 2
   ollama_think: false
 
 embedding:
@@ -23,5 +23,5 @@ embedding:
  
 data_root: ./Data/Data # Root directory for data
 working_dir: ./ # Results, graph and indexes remain under this checkout
-exp_name: local_ollama # Experiment name
+exp_name: test_GGraph_qwen_32b # Experiment name
 #
