@@ -14,7 +14,9 @@ class FakeReports:
             {
                 "report_string": "community report",
                 "report_json": {"rating": 1},
-                "community_info": {"occurrence": 1},
+                # Match the schema currently written by LeidenCommunity:
+                # occurrence is top-level, not nested under community_info.
+                "occurrence": 1,
             }
             for _ in identifiers
         ]

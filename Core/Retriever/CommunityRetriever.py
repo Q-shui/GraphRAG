@@ -32,6 +32,25 @@ class CommunityRetriever(BaseRetriever):
             logger.warning("Skipping community with invalid level={!r}", level)
             return False
 
+    @staticmethod
+    def _normalize_community_data(community_data: dict) -> dict:
+        """Accept both persisted community-report schemas.
+
+        LeidenCommunity persists ``occurrence`` at the top level, while older
+        retrieval code expected ``community_info.occurrence``.  Normalizing at
+        the storage boundary keeps existing experiment artifacts queryable.
+        """
+        normalized = dict(community_data)
+        community_info = normalized.get("community_info")
+        if not isinstance(community_info, dict):
+            normalized["community_info"] = {"occurrence": normalized.get("occurrence", 0)}
+        elif "occurrence" not in community_info:
+            normalized["community_info"] = {
+                **community_info,
+                "occurrence": normalized.get("occurrence", 0),
+            }
+        return normalized
+
     @register_retriever_method(type="community", method_name="from_entity")
     async def _find_relevant_community_from_entities(self, seed: list[dict]):
 
@@ -52,7 +71,7 @@ class CommunityRetriever(BaseRetriever):
             *[community_reports.get_by_id(k) for k in related_community_keys_counts.keys()]
         )
         related_community_datas = {
-            k: v
+            k: self._normalize_community_data(v)
             for k, v in zip(related_community_keys_counts.keys(), _related_community_datas)
             if v is not None
         }
@@ -103,7 +122,9 @@ class CommunityRetriever(BaseRetriever):
             [k[0] for k in sorted_community_schemas]
         )
 
-        community_datas = [c for c in community_datas if c is not None]
+        community_datas = [
+            self._normalize_community_data(c) for c in community_datas if c is not None
+        ]
         community_datas = [
             c
             for c in community_datas

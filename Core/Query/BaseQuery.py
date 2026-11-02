@@ -121,7 +121,7 @@ class BaseQuery(ABC):
                         i,
                         c["report_string"],
                         c["report_json"].get("rating", 0),
-                        c['community_info']['occurrence'],
+                        c.get("community_info", {}).get("occurrence", c.get("occurrence", 0)),
                     ]
                 )
             community_context = list_to_quoted_csv_string(communities_section_list)
