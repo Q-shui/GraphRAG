@@ -1,0 +1,175 @@
+{
+  "dataset_version": "p1-daily-extract-v1",
+  "created_utc": "2026-10-22T00:53:55.017116+00:00",
+  "raw_source_files": [
+    {
+      "path": "C:\\科研\\agent\\文献\\电解铝\\2020YFB1713603-001-电解铝跨工序能质耦合、工艺参数感知模型数据集\\数据集实体文件\\电解槽日报-2726.xls",
+      "sha256": "fb7febb56534f5ee6225f846cf9f6fc4dabe96ef53bb84653fa963aa870fb094",
+      "bytes": 301056
+    },
+    {
+      "path": "C:\\科研\\agent\\文献\\电解铝\\2020YFB1713603-001-电解铝跨工序能质耦合、工艺参数感知模型数据集\\数据集实体文件\\电解槽日报-2727.xls",
+      "sha256": "69cf1580d8b24679d8319ab65cd6c9725217e46aa46d12409bbd6062ccc0d15e",
+      "bytes": 348672
+    },
+    {
+      "path": "C:\\科研\\agent\\文献\\电解铝\\2020YFB1713603-001-电解铝跨工序能质耦合、工艺参数感知模型数据集\\数据集实体文件\\电解槽日报-2728.xls",
+      "sha256": "4bf26051663b75dfed3939cff85431905d15a83af6d2649a721256244d41fbe7",
+      "bytes": 299520
+    },
+    {
+      "path": "C:\\科研\\agent\\文献\\电解铝\\2020YFB1713603-001-电解铝跨工序能质耦合、工艺参数感知模型数据集\\数据集实体文件\\电解槽日报-2729.xls",
+      "sha256": "d01b5fc7f67a8f2898c6d8ee47b208d74197e6538c206b20c18463384eb25382",
+      "bytes": 299520
+    },
+    {
+      "path": "C:\\科研\\agent\\文献\\电解铝\\2020YFB1713603-001-电解铝跨工序能质耦合、工艺参数感知模型数据集\\数据集实体文件\\电解槽日报-2730.xls",
+      "sha256": "f3d1df3d3dbde906f0fb360587d7a8f2d4815210865278fda83afc3376ed5fda",
+      "bytes": 295936
+    },
+    {
+      "path": "C:\\科研\\agent\\文献\\电解铝\\2020YFB1713603-001-电解铝跨工序能质耦合、工艺参数感知模型数据集\\数据集实体文件\\电解槽日报-2731.xls",
+      "sha256": "09c1d5ec3a3ba586356a07cadca592571ac80af64dbe5e407b96ff2f1e5ed211",
+      "bytes": 302080
+    },
+    {
+      "path": "C:\\科研\\agent\\文献\\电解铝\\2020YFB1713603-001-电解铝跨工序能质耦合、工艺参数感知模型数据集\\数据集实体文件\\电解槽日报-2732.xls",
+      "sha256": "36d3c71de87b711a4c014483f3c4491e64ad1d735d98cbe878314be1dff8f645",
+      "bytes": 296448
+    },
+    {
+      "path": "C:\\科研\\agent\\文献\\电解铝\\2020YFB1713603-001-电解铝跨工序能质耦合、工艺参数感知模型数据集\\数据集实体文件\\电解槽日报-2733.xls",
+      "sha256": "4ad9ce7ba646571c0ec75792d8c9094f2aa31d51e5a2f6b5dcd7ed00a86c5e15",
+      "bytes": 296448
+    },
+    {
+      "path": "C:\\科研\\agent\\文献\\电解铝\\2020YFB1713603-001-电解铝跨工序能质耦合、工艺参数感知模型数据集\\数据集实体文件\\电解槽日报-2734.xls",
+      "sha256": "7278de552eb5596fd6ca0e4a89968cc727615ce7cdd370b8103362d8ca89e451",
+      "bytes": 297472
+    },
+    {
+      "path": "C:\\科研\\agent\\文献\\电解铝\\2020YFB1713603-001-电解铝跨工序能质耦合、工艺参数感知模型数据集\\数据集实体文件\\电解槽日报-2735.xls",
+      "sha256": "665e216a93eb90146ed970a68fefce1455b1b5da082dffec0b7113bd02bd5bd1",
+      "bytes": 296960
+    },
+    {
+      "path": "C:\\科研\\agent\\文献\\电解铝\\2020YFB1713603-001-电解铝跨工序能质耦合、工艺参数感知模型数据集\\数据集实体文件\\电解槽日报-2736.xls",
+      "sha256": "5487f89847ca47e1548ae3d7301c104f9ebc9397182776938b178b2edc78ec24",
+      "bytes": 297984
+    },
+    {
+      "path": "C:\\科研\\agent\\文献\\电解铝\\2020YFB1713603-001-电解铝跨工序能质耦合、工艺参数感知模型数据集\\数据集实体文件\\电解槽日报-2827.xls",
+      "sha256": "7a0aef4d1412368bc9b6a84d186272c0de97bef57f16220ab43726429040e65b",
+      "bytes": 303104
+    },
+    {
+      "path": "C:\\科研\\agent\\文献\\电解铝\\2020YFB1713603-001-电解铝跨工序能质耦合、工艺参数感知模型数据集\\数据集实体文件\\电解槽日报-2828.xls",
+      "sha256": "a45fd46f9f9c770d44fa3eceec3df40ca56666bc0f53fae2f3e3e7e8ac40ad9a",
+      "bytes": 300032
+    },
+    {
+      "path": "C:\\科研\\agent\\文献\\电解铝\\2020YFB1713603-001-电解铝跨工序能质耦合、工艺参数感知模型数据集\\数据集实体文件\\电解槽日报-2829.xls",
+      "sha256": "b354d7a30240c85c7ce675a9d111238c7e9375e088e921b10bd32eebffcd19cd",
+      "bytes": 304640
+    },
+    {
+      "path": "C:\\科研\\agent\\文献\\电解铝\\2020YFB1713603-001-电解铝跨工序能质耦合、工艺参数感知模型数据集\\数据集实体文件\\电解槽日报-2830.xls",
+      "sha256": "2ed642bbd5f6d05b926a6ddce695452b88fe08e054730478c7cb285bb757c2c1",
+      "bytes": 300032
+    },
+    {
+      "path": "C:\\科研\\agent\\文献\\电解铝\\2020YFB1713603-001-电解铝跨工序能质耦合、工艺参数感知模型数据集\\数据集实体文件\\电解槽日报-2831.xls",
+      "sha256": "277093fcb756e14767ed1a4a924ed32aa65f0072b1ec0b1545f8cc43e48ef7ac",
+      "bytes": 306688
+    },
+    {
+      "path": "C:\\科研\\agent\\文献\\电解铝\\2020YFB1713603-001-电解铝跨工序能质耦合、工艺参数感知模型数据集\\数据集实体文件\\电解槽日报-2832.xls",
+      "sha256": "7d0303ac6990a3e246695293101f1f6173a72aceb414993c799d52f0c5bb403e",
+      "bytes": 302080
+    },
+    {
+      "path": "C:\\科研\\agent\\文献\\电解铝\\2020YFB1713603-001-电解铝跨工序能质耦合、工艺参数感知模型数据集\\数据集实体文件\\电解槽日报-2833.xls",
+      "sha256": "7a0e02326453246b73bc8fb88ccadc7c8cb5d2f47c69173475e41ffde923776b",
+      "bytes": 303104
+    },
+    {
+      "path": "C:\\科研\\agent\\文献\\电解铝\\2020YFB1713603-001-电解铝跨工序能质耦合、工艺参数感知模型数据集\\数据集实体文件\\电解槽日报-2834.xls",
+      "sha256": "730abc014162d2ad211d49f9b247c8fe623fa02a5da9a040aa1c885b169a1da5",
+      "bytes": 307200
+    },
+    {
+      "path": "C:\\科研\\agent\\文献\\电解铝\\2020YFB1713603-001-电解铝跨工序能质耦合、工艺参数感知模型数据集\\数据集实体文件\\电解槽日报-2835.xls",
+      "sha256": "76e54fcd8b48c457600186b284b92eeb685aa2d5991e88da5ce898cd1beb0853",
+      "bytes": 309248
+    },
+    {
+      "path": "C:\\科研\\agent\\文献\\电解铝\\2020YFB1713603-001-电解铝跨工序能质耦合、工艺参数感知模型数据集\\数据集实体文件\\电解槽日报-2836.xls",
+      "sha256": "42a2d89da462645112396e0163cf9c2e0153a2c5ed1fcec9a52c43120135d49b",
+      "bytes": 304640
+    }
+  ],
+  "derived_extract": {
+    "path": "C:\\科研\\agent\\文献\\电解铝\\aluminum_industry_qa_benchmark\\P1_semantic_calibration\\qa_smoke_test\\daily_reports_raw_extract.csv",
+    "sha256": "098353211f747d76b2b989cfe399ea1af3f4cc92fc5afe04aa1c334c568c2e69",
+    "rows": 30691,
+    "columns": [
+      "source_file",
+      "source_row",
+      "cell_id",
+      "record_date",
+      "average_voltage",
+      "working_voltage"
+    ]
+  },
+  "script_hashes": [
+    {
+      "path": "C:\\科研\\agent\\文献\\电解铝\\aluminum_industry_qa_benchmark\\P1_semantic_calibration\\scripts\\extract_daily_reports_readonly.ps1",
+      "sha256": "37dd20bae16a804fbca41a4757975436e890dda0f6efaf32ddd59acff0494e21"
+    },
+    {
+      "path": "C:\\科研\\agent\\文献\\电解铝\\aluminum_industry_qa_benchmark\\P1_semantic_calibration\\scripts\\qa_reference_calculator.py",
+      "sha256": "aedd4343beff03cdb6ba1cfbd19bd9277675a09fe10efb46d42352b9724f6e26"
+    },
+    {
+      "path": "C:\\科研\\agent\\文献\\电解铝\\aluminum_industry_qa_benchmark\\P1_semantic_calibration\\scripts\\build_p1_prototype.py",
+      "sha256": "2d16d26a4f3e8e49384484520311055fe1d020053d872b078672e02da8a981b0"
+    }
+  ],
+  "cell_ids": [
+    2726,
+    2727,
+    2728,
+    2729,
+    2730,
+    2731,
+    2732,
+    2733,
+    2734,
+    2735,
+    2736,
+    2827,
+    2828,
+    2829,
+    2830,
+    2831,
+    2832,
+    2833,
+    2834,
+    2835,
+    2836
+  ],
+  "duplicate_policy": {
+    "raw_rows": 30691,
+    "exact_duplicate_rows_on_extract_fields": 63,
+    "gold_default": "deduplicated_exact; retain earliest source_file/source_row; conflicting same-cell/day values are errors"
+  },
+  "date_parser": "first 10 characters; / normalized to -; ISO calendar date",
+  "field_names": [
+    "average_voltage",
+    "working_voltage"
+  ],
+  "runtime": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0"
+  }
+}

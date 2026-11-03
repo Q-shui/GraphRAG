@@ -1,0 +1,23 @@
+{
+  "phase": "P6",
+  "completed_batches": [
+    "batch_001"
+  ],
+  "history_candidates": 75,
+  "batch_001_generated": 15,
+  "batch_001_review_ready": 10,
+  "batch_001_hold": 5,
+  "current_candidate_total": 90,
+  "gold_total": 0,
+  "next_priority_domains": [
+    "D06",
+    "D09",
+    "D11",
+    "D12",
+    "D13"
+  ],
+  "blockers": [
+    "Need more full-text independent sources before scalable expansion; no real expert reviews."
+  ],
+  "code_version": "P6-batch001"
+}

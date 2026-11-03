@@ -1,0 +1,19 @@
+import json
+from pathlib import Path
+
+R=Path(__file__).resolve().parents[1]; D=R/'datasets'; D.mkdir(parents=True,exist_ok=True)
+def e(i,q,claim,mode,label,ans,pts,ev,cond,miss,errs,reason):
+ return {'question_id':i,'question':q,'claim_text':claim,'assessment_mode':mode,'claim_support_label':label,'reference_answer':ans,'key_answer_points':pts,'evidence_ids':[ev[0]],'source_locations':[ev[1]],'evidence_input':ev[2] if mode=='B' else None,'applicable_conditions':cond,'missing_information':miss,'acceptable_alternatives':['同义表达且不超出证据范围。'],'critical_errors':errs,'reasoning_type':reason,'review_status':'Candidate','expert_review_status':'Not-Reviewed','item_version':'p3r2.0'}
+E=[
+e('E101','请审查下列主张：仅凭槽电压升高即可确证发生阳极效应。','仅凭槽电压升高即可确证发生阳极效应。','B','PARTIALLY_SUPPORTED','不支持“即可确证”。证据将电压上升列为典型现象之一，同时列出火花/声响、电解质状态和气体组成等其他现象；它支持电压上升与阳极效应相关，但不足以给出单特征确证规则。',['区分现象与确证','指出多特征限制','不把未给出的诊断阈值当作事实'],('EV-MOD06-P056','MOD06，印刷页56','经核验的证据摘要：阳极效应可出现火花声响、电解质状态变化、含氟气体以及槽电压明显上升等现象。'),'限冰晶石-氧化铝炭阳极语境。','现场诊断规则、采样与其他状态信息。',['声称证据给出单电压诊断阈值','把主张直接判为已充分支持'],'证据充分性审查'),
+e('E102','请审查下列主张：只要按 R0=(U-B)/I 计算，R0 在任何运行状态下都是真实槽电阻。','R0 在任何运行状态下都是真实槽电阻。','B','CONTRADICTED','不支持。证据说明 B 是设定常数、真实反电动势会变化；只有真实反电动势恰等于 B 的运行条件下，表观槽电阻才等于真实槽电阻。',['识别无条件外推错误','说明等值条件','区分表观与真实量'],('EV-MOD22-P368','MOD22，印刷页368','经核验证据摘要：B 为设定的表观反电动势；真实反电动势可变化；只有二者相等时，表观槽电阻才是真实槽电阻。'),'限该采样模型和符号定义。','现场采样同步性与模型误差。',['说 B 永远等于真实反电动势'],'条件化模型审查'),
+e('E103','氧化铝加入量短时低于消耗量时，能否直接断言已经发生阳极效应？请说明必要条件。','短时加料不足必然意味着已经发生阳极效应。','A','CONDITIONAL','不能直接断言。投入小于消耗会使浓度下降；教材将达到阳极效应临界浓度作为可能发生阳极效应的条件。短时不足是否已到临界值仍需浓度、持续时间和工况信息。',['投入-消耗导致浓度变化','临界浓度条件','指出缺失信息'],('EV-MOD19-P301','MOD19，印刷页301','证据不作为模式A输入；审计记录显示：投入小于消耗导致浓度下降，达到临界浓度时可能发生阳极效应。'),'限氧化铝物料平衡语境。','浓度、持续时间、临界值及现场状态。',['把风险说成已发生事件'],'条件与不确定性判断'),
+e('E104','请审查下列主张：两份铝电解能耗报告只要单位相同，就可以直接比较数值高低。','单位相同足以保证能耗报告可比。','B','CONTRADICTED','不支持。单位一致不能消除系统边界、度量体系和测定基准差异；这些条件未统一时，数值高低不构成可比结论。',['列出至少两个比较前提','拒绝只看单位'],('EV-MOD10-P086','MOD10，印刷页86','经核验证据摘要：能耗比较会因度量体系、测定基准、系统边界和量纲不同而混乱。'),'限能耗评价口径比较。','系统边界、测定基准、度量体系。',['仅因单位相同即排序'],'证据限制审查'),
+e('E105','请审查下列主张：所有铝电解槽启动后的非正常期都应采用同一固定时长。','所有槽型的非正常期时长相同。','B','CONTRADICTED','不支持。证据指出非正常期长短取决于槽型、运行条件和技术方案；因此不能从该资料推出统一固定时长。',['指出影响条件','拒绝普适时长'],('EV-MOD12-P128','MOD12，印刷页128','经核验证据摘要：启动后非正常期是建立正常技术条件的过渡期，其长短视槽型、运行条件和技术方案而异。'),'限预焙铝电解槽启动后阶段。','具体槽型、运行条件与技术方案。',['把教材示例范围当作所有槽固定规则'],'工艺适用性审查'),
+e('E106','铝液中铁、硅出现一次升高，能否据此确证阴极内衬破损？','一次 Fe、Si 升高即可确证阴极内衬破损。','A','PARTIALLY_SUPPORTED','不能确证。教材将铁连续上升、无下降稳定趋势且硅也呈上升势头作为较可能的组合线索；单次升高的解释仍不唯一。',['识别趋势和组合要求','说明单点证据不足'],('EV-MOD16-P231','MOD16，印刷页231','证据不作为模式A输入；审计记录显示连续 Fe 趋势与 Si 上升是组合线索。'),'限教材归纳的大修前共性特征。','连续趋势、其他污染来源、现场检验。',['把一次化验结果作为确诊'],'证据不足判断')]
+M=[
+{'question_id':'M101','question':'为什么预焙铝电解槽启动后需要把高槽温、高槽电压等初始技术状态逐步调整到正常范围，而不应把通电即视为稳定生产？','reference_answer':'启动后非正常期是逐步建立正常生产技术条件的过渡期。初始高槽温、高槽电压、高电解质高度和高分子比需逐渐趋于正常，以形成稳定的热平衡和物料平衡。','key_answer_points':['识别启动后过渡期','参数逐步趋于正常','目标是稳定热/物料平衡'],'evidence_ids':['EV-MOD12-P128'],'source_locations':['MOD12，印刷页128'],'applicable_conditions':'预焙槽启动后非正常期；具体方案受槽型和条件影响。','management_domain':'M1/M4 生产阶段风险管理','review_status':'Candidate','expert_review_status':'Not-Reviewed'},
+{'question_id':'M102','question':'为什么铝电解能耗分析的记录需要同时保留系统边界、测定基准和度量口径，而不能只保存一个能耗数值？','reference_answer':'能耗数值的解释取决于度量体系、测定基准、系统边界和量纲；缺少这些记录时，报告之间可能不可比，也难以追溯差异来源。','key_answer_points':['记录系统边界','记录测定基准和度量口径','避免不可比和无法追溯'],'evidence_ids':['EV-MOD10-P086'],'source_locations':['MOD10，印刷页86'],'applicable_conditions':'能耗评价和报告比较；不是企业具体记录制度。','management_domain':'M3/M6 工艺质量与记录管理','review_status':'Candidate','expert_review_status':'Not-Reviewed'}]
+def dump(name,x): (D/name).write_text('\n'.join(json.dumps(a,ensure_ascii=False) for a in x)+'\n',encoding='utf8')
+dump('evidence_qa_candidates.jsonl',E); dump('management_qa_candidates.jsonl',M); print({'E1':len(E),'management':len(M)})
+if __name__=='__main__': pass

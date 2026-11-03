@@ -1,0 +1,44 @@
+{
+  "chapters_in_chunks": 39,
+  "chunk_pages_missing_from_pages_file": [],
+  "duplicate_chunk_ids": [],
+  "duplicate_text_groups": 0,
+  "field_presence": {
+    "chapter_id": 1110,
+    "chunk_id": 1110,
+    "page_id": 1110,
+    "source_image": 1110,
+    "text": 1110
+  },
+  "invalid_records": [],
+  "manifest_counts": {
+    "chapters": 39,
+    "chunks": 1110,
+    "limitations": [
+      "OCR is not a semantic correction or expert verification.",
+      "Tables, figures, formulas, and numeric thresholds require image-level review.",
+      "The 34-page coverage difference between split chapters and complete PDF remains unresolved."
+    ],
+    "pages": 616,
+    "quality_flag_counts": {
+      "complex_layout_formula_table_or_low_cjk_density": 48,
+      "empty_ocr": 2,
+      "raw_cjk_spacing_repaired_for_model_only": 613
+    }
+  },
+  "pages_file_records": 616,
+  "risk_markers": {
+    "control_characters": 0,
+    "empty": 0,
+    "formula_or_table_marker": 488
+  },
+  "source": "modern_aluminum_kg_corpus_v2\\data\\modern_aluminum_v2_extraction_chunks.jsonl",
+  "source_images_resolvable_relative_to_corpus": 0,
+  "source_images_unresolved_chunk_count": 1110,
+  "text_chars": {
+    "max": 1100,
+    "min": 98,
+    "total": 902674
+  },
+  "valid_records": 1110
+}

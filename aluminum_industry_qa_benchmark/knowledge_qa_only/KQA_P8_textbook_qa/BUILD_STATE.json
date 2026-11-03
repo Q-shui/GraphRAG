@@ -1,0 +1,46 @@
+{
+  "books": [
+    {
+      "book_id": "B01",
+      "title": "现代铝电解",
+      "authors": "刘业翔等编著（PDF元数据）",
+      "publisher": "Unknown",
+      "publication_year": "2008（文件名）",
+      "format": "PDF",
+      "page_count": 650,
+      "text_layer": "not verified; command-line extraction unavailable",
+      "status": "catalogued; no newly page-verified content in P8"
+    },
+    {
+      "book_id": "B02",
+      "title": "铝电解生产技术",
+      "authors": "杨升、杨冠群编著（PDF元数据）",
+      "publisher": "Unknown",
+      "publication_year": "Unknown",
+      "format": "PDF",
+      "page_count": 260,
+      "text_layer": "not verified; command-line extraction unavailable",
+      "status": "catalogued; no newly page-verified content in P8"
+    },
+    {
+      "book_id": "B03",
+      "title": "铝电解技术问答",
+      "authors": "杨升、杨冠群编著（PDF元数据）",
+      "publisher": "Unknown",
+      "publication_year": "Unknown",
+      "format": "PDF",
+      "page_count": 284,
+      "text_layer": "not verified; command-line extraction unavailable",
+      "status": "catalogued; no newly page-verified content in P8"
+    }
+  ],
+  "processed_chapters": [
+    "B01-C29 pages 457–464: OCR saved; visual cross-check completed only for page 457",
+    "full textbook OCR: B01/B02/B03 chapter PDFs, 1125 pages, 0 OCR execution errors"
+  ],
+  "new_questions": 16,
+  "textbook_verified": 3,
+  "pending_page_review": 13,
+  "rejected_as_history_duplicates": 16,
+  "next_batch": "visually verify pages 458–464 before promoting pending candidates; then sample and page-review non-overlapping chapters from the completed OCR corpus"
+}

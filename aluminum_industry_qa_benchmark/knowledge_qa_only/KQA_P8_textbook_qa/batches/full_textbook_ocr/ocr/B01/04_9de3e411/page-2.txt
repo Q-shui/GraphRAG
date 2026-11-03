@@ -1,0 +1,48 @@
+一 4 冰晶 石 -氧化 铝 (NasAlFe-Al0; ) 系 熔 盐 结构 .41
+
+Dewing 基于 NaF 、AIF: 活 度数 据 提出 的 热力 学 模型 ， 认 为 AlFe- 离子 团 也 可 能 按 下 式 解 离 :
+
+AlF3- 一 一 AIR + 了 -
+
+这 样 ， 冰 晶 石 熔 体 中 存在 的 离子 实体 〈 即 熔 体 结构 ) 为 Na 、AIFS 、AIF:  、AlF; 及 了 -
+离子 。
+
+4.2.2 核磁 共振 谱 (NMR) 研究 提出 的 结构 模型
+
+1998 年 ，E. Robert 等 ("” 用 ”Al 高 温 核磁 共振 谱 (NMR) 对 NaF-AIF; 系 熔 体 进行 了 研究 ，
+并 同 该 熔 体 的 喇 曼 光 谱 研 究 结 果 和 热力 学 数据 作 了 对 比 ， 提 出 了 该 熔 体 新 的 结构 模型 ， 认 为 该
+熔 体 由 三 种 含 Al 络 合 离子 AlFe 、AIF: 和 AlIF, 构成 ， 即 由 以 下 反应 的 平衡 产物 所 形成 的 离子
+构成 :
+
+Na AlF。 一 二 3Na+ + AlF2- (4-1)
+AlF2- 一 一 AlF2- + 了 - (42)
+AIF2 一 -AIF +F- (43)
+
+熔 体 中 是 否 存在 离子 AILF5- ， 过 去 是 有 争议 的 ， 但 是 几经 测试 和 对 比 ， 与 Gilhert 等 用 喇 曼
+光谱 的 研究 结果 相符 ， 因 此 熔 体 中 存在 AIF5 - 仍 是 可 信和 的。
+
+2002 年 ，V. Lacassagne 和 C. Bessada 等 四 对 NaF-AIF, 系 熔 盐 结构 的 高 温 核 磁 共 振 谱
+(NMR) 研究 也 表明 ，NaF-AIF, 系 中 ,”Al、F 质点 的 化 学 改变 与 存在 着 AlLF，、AIF3 和 AlFe 络
+合 离子 的 情况 两 者 吻合 甚 好 。 络 合 离子 在 冰晶 石 至 亚 冰 唱 石 成 分 间 的 平均 配 位 数 为 5。
+
+这 样 ， 可 以 认为 ，NaF-AIF; 熔 体 的 结构 主要 由 Na" 、 了 - 、AlIF5 、AlF3 和 AlF, 构成 。
+4.3 NasAIF,-ALO; 系 熔 体 结构
+
+数 十 年 来 ， 对 NasAIF,-Al0, 系 熔 体 结构 的 研究 已 提出 34 种 结构 模型 ” 。
+
+近年 来 又 有 若干 新 的 研究 进展 ， 新 提出 的 NasAlF,-Al0;, 系 熔 体 结构 模型 见 表 4-1。
+
+表 4-1 NasAIF,-ALO, 系 熔 体 结构 模型 "1
+作 者 认为 具有 的 熔 体 结构 成 分
+Sterten Na AL OF。，Na AL OF ，Nay AL OF ，NacAl OF
+Julsamad Na AL OF。，Na4AlL OFs ，NazAbD OF ，NaoALD OF
+Kvande Na Al OF ，Na Al 0)F ，Nag AL OFs
+Gilhert Na Al OF5 (或 者 NaiAl OFs ) ，NazAl OF。
+4.3.1 热力 学 模型 的 结果
+
+Sterteni 研究 了 人 饱和 Al0, 的 NaF-AIF, 系 熔 体 的 热力 学 模型 ， 指 出 主要 的 含 氧 络 合 离子 为
+ALOF5 和 ALO, 本 - o
+4.3.2 直接 定 氧 法 的 结果
+
+Denek' 等 用 直接 定 氧 法 研究 了 该 熔 体 的 结构 ， 指 出 在 低 Al0, 浓度 时 ， 熔 体 中 存在 有
+ALOFe 和 Al0,F6 络 合 离子 ; 在 高 As0, 浓度 时 则 以 AL 0;F: -为 主 。 在 酸性 熔 体 中 ，

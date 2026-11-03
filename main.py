@@ -6,6 +6,7 @@ import asyncio
 from pathlib import Path
 from shutil import copyfile
 from Data.QueryDataset import RAGQueryDataset
+from Data.ModernAluminumDataset import ModernAluminumRAGDataset
 import pandas as pd
 from Core.Utils.Evaluation import Evaluator
 from Core.Common.Logger import logger
@@ -30,12 +31,12 @@ def check_dirs(opt, option_path):
     return result_dir
 
 
-def wrapper_query(query_dataset, digimon, result_dir):
+def wrapper_query(query_dataset, digimon, result_dir, query_limit=10):
     all_res = []
 
     # Keep the default command suitable for an interactive local smoke test.
     # The full dataset remains available by changing this explicit limit.
-    dataset_len = min(10, len(query_dataset))
+    dataset_len = len(query_dataset) if query_limit is None or query_limit <= 0 else min(query_limit, len(query_dataset))
     logger.info("Starting question answering for the first {}/{} questions", dataset_len, len(query_dataset))
 
     for i in range(dataset_len):
@@ -74,24 +75,43 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("-opt", type=str, help="Path to option YMAL file.")
     parser.add_argument("-dataset_name", type=str, help="Name of the dataset.")
+    parser.add_argument("--qa_file", type=str, default=None, help="Optional external QA JSONL for modern aluminum.")
+    parser.add_argument("--query_limit", type=int, default=10, help="Questions to answer; 0 means all.")
+    parser.add_argument("--skip_query", action="store_true", help="Build/index graph only.")
+    parser.add_argument("--evaluate", action="store_true", help="Run legacy automatic metrics only when a suitable gold QA set is supplied.")
     args = parser.parse_args()
 
     option_path = Path(args.opt).resolve()
     opt = Config.parse(option_path, dataset_name=args.dataset_name)
+    repo_root = Path(__file__).resolve().parent
+    if args.dataset_name == "modern_aluminum_kg_corpus_v2":
+        # Keep graph/index/result artefacts separate from the immutable OCR
+        # corpus even though the legacy Config parser normally uses a folder
+        # named after the dataset under the repository root.
+        opt.working_dir = str(repo_root / "outputs" / args.dataset_name)
     digimon = GraphRAG(config=opt)
     result_dir = check_dirs(opt, option_path)
 
-    query_dataset = RAGQueryDataset(
-        data_dir=os.path.join(opt.data_root, opt.dataset_name)
-    )
+    modern_dir = repo_root / "modern_aluminum_kg_corpus_v2"
+    if args.dataset_name == "modern_aluminum_kg_corpus_v2":
+        # The modern corpus is a first-class project asset, not a converted
+        # legacy Corpus.json dataset.  Its source chunk IDs reach DocChunk.
+        query_dataset = ModernAluminumRAGDataset(modern_dir, args.qa_file)
+    else:
+        query_dataset = RAGQueryDataset(data_dir=os.path.join(opt.data_root, opt.dataset_name))
     corpus = query_dataset.get_corpus()
     # corpus = corpus[:10]
 
     asyncio.run(digimon.insert(corpus))
 
-    save_path = wrapper_query(query_dataset, digimon, result_dir)
-
-    asyncio.run(wrapper_evaluation(save_path, opt, result_dir))
+    if not args.skip_query and len(query_dataset):
+        save_path = wrapper_query(query_dataset, digimon, result_dir, args.query_limit)
+        # Candidate benchmark items are deliberately not silently turned into
+        # final quality metrics.  Legacy evaluation stays opt-in.
+        if args.evaluate:
+            asyncio.run(wrapper_evaluation(save_path, opt, result_dir))
+    elif not args.skip_query:
+        logger.warning("No QA file found; graph was built but no query/evaluation stage was run.")
 
     # for train_item in dataloader:
 

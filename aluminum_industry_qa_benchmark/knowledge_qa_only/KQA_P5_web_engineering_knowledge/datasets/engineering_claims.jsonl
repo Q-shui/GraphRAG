@@ -1,0 +1,10 @@
+{"claim_id": "CLM-W501", "question_id": "W501", "claim_text": "EPA说明，PFC在阳极效应期间产生；在给定产量下，排放量取决于阳极效应发生频率和持续时间。", "support_label": "SUPPORTED"}
+{"claim_id": "CLM-W502", "question_id": "W502", "claim_text": "不能。EPA说明阳极效应期间不产铝，但能量和氧化铝等过程投入仍被消耗；不产铝不等于所有输入停止。", "support_label": "CONDITIONAL"}
+{"claim_id": "CLM-W503", "question_id": "W503", "claim_text": "减少阳极效应可降低PFC排放；EPA同时报告避免阳极效应有助于效率和生产率。两类收益需限定为该行业资料所述关联，不能量化外推。", "support_label": "SUPPORTED"}
+{"claim_id": "CLM-W504", "question_id": "W504", "claim_text": "DOE报告称，过快下料或大增量加入时氧化铝可能来不及溶解并形成槽底沉积；下料应与消耗及溶解条件相匹配。", "support_label": "CONDITIONAL"}
+{"claim_id": "CLM-W505", "question_id": "W505", "claim_text": "工业单点下料研究以改善槽内氧化铝浓度均匀性为目标，并结合阳极效应预测；这说明下料控制还要考虑空间分布和异常风险，而非只看总量。", "support_label": "SUPPORTED"}
+{"claim_id": "CLM-W506", "question_id": "W506", "claim_text": "不支持为普适结论。SINTEF摘要讨论低压阳极效应可在很小的阳极局部发生，而其余区域仍可处于正常阳极反应。", "support_label": "CONDITIONAL"}
+{"claim_id": "CLM-W507", "question_id": "W507", "claim_text": "公开资料将低氧化铝浓度和电压快速升高联系起来，但阳极效应识别还受槽型、局部状态和测量语境影响；单一信号不足以构成普适充分判据。", "support_label": "CONDITIONAL"}
+{"claim_id": "CLM-W508", "question_id": "W508", "claim_text": "EPA技术文件指出，排放还可随冶炼技术类型和运行实践而变化；因此不能只用阳极效应分钟数跨厂直接比较。", "support_label": "CONDITIONAL"}
+{"claim_id": "CLM-W509", "question_id": "W509", "claim_text": "不能。EPA列举技术和运行改变可用于减少阳极效应，但具体效果受工厂技术、操作与实施条件影响；技术存在不等于普适效果已被证明。", "support_label": "CONDITIONAL"}
+{"claim_id": "CLM-W510", "question_id": "W510", "claim_text": "BAT资料服务于特定监管和环境管理语境；它可支持技术措施和环境管理讨论，但不自动证明普适电化学因果或所有地区的强制要求。", "support_label": "CONDITIONAL"}

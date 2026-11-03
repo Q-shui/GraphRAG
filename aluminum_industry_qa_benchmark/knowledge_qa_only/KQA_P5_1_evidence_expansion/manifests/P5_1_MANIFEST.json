@@ -1,0 +1,19 @@
+{
+  "artifact": "KQA-P5.1 independent evidence-expansion working set",
+  "created_on": "2026-10-22",
+  "inputs_preserved": {
+    "P4_questions_sha256": "5AAC676A2F88119D4A9D074066251CF1DF0D063E26BB159650EBC98551391FE9",
+    "P5_questions_sha256": "6C17FB9E792D939889238F963168ACFA4023871489753FA8840AF63DB415C11C"
+  },
+  "outputs": [
+    "datasets/verified_sources.jsonl",
+    "datasets/new_knowledge_units.jsonl",
+    "datasets/new_qa_candidates.jsonl",
+    "datasets/rejected_candidates.jsonl",
+    "evidence/claim_evidence_review.jsonl",
+    "evidence/source_independence.jsonl",
+    "evidence/source_conflicts.jsonl"
+  ],
+  "validation_command": "python validation/validate_p51.py",
+  "release_decision": "no 0.5.0-candidate; retain independent working set"
+}

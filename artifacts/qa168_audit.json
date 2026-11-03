@@ -1,0 +1,33 @@
+{
+  "candidate_status": {
+    "Candidate": 168
+  },
+  "evidence_status": {
+    "A-direct-fulltext": 10,
+    "C-abstract-only": 5,
+    "Evidence-Verified": 14,
+    "HISTORICAL_STATUS_UNMAPPED": 121,
+    "INFERENCE_REVIEW_REQUIRED": 3,
+    "NEEDS_PAGE_REVIEW": 10,
+    "Needs-Reverification": 2,
+    "TEXTBOOK_VERIFIED": 3
+  },
+  "expert_review_status": {
+    "Not-Reviewed": 168
+  },
+  "path": "aluminum_industry_qa_benchmark\\knowledge_qa_only\\KQA_P8_textbook_qa\\datasets\\unified_candidate_pool.jsonl",
+  "primary_type": {
+    "E1": 14,
+    "K1": 23,
+    "K2": 35,
+    "K3": 16,
+    "K4": 19,
+    "K5": 43,
+    "K6": 16,
+    "M": 2
+  },
+  "question_ids_unique": true,
+  "records": 168,
+  "with_evidence_locations": 78,
+  "with_source_ids": 109
+}

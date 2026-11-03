@@ -1,0 +1,6 @@
+{"question_id": "X511", "fact_correctness": "candidate", "evidence_support": "direct where stated; scope-limited", "applicability": "限欧盟规则中的斜率法核算语境。"}
+{"question_id": "X512", "fact_correctness": "candidate", "evidence_support": "direct where stated; scope-limited", "applicability": "限PFC清单核算，不代表所有工艺指标。"}
+{"question_id": "X513", "fact_correctness": "candidate", "evidence_support": "direct where stated; scope-limited", "applicability": "限铝电解槽预热语境；具体方案仍需工程审核。"}
+{"question_id": "X514", "fact_correctness": "candidate", "evidence_support": "evidence-insufficient", "applicability": "证据不足拒答题；不以该来源验证具体机理。"}
+{"question_id": "X515", "fact_correctness": "candidate", "evidence_support": "direct where stated; scope-limited", "applicability": "基于论文摘要，仅作定性边界判断；定量结论待全文核验。"}
+{"question_id": "X516", "fact_correctness": "candidate", "evidence_support": "direct where stated; scope-limited", "applicability": "限排放核算语境。"}

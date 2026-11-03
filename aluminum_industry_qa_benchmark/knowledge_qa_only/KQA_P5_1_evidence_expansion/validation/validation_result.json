@@ -1,0 +1,16 @@
+{
+  "counts": {
+    "P4": 59,
+    "P5": 10,
+    "P5.1": 6,
+    "working_total": 75
+  },
+  "sha256": {
+    "p4": "5AAC676A2F88119D4A9D074066251CF1DF0D063E26BB159650EBC98551391FE9",
+    "p5": "6C17FB9E792D939889238F963168ACFA4023871489753FA8840AF63DB415C11C",
+    "p51": "1791E622DECC2F859BF3681185050B4D0E80158A9FDA3BD611ADC1A140BAD268"
+  },
+  "exact_question_duplicates": 0,
+  "expert_approved_items": 0,
+  "result": "PASS"
+}

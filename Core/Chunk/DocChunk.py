@@ -33,6 +33,28 @@ class DocChunk:
             if isinstance(docs, str):
                 docs = [docs]
 
+            # A specialised corpus may already define reviewable extraction
+            # chunks.  Do not hash, merge or re-split those records: their ID
+            # is the evidence identity, not merely a cache key.
+            if isinstance(docs, list) and docs and all(isinstance(doc, dict) and doc.get("prechunked") for doc in docs):
+                for index, doc in enumerate(docs):
+                    content = doc.get("content", "")
+                    chunk_id = doc.get("chunk_id")
+                    if not isinstance(content, str) or not content.strip() or not isinstance(chunk_id, str) or not chunk_id:
+                        raise ValueError("Prechunked documents require non-empty content and chunk_id")
+                    metadata = dict(doc.get("metadata") or {})
+                    metadata.setdefault("parent_chunk_id", chunk_id)
+                    # Token count is informational; no chunking is performed.
+                    tokens = len(self.token_model.encode(content))
+                    await self._chunk.upsert(chunk_id, TextChunk(
+                        tokens=tokens, chunk_id=chunk_id, content=content,
+                        doc_id=str(doc.get("document_id") or doc.get("doc_id") or ""),
+                        index=index, title=doc.get("title"), metadata=metadata,
+                    ))
+                await self._chunk.persist()
+                logger.info("✅ Finished prechunked ingestion: {} source chunks", len(docs))
+                return
+
             if isinstance(docs, list):
                 if all(isinstance(doc, dict) for doc in docs):
                     docs = {
@@ -68,6 +90,7 @@ class DocChunk:
 
             for chunk in chunks:
                 chunk["chunk_id"] = mdhash_id(chunk["content"], prefix="chunk-")
+                chunk.setdefault("metadata", {})
                 await self._chunk.upsert(chunk["chunk_id"], TextChunk(**chunk))
 
             await self._chunk.persist()

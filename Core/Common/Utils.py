@@ -41,8 +41,11 @@ def clean_str(input: Any) -> str:
     # https://stackoverflow.com/questions/4324790/removing-control-characters-from-a-string-in-python
     result = re.sub(r"[\x00-\x1f\x7f-\x9f]", "", result)
 
-    # Remove non-alphanumeric characters and convert to lowercase
-    return re.sub('[^A-Za-z0-9 ]', ' ', result.lower()).strip()
+    # Do not discard CJK names.  The previous ASCII-only expression silently
+    # converted every Chinese entity/relation into an empty string, which makes
+    # the generic ER graph unusable for Chinese corpora.
+    result = re.sub(r"\s+", " ", result)
+    return result.strip()
 
 
 def split_string_by_multi_markers(

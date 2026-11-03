@@ -1,0 +1,42 @@
+一 -一 7 铝 电解 中 炭 阳 极 上 的 电 催化 作用 61
+得 了 较 高 的 阳极 反应 速率 。
+根据 现代 电化 学 研究 ， 铝 电解 炭 阳 极 上 的 反应 过 程 可 分 为 如 下 五 步 :
+0 一 一 Oww + 2e (7-1)
+0 +xC 一 一 C.0 (7-2)
+0- + C.0 一 一 C.0 .0 +2e (7-3)
+C.0 . 0 一 一 CO + (zx -1)C (7-4)
+COmm 一 一 C0， (735)
+由 于 电流 密度 较 大 时 要 求 放电 的 离子 增多 ， 而 原 有 的 活性 中 心 不 足 ， 熔 融 电解 液 中 含 氧 离
+子 被 迫 在 阳 极 上 活性 较 差 的 地 方 放电 ， 生 成 了 C.0 中 间 化 合 物 。 由 于 C.0 的 生成 〈( 式 72) 和
+缓慢 分 解 〈 式 7-4) 均 需 要 额外 能 量 ， 这 就 引起 了 过 电压 。 从 电极 外 部 引入 具有 特性 的 催化 剂
+后 ， 可 使 电极 表面 上 的 活性 中 心 增多 ， 从 而 使 C.0 的 生成 减少 。 挫 杂 剂 还 能 加 快 C.0 的 分 解 速
+度 ， 加 速 阳极 反应 的 进行 ， 因 而 导致 过 电压 降低 。
+下 面 ， 以 挫 人 LisCO: 为 例 ， 说 明 挨 杂 剂 加 快 C.0 分 解 速率 的 可 能 机 理 。
+[Li CO,- 高 浊 分 优 _Ti 0 + Co0， (7-6)
+C.0 .0 + La0 一 2Li+Co+CoO+(z -2)C (727)
+2Li + CO=- 一 LO0+C (7-8)
+由 反应 式 7-7 + 式 7-8 得 :
+C.0 .0 一 一 CO, + (zx -1)C (7-9)
+图 7-4 是 催化 剂 的 微观 模型 推测 。
+图 7-4a、b 、e 是 未 掺 和 杂 炭 阳极 的 阳极 反应 模型 ， 图 7-4A、B、C 是 炭 阳 极 迭 入 LizCO; 后 的
+阳极 反应 模型 。 由 左 列 图 a、b、e 可 知 ， 当 电流 密度 增 大 时 ， 大 量 的 含 氧 离子 在 碳 的 唱 格 深部
+碳 基体 碳 基体
+AUAUAUAUA ANANCAKAUAY
+ecLA>ECNAe7 Ne7 ec7 、dEsoECNc- CRE“OC7
+-AAAeY>srysrzcxs -AAAL-sPY-srr>rxcss
+了 io 此 IO
+| 二 上 站。
+碳 基体 碳 基体
+7 eV CA CA 习 本 CA CA CA eV 到
+Ne ev ceL 证 SC NORE5OK7
+-Aif---Srrsrzxrsczess -AKCrzCsc
+[0 Coxad) GO [o 扩 ] Coz(ad) Oo [oO2-]
+| |
+b 也
+碳 基体 碳 基体 REuOy
+7 Ne 1 eV CA 忆 E eVL AL Ne CA 习
+Ne 、c7 ec Ne 、c7 Ne 、cGGe7 ec7 、c7
+-AAAASEKs-x->czrs -AAALzr2e-srxsrzCsr
+5/ CGO: IO O [O2-] 97 Coz 人 O O [oO2-]
+由 1 1
+图 7-4 石墨 阳极 中 催化 剂 作用 的 微观 模型

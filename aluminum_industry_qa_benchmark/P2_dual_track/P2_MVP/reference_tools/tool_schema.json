@@ -1,0 +1,15 @@
+{
+  "tool_schema_version": "p2-data-tools-v1",
+  "dataset_version_constraint": "p1-daily-extract-v1",
+  "tools": {
+    "get_schema": {"parameters": {}, "returns": "field allowlist, version, policies and errors"},
+    "query_records": {"parameters": {"cell_id":"integer","start_date":"YYYY-MM-DD","end_date":"YYYY-MM-DD","fields":"optional array of allowed fields"}, "returns":"provenance-bearing raw records"},
+    "filter_records": {"parameters": {"records":"query output records","field":"allowed field","not_null":"boolean"}, "returns":"filtered records and count"},
+    "calculate_statistics": {"parameters": {"cell_id":"integer","start_date":"YYYY-MM-DD","end_date":"YYYY-MM-DD","field":"allowed field"}, "returns":"mean/min/max/population SD/counts/coverage"},
+    "compare_time_windows": {"parameters": {"cell_id":"integer","field":"allowed field","first":"[start,end]","second":"[start,end]"}, "returns":"two statistics and mean difference"},
+    "compare_cells": {"parameters": {"cell_a":"integer","cell_b":"integer","start_date":"YYYY-MM-DD","end_date":"YYYY-MM-DD","field":"allowed field"}, "returns":"two statistics and descriptive difference"},
+    "inspect_data_quality": {"parameters": {"cell_id":"optional integer","start_date":"optional YYYY-MM-DD","end_date":"optional YYYY-MM-DD"}, "returns":"duplicates/conflicts/coverage"},
+    "refuse_unsupported_inference": {"parameters": {"requested_conclusion":"string","field":"allowed field"}, "returns":"insufficient-evidence refusal and missing direct evidence"}
+  },
+  "common_rules": {"date_bounds":"inclusive","statistics_duplicate_policy":"deduplicated_exact","null_handling":"exclude only from numeric statistics","units":"unknown","equivalent_reference_paths":"permitted when they preserve all constraints and answer"}
+}
