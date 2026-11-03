@@ -1,6 +1,0 @@
-{"knowledge_unit_id": "KU-X511", "professional_statement": "欧盟规则将阳极效应分钟数定义为发生频率乘以平均持续时间；两者缺一时无法重建该活动数据。", "source_ids": "EURLex-PFC", "applicability": "限欧盟规则中的斜率法核算语境。", "evidence_status": "Needs-Reverification"}
-{"knowledge_unit_id": "KU-X512", "professional_statement": "IPCC和欧盟规则均按技术类型区分数据或排放系数，并允许在满足条件时使用安装特定因子；因此跨技术直接套用同一系数会产生口径风险。", "source_ids": "IPCC-2019-METAL", "applicability": "限PFC清单核算，不代表所有工艺指标。", "evidence_status": "Evidence-Verified"}
-{"knowledge_unit_id": "KU-X513", "professional_statement": "ICSOBA论文说明预热持续时间和最终温度由电解槽热损失决定；不同热损失条件下应重新评估。", "source_ids": "ICSOBA-2025-PREHEAT", "applicability": "限铝电解槽预热语境；具体方案仍需工程审核。", "evidence_status": "Evidence-Verified"}
-{"knowledge_unit_id": "KU-X514", "professional_statement": "现有检索仅提供集流棒退化研究的书目信息；在未访问可核验原文前，不能据此给出温度或服役期限的工程结论。", "source_ids": "MAT-2026-CB", "applicability": "证据不足拒答题；不以该来源验证具体机理。", "evidence_status": "Evidence-Verified"}
-{"knowledge_unit_id": "KU-X515", "professional_statement": "公开能量平衡研究摘要将侧壁热损失和槽尺寸变化与能耗演进联系起来；能耗数值离开热边界和槽型不能直接比较。", "source_ids": "JSTAGE-2005-ENERGY", "applicability": "基于论文摘要，仅作定性边界判断；定量结论待全文核验。", "evidence_status": "Needs-Reverification"}
-{"knowledge_unit_id": "KU-X516", "professional_statement": "不成立为普适结论。排放核算可随技术类型使用不同系数，欧盟规则还允许安装特定因子；相同活动时间不保证相同排放结果。", "source_ids": "EURLex-PFC", "applicability": "限排放核算语境。", "evidence_status": "Evidence-Verified"}

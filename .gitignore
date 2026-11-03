@@ -21,6 +21,7 @@ logs/
 wandb/
 Output/
 GraphRAG.tar.gz
+aluminum_industry_qa_benchmark/
 
 # Local migration audit, implementation, and test reports (keep only locally)
 docs/ollama_migration/

@@ -1,7 +1,0 @@
-{
-  "dataset_version": "0.4.0-candidate",
-  "legacy_questions": 41,
-  "new_batch1": 18,
-  "total": 59,
-  "frozen_v2_sha256": "D7B0C1F54385EFF1C6B0812E5EC93D0E5D6871F4B203B22BE557FC19CE11C95A"
-}
